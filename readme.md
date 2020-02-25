@@ -1,4 +1,4 @@
-# Esri Developer Summit 2020 - XR Pre-Summit Hands-On Training
+# Developer Summit 2020 - XR Pre-Summit Hands-On Training Resources
 
 This repo contains:
 
