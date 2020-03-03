@@ -2,6 +2,7 @@
 
 This repo contains:
 
+* [Starter projects, preconfigured with toolkit](starter_projects/)
 * Lab exercises, before & after
 * Demos
 * Links to useful resources
@@ -9,6 +10,26 @@ This repo contains:
 ## Instructions
 
 If you'd like to suggest changes to this repo, create a Fork and open a PR. Otherwise, you can clone the repo directly.
+
+## FAQ
+
+> 😤 **Stuck? Start here**
+
+### Visual Studio & Xamarin
+
+* ❓ My solution won't build
+    * 💡 Ensure that you've restored Nuget packages. Right click on your solution and select **Restore Nuget Packages**.
+* ❓ I'm getting Android resource errors with the starter solutions.
+    * 💡 Try deploying the project to device. This will trigger a rebuild of the Android Resources.
+* ❓ I'm getting `File not found` or `maxpath` errors when trying to build.
+    * 💡 Windows limits the lengths of paths, and this can cause problems with Xamarin projects. Either move the solution closer to the root of your drive, or create a _directory junction_ and build from there.
+      > ```sh
+      > mklink /J "C:\dev" "C:\some\long\path\starter_projects\..."
+      > ```
+* ❓ I can't restore the Nuget packages or I'm seeing hundreds of build errors that I can't resolve.
+    * 💡 In the Visual Studio toolbar, navigate to **Tools->Nuget Package Manager->Package Manager Settings**, then select **Package Sources**. Verify that **nuget.org** is enabled and its source is set to `https://api.nuget.org/v3/index.json`. Disable all other sources; a single failing source will prevent any packages from restoring.
+* ❓ I'm having trouble deploying to my iOS device through my mac.
+    * 💡 This one can be tricky. Don't spend too much time on this before asking a session leader for help.
 
 ## Requirements
 
