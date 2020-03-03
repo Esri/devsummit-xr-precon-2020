@@ -30,7 +30,7 @@ In this tutorial, you will build an app that let's you tap a real-world surface 
 
 ## Create the app
 
-> **Note**: You can skip this step if using one of the starter projects. This section goes through all the steps needed to set up a working AR app from scratch, like requesting camera & location permissions. 
+> **Note**: You can skip this step if using one of the starter projects. This section goes through all the steps needed to set up a working AR app from scratch, like requesting camera & location permissions.
 
 1. Create a new app in Xcode/Android Studio/Visual Studio
 2. Install the toolkit
