@@ -3,6 +3,7 @@
 This repo contains:
 
 * [Starter projects, preconfigured with toolkit](starter_projects/)
+* Labs
 * Lab exercises, before & after
 * Demos
 * Links to useful resources
@@ -15,7 +16,8 @@ If you'd like to suggest changes to this repo, create a Fork and open a PR. Othe
 
 > 😤 **Stuck? Start here**
 
-### Visual Studio & Xamarin
+<details><summary>Visual Studio & Xamarin</summary><p>
+
 
 * ❓ My solution won't build
     * 💡 Ensure that you've restored Nuget packages. Right click on your solution and select **Restore Nuget Packages**.
@@ -31,6 +33,8 @@ If you'd like to suggest changes to this repo, create a Fork and open a PR. Othe
 * ❓ I'm having trouble deploying to my iOS device through my mac.
     * 💡 This one can be tricky. Don't spend too much time on this before asking a session leader for help.
 
+</p></details>
+
 ## Requirements
 
 > TODO
@@ -39,8 +43,34 @@ If you'd like to suggest changes to this repo, create a Fork and open a PR. Othe
 
 ## Resources
 
-> TODO 
-* 
+<details><summary>iOS (swift)</summary><p>
+
+* Samples
+* Doc
+* Articles
+
+</p></details>
+
+<details><summary>Android (Kotlin)</summary><p>
+
+* Samples
+* Doc
+
+</p></details>
+
+<details><summary>.NET/Xamarin (C#)</summary><p>
+
+* Samples
+* Doc
+
+</p></details>
+
+<details><summary>Qt (C++)</summary><p>
+
+* Samples
+* Doc
+
+</p></details>
 
 ## Issues
 
