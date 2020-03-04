@@ -106,13 +106,140 @@ Now, when you run the app, you'll see an empty scene.
 
 ## Add flight data
 
-1. Create graphics overlay
-2. Load and create model symbol
-3. Set graphics overlay renderer
-4. Read the JSON and create graphics. Add graphics to overlay
+Have you ever looked up at the sky and wondered where that airplane is going, or where it came from? Curious about how firefighting aircraft respond to wildfires?
+
+Starting in 2020, most aircraft are required to transmit their status for tracking by air traffic control and other aircraft. Services like [Flight Radar 24](flightradar24.com/), [FlightAware](https://flightaware.com/), and [OpenSky Network](https://opensky-network.org/) use crowdsourcing to record these transmissions and show flights on a map.
+
+This lab will show historical flight data collected by the OpenSky Network, using a 3D model to represent each airplane.
+
+> ℹ️ **NOTE**: once you've completed the lab, you can ask the presenters for information on how to sign up for an account and show real-time data.
+
+### 1 - Load and create a model symbol
+
+The first step is to load the model symbol. We've provided a model depicting a Boeing jet which you can use in your scene.
+
+First, download the model from ArcGIS Online.
+
+```cs
+// code here
+```
+
+Next, create the 3D model symbol:
+
+```cs
+// code here
+```
+
+### 2 - Show graphics overlay with renderer
+
+You can use a `GraphicsOverlay` to show temporary graphics in the scene. With graphics overlays, you can either define a symbol for each graphic individually, or provide a renderer that draws each graphic based on its attributes. 
+
+For this lab, a renderer that shows the airplane model, with heading set programmatically, is appropriate.
+
+First, create the renderer.
+
+```cs
+// code here
+```
+
+Next, create the graphics overlay and configure it with the renderer.
+
+```
+// code here
+```
+
+Finally, show it in the scene.
+
+
+### 3 - Read data and add graphics
+
+A snapshot of aircraft positions has been provided as a JSON string which you can include in your app. [QuickType.io]() can be used to generate code for reading that JSON into usable objects. You can use that service now, or copy-paste the following:
+
+<details><summary>Code from QuickType</summary><p>
+
+```cs
+// code here
+```
+
+</p></details>
+
+After reading the JSON, create a graphic for each aircraft, being sure to set the `HEADING` attribute.
+
+```cs
+// code here
+```
+
+Now, when you run the app, you'll see aircraft in the sky, rendered over the camera feed.
 
 ## Enable calibration
 
-1. Add calibration view to the app
-2. Toggle basemap opacity when hiding/showing calibration UI
-3. Confirm that the 
+Because this lab is showing a snapshot of historical data, location and heading errors are hard to see. If you were showing real-time data, you might notice that the heading is off, causing aircraft to appear in the wrong place. 
+
+Position & heading accuracy requirements will differ for each application. A key part of developing your AR app will be identifying calibration needs and designing an approach that works well for your users.
+
+Because aircraft are typically quite far away, small errors in (x,y) location don't significantly affect visualization, but heading (angle) errors will.
+
+To correct for heading errors indoors, you will build a calibration workflow that involves aligning a virtual in-scene 'north star' with a known reference point in the room.
+
+### 1 - Disable scene view interaction
+
+The first step to creating the calibration workflow is to disable scene view interaction. Touch interactions in the scene view can be problematic because they can conflict with the calibration experience.
+
+```cs
+// code here
+```
+
+### 2 - Add a slider to the view
+
+When the user is calibrating, show a slider to allow them to adjust their heading.
+
+First, add the slider to the view.
+
+```cs
+// code here
+```
+
+Next, add a button to hide and show the calibration slider as needed.
+
+```cs
+// code here
+```
+
+### 3 - Add a North Star
+
+The North star will be used to help align the scene against the real world.
+
+First, create a graphic with a diamond scene symbol.
+
+```cs
+// code here - should determine a good north star programmatically
+```
+
+Next, add the graphic to a new graphics overlay, and add that to the scene.
+
+```cs
+// code here
+```
+
+### 4 - Rotate the camera when the user slides
+
+There are a variety of slider behaviors to choose from, but to keep this lab simple, the slider will control the absolute heading of the scene's origin camera.
+
+First, listen for slider value changes.
+
+```cs
+// code here
+```
+
+When the slider value changes, rotate the scene view's origin camera.
+
+
+```cs
+// code here
+```
+
+## Result
+
+When you run the app, you should see something like the following:
+
+![image of completed lab]()
