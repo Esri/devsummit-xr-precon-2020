@@ -40,15 +40,19 @@ In this tutorial, you will build an app that let's you tap a real-world surface 
 
 ## Display the scene
 
-While any scene can be used in tabletop AR, this lab will use the [San Diego Convention Center](https://www.arcgis.com/home/item.html?id=6bf6d9f17bdd4d33837e25e1cae4e9c9) web scene.
+While any scene can be used in tabletop AR, this lab will use the [San Diego Convention Center web scene](https://www.arcgis.com/home/item.html?id=6bf6d9f17bdd4d33837e25e1cae4e9c9).
 
 ## Set origin camera
 
 In tabletop AR, the origin camera is the point, in scene coordinates, where the scene is anchored to the physical surface. In most cases, a good origin camera is at the x,y position of the focal point for the scene. To ensure all content is visible and the scene appears to be on top of the table, the vertical position of the origin camera should be at the lowest point in the scene.
 
-For the San Diego Convention Center scene, a good origin camera centers on the Manchester Grand Hyatt in San Diego.
+For the [San Diego Convention Center scene](https://www.arcgis.com/home/item.html?id=6bf6d9f17bdd4d33837e25e1cae4e9c9), a good origin camera centers on the Manchester Grand Hyatt in San Diego.
 
-> lat: 32.709881, lng: -117.168171, alt: 0
+> lat: 32.71012, lng: -117.168654, alt: 0
+
+```cs
+// code here
+```
 
 ## Set translation factor
 
@@ -56,13 +60,23 @@ The translation factor determines how far the virtual scene camera moves when th
 
 A good formula for finding an appropriate translation factor is: **(virtual content width)/(desired real-world physical width of the scene)**. For example, if you want to show a 1000 meter wide scene on a 1 foot (0.3 meter) table, you would use **1000 / 0.3**, or 3333.33.
 
+For this scene, a translation factor of 700 is appropriate.
+
+```cs
+// code here
+```
+
 ## Set clipping distance
 
 To ensure that the scene looks good on a table, it needs to be limited in extent. Setting a clipping distance will limit what is rendered to a radius around the origin camera.
 
 > **NOTE**: While clipping distance is a great option for limiting the extent of a tabletop scene, you can also specially author data for more precise control. For example, you can choose a rectangular section of a scene and package that with your app.
 
-A clipping distance of 500m will show a circle with a diameter (width) of 1000m, which is appropriate for the translation factor set above.
+A clipping distance of 180 will show a circle with a radius of 180, which is appropriate for the translation factor set above.
+
+```cs
+// code here
+```
 
 ## Result
 
