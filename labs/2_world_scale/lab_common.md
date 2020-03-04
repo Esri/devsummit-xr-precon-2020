@@ -29,7 +29,7 @@ In this tutorial, you will build an app that let's you see data for nearby fligh
 
 ## Create the app
 
-> **Note**: You can skip this step if using one of the starter projects. This section goes through all the steps needed to set up a working AR app from scratch, like requesting camera & location permissions.
+> **Note**: You can skip this step if using one of the starter projects. This section goes through all the steps needed to set up a working AR app from scratch, like requesting camera & location permissions. This section is the same as *Create the app* from the first lab.
 
 1. Create a new app in Xcode/Android Studio/Visual Studio
 2. Install the toolkit
@@ -37,11 +37,72 @@ In this tutorial, you will build an app that let's you see data for nearby fligh
 4. Set up lifecycle methods
 5. Configure privacy & manifest declarations
 
+## Configure AR tracking for world-scale AR
+
+In world-scale AR, the positions of the in-scene camera and the device's camera should match. There are two strategies for updating the position of the origin camera, each with pros and cons:
+
+* **ARKit/ARCore tracking only**
+   * Pro: smooth experience in small (~30ft) areas
+   * Pro: easier to maintain calibration, especially on devices with noisy/inconsistent GPS
+   * Pro: good when very precise positioning is critical (e.g. viewing hidden infrastructure)
+   * Con: position error increases as you move from the origin
+* **GPS+ARKit/ARCore tracking**
+   * Pro: Works over large areas (e.g. when navigating through a campus)
+   * Con: Position can jump suddenly as new positions arrive from the location data source every few seconds
+
+> ℹ️ **NOTE**: you can combine these two strategies as needed in your app. Be creative in designing a location tracking and calibration strategy that works for your app's users.
+
+For this lab, the initial position will be taken from the system location, and all subsequent updates will come from ARKit/ARCore.
+
+To enable initial tracking mode, assign a location data source, then update the call to `StartTrackingAsync` to specify `Initial`:
+
+```cs
+// code here
+```
+
 ## Configure the scene
 
-1. Configure base surface, disable navigation constraint
-2. Disable atmosphere and space effects
-3. Set basemap opacity to 0, mention calibration
+With most 3D scenes, there's a globe, with a basemap, terrain, and atmosphere, set in a starry sky. In world-scale AR, the camera feed provides imagery of the natural Earth, atmosphere, and sky.
+
+### 1 - Disable space & atmosphere effects
+
+The first step to configuring the scene for world-scale AR is to disable the space effect. Runtime supports two space effects:
+
+* Stars
+* None/Transparent
+
+```
+// code here
+```
+
+When you run the app, you should see a flat basemap rendered over the camera feed.
+
+### 2 - Configure the base surface
+
+The next step is to add an elevation source to the scene. This will ensure content is placed accurately relative to the ground.
+
+```
+// code here
+```
+
+> ℹ️ This lab uses the ArcGIS world elevation service, but you can use any elevation source, including premium sources your organization may have.
+
+By default, Runtime limits the scene camera to be above the scene surface at all times. This conflicts with AR camera positioning when a user goes underground or is very near the ground. For a smooth experience, disable the navigation constraint.
+
+```
+// code here
+```
+
+### 3 - Set basemap opacity
+
+Because the camera feed will show surroundings, including the ground, there is no need to show the scene's base surface. Set the scene's surface opacity to `0` to hide it completely.
+
+```
+```
+
+> ℹ️ **Why have a basemap at all?** The basemap can be shown at partial opacity later, which can be useful for calibration.
+
+Now, when you run the app, you'll see an empty scene.
 
 ## Add flight data
 

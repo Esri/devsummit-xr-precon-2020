@@ -43,6 +43,16 @@ If you'd like to suggest changes to this repo, create a Fork and open a PR. Othe
 
 ## Resources
 
+### Local data for use with AR
+
+Finding good data is one of the hardest parts of building a world-scale AR app. We've collected some data that you may find useful while working with AR at DevSummit:
+
+* [AR DevSummit group on ArcGIS Online]()
+    * [PSCC MMPK with locator]() - this locator can be used for indoor routing at the convention center
+    * [PSCC feature layer]() - layer can be used for visualizing conference center features
+
+### Platform-specific resources
+
 <details><summary>iOS (swift)</summary><p>
 
 * Samples
