@@ -39,10 +39,19 @@ In this tutorial, you will build an app that let's you see data for nearby fligh
 
 ## Configure the scene
 
-1. Do basic scene set up
-2. Get the models
-3. Set up a graphics overlay with renderer
+1. Configure base surface, disable navigation constraint
+2. Disable atmosphere and space effects
+3. Set basemap opacity to 0, mention calibration
 
 ## Add flight data
 
-1. Either read JSON, or add from a feature layer
+1. Create graphics overlay
+2. Load and create model symbol
+3. Set graphics overlay renderer
+4. Read the JSON and create graphics. Add graphics to overlay
+
+## Enable calibration
+
+1. Add calibration view to the app
+2. Toggle basemap opacity when hiding/showing calibration UI
+3. Confirm that the 
