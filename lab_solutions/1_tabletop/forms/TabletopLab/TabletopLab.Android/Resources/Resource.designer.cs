@@ -26,6 +26,2165 @@ namespace TabletopLab.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.font = global::TabletopLab.Droid.Resource.Attribute.font;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontProviderAuthority = global::TabletopLab.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontProviderCerts = global::TabletopLab.Droid.Resource.Attribute.fontProviderCerts;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontProviderFetchStrategy = global::TabletopLab.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontProviderFetchTimeout = global::TabletopLab.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontProviderPackage = global::TabletopLab.Droid.Resource.Attribute.fontProviderPackage;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontProviderQuery = global::TabletopLab.Droid.Resource.Attribute.fontProviderQuery;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontStyle = global::TabletopLab.Droid.Resource.Attribute.fontStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.fontWeight = global::TabletopLab.Droid.Resource.Attribute.fontWeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.northAlign = global::TabletopLab.Droid.Resource.Attribute.northAlign;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Attribute.renderVideoFeed = global::TabletopLab.Droid.Resource.Attribute.renderVideoFeed;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Boolean.abc_action_bar_embed_tabs = global::TabletopLab.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Color.notification_action_color_filter = global::TabletopLab.Droid.Resource.Color.notification_action_color_filter;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Color.notification_icon_bg_color = global::TabletopLab.Droid.Resource.Color.notification_icon_bg_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Color.notification_material_background_media_default_color = global::TabletopLab.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Color.primary_text_default_material_dark = global::TabletopLab.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Color.ripple_material_light = global::TabletopLab.Droid.Resource.Color.ripple_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Color.secondary_text_default_material_dark = global::TabletopLab.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Color.secondary_text_default_material_light = global::TabletopLab.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.compat_button_inset_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.compat_button_inset_vertical_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.compat_button_padding_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.compat_button_padding_vertical_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.compat_control_corner_material = global::TabletopLab.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_action_icon_size = global::TabletopLab.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_action_text_size = global::TabletopLab.Droid.Resource.Dimension.notification_action_text_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_big_circle_margin = global::TabletopLab.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_content_margin_start = global::TabletopLab.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_large_icon_height = global::TabletopLab.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_large_icon_width = global::TabletopLab.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_main_column_padding_top = global::TabletopLab.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_media_narrow_margin = global::TabletopLab.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_right_icon_size = global::TabletopLab.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_right_side_padding_top = global::TabletopLab.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_small_icon_background_padding = global::TabletopLab.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_small_icon_size_as_large = global::TabletopLab.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_subtext_size = global::TabletopLab.Droid.Resource.Dimension.notification_subtext_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_top_pad = global::TabletopLab.Droid.Resource.Dimension.notification_top_pad;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Dimension.notification_top_pad_large_text = global::TabletopLab.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.esri = global::TabletopLab.Droid.Resource.Drawable.esri;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_action_background = global::TabletopLab.Droid.Resource.Drawable.notification_action_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_bg = global::TabletopLab.Droid.Resource.Drawable.notification_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_bg_low = global::TabletopLab.Droid.Resource.Drawable.notification_bg_low;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_bg_low_normal = global::TabletopLab.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_bg_low_pressed = global::TabletopLab.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_bg_normal = global::TabletopLab.Droid.Resource.Drawable.notification_bg_normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_bg_normal_pressed = global::TabletopLab.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_icon_background = global::TabletopLab.Droid.Resource.Drawable.notification_icon_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_template_icon_bg = global::TabletopLab.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_template_icon_low_bg = global::TabletopLab.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notification_tile_bg = global::TabletopLab.Droid.Resource.Drawable.notification_tile_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.notify_panel_notification_icon_bg = global::TabletopLab.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.sceneform_hand_phone = global::TabletopLab.Droid.Resource.Drawable.sceneform_hand_phone;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Drawable.sceneform_plane = global::TabletopLab.Droid.Resource.Drawable.sceneform_plane;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.action0 = global::TabletopLab.Droid.Resource.Id.action0;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.actions = global::TabletopLab.Droid.Resource.Id.actions;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.action_container = global::TabletopLab.Droid.Resource.Id.action_container;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.action_divider = global::TabletopLab.Droid.Resource.Id.action_divider;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.action_image = global::TabletopLab.Droid.Resource.Id.action_image;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.action_text = global::TabletopLab.Droid.Resource.Id.action_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.async = global::TabletopLab.Droid.Resource.Id.async;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.blocking = global::TabletopLab.Droid.Resource.Id.blocking;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.cancel_action = global::TabletopLab.Droid.Resource.Id.cancel_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.chronometer = global::TabletopLab.Droid.Resource.Id.chronometer;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.end_padder = global::TabletopLab.Droid.Resource.Id.end_padder;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.forever = global::TabletopLab.Droid.Resource.Id.forever;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.icon = global::TabletopLab.Droid.Resource.Id.icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.icon_group = global::TabletopLab.Droid.Resource.Id.icon_group;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.info = global::TabletopLab.Droid.Resource.Id.info;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.italic = global::TabletopLab.Droid.Resource.Id.italic;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.line1 = global::TabletopLab.Droid.Resource.Id.line1;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.line3 = global::TabletopLab.Droid.Resource.Id.line3;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.media_actions = global::TabletopLab.Droid.Resource.Id.media_actions;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.normal = global::TabletopLab.Droid.Resource.Id.normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.notification_background = global::TabletopLab.Droid.Resource.Id.notification_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.notification_main_column = global::TabletopLab.Droid.Resource.Id.notification_main_column;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.notification_main_column_container = global::TabletopLab.Droid.Resource.Id.notification_main_column_container;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.right_icon = global::TabletopLab.Droid.Resource.Id.right_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.right_side = global::TabletopLab.Droid.Resource.Id.right_side;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.sceneform_ar_scene_view = global::TabletopLab.Droid.Resource.Id.sceneform_ar_scene_view;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.sceneform_hand_image = global::TabletopLab.Droid.Resource.Id.sceneform_hand_image;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.sceneform_hand_layout = global::TabletopLab.Droid.Resource.Id.sceneform_hand_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.status_bar_latest_event_content = global::TabletopLab.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.tag_transition_group = global::TabletopLab.Droid.Resource.Id.tag_transition_group;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.text = global::TabletopLab.Droid.Resource.Id.text;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.text2 = global::TabletopLab.Droid.Resource.Id.text2;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.time = global::TabletopLab.Droid.Resource.Id.time;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.title = global::TabletopLab.Droid.Resource.Id.title;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.@__arcore_cancelButton = global::TabletopLab.Droid.Resource.Id.@__arcore_cancelButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.@__arcore_continueButton = global::TabletopLab.Droid.Resource.Id.@__arcore_continueButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Id.@__arcore_messageText = global::TabletopLab.Droid.Resource.Id.@__arcore_messageText;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Integer.cancel_button_image_alpha = global::TabletopLab.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Integer.status_bar_notification_info_maxnum = global::TabletopLab.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_action = global::TabletopLab.Droid.Resource.Layout.notification_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_action_tombstone = global::TabletopLab.Droid.Resource.Layout.notification_action_tombstone;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_media_action = global::TabletopLab.Droid.Resource.Layout.notification_media_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_media_cancel_action = global::TabletopLab.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_big_media = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_big_media_custom = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_big_media_narrow = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_big_media_narrow_custom = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_custom_big = global::TabletopLab.Droid.Resource.Layout.notification_template_custom_big;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_icon_group = global::TabletopLab.Droid.Resource.Layout.notification_template_icon_group;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_lines_media = global::TabletopLab.Droid.Resource.Layout.notification_template_lines_media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_media = global::TabletopLab.Droid.Resource.Layout.notification_template_media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_media_custom = global::TabletopLab.Droid.Resource.Layout.notification_template_media_custom;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_part_chronometer = global::TabletopLab.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.notification_template_part_time = global::TabletopLab.Droid.Resource.Layout.notification_template_part_time;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.sceneform_plane_discovery_layout = global::TabletopLab.Droid.Resource.Layout.sceneform_plane_discovery_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.sceneform_ux_fragment_layout = global::TabletopLab.Droid.Resource.Layout.sceneform_ux_fragment_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Layout.@__arcore_education = global::TabletopLab.Droid.Resource.Layout.@__arcore_education;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.keep_arcore = global::TabletopLab.Droid.Resource.Raw.keep_arcore;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_camera_material = global::TabletopLab.Droid.Resource.Raw.sceneform_camera_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_default_light_probe = global::TabletopLab.Droid.Resource.Raw.sceneform_default_light_probe;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_face_mesh = global::TabletopLab.Droid.Resource.Raw.sceneform_face_mesh;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_face_mesh_occluder = global::TabletopLab.Droid.Resource.Raw.sceneform_face_mesh_occluder;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_footprint = global::TabletopLab.Droid.Resource.Raw.sceneform_footprint;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_opaque_colored_material = global::TabletopLab.Droid.Resource.Raw.sceneform_opaque_colored_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_opaque_textured_material = global::TabletopLab.Droid.Resource.Raw.sceneform_opaque_textured_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_plane_material = global::TabletopLab.Droid.Resource.Raw.sceneform_plane_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_plane_shadow_material = global::TabletopLab.Droid.Resource.Raw.sceneform_plane_shadow_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_transparent_colored_material = global::TabletopLab.Droid.Resource.Raw.sceneform_transparent_colored_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_transparent_textured_material = global::TabletopLab.Droid.Resource.Raw.sceneform_transparent_textured_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Raw.sceneform_view_renderable = global::TabletopLab.Droid.Resource.Raw.sceneform_view_renderable;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.String.lib_name = global::TabletopLab.Droid.Resource.String.lib_name;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.String.status_bar_notification_info_overflow = global::TabletopLab.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.String.@__arcore_cancel = global::TabletopLab.Droid.Resource.String.@__arcore_cancel;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.String.@__arcore_continue = global::TabletopLab.Droid.Resource.String.@__arcore_continue;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.String.@__arcore_installing = global::TabletopLab.Droid.Resource.String.@__arcore_installing;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.String.@__arcore_install_app = global::TabletopLab.Droid.Resource.String.@__arcore_install_app;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.String.@__arcore_install_feature = global::TabletopLab.Droid.Resource.String.@__arcore_install_feature;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Info = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Time = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.Widget_Compat_NotificationActionContainer = global::TabletopLab.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Style.Widget_Compat_NotificationActionText = global::TabletopLab.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.ArcGISARSceneView = global::TabletopLab.Droid.Resource.Styleable.ArcGISARSceneView;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.ArcGISARSceneView_northAlign = global::TabletopLab.Droid.Resource.Styleable.ArcGISARSceneView_northAlign;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.ArcGISARSceneView_renderVideoFeed = global::TabletopLab.Droid.Resource.Styleable.ArcGISARSceneView_renderVideoFeed;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamily = global::TabletopLab.Droid.Resource.Styleable.FontFamily;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamilyFont = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamilyFont_android_font = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamilyFont_android_fontStyle = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamilyFont_android_fontWeight = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamilyFont_font = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamilyFont_fontStyle = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamilyFont_fontWeight = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamily_fontProviderAuthority = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamily_fontProviderCerts = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamily_fontProviderPackage = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Esri.ArcGISRuntime.ARToolkit.Resource.Styleable.FontFamily_fontProviderQuery = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_fade_in = global::TabletopLab.Droid.Resource.Animation.abc_fade_in;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_fade_out = global::TabletopLab.Droid.Resource.Animation.abc_fade_out;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_grow_fade_in_from_bottom = global::TabletopLab.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_popup_enter = global::TabletopLab.Droid.Resource.Animation.abc_popup_enter;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_popup_exit = global::TabletopLab.Droid.Resource.Animation.abc_popup_exit;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_shrink_fade_out_from_bottom = global::TabletopLab.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_slide_in_bottom = global::TabletopLab.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_slide_in_top = global::TabletopLab.Droid.Resource.Animation.abc_slide_in_top;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_slide_out_bottom = global::TabletopLab.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.abc_slide_out_top = global::TabletopLab.Droid.Resource.Animation.abc_slide_out_top;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.design_bottom_sheet_slide_in = global::TabletopLab.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.design_bottom_sheet_slide_out = global::TabletopLab.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.design_snackbar_in = global::TabletopLab.Droid.Resource.Animation.design_snackbar_in;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.design_snackbar_out = global::TabletopLab.Droid.Resource.Animation.design_snackbar_out;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.EnterFromLeft = global::TabletopLab.Droid.Resource.Animation.EnterFromLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.EnterFromRight = global::TabletopLab.Droid.Resource.Animation.EnterFromRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.ExitToLeft = global::TabletopLab.Droid.Resource.Animation.ExitToLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animation.ExitToRight = global::TabletopLab.Droid.Resource.Animation.ExitToRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Animator.design_appbar_state_list_animator = global::TabletopLab.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarDivider = global::TabletopLab.Droid.Resource.Attribute.actionBarDivider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarItemBackground = global::TabletopLab.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarPopupTheme = global::TabletopLab.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarSize = global::TabletopLab.Droid.Resource.Attribute.actionBarSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarSplitStyle = global::TabletopLab.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarStyle = global::TabletopLab.Droid.Resource.Attribute.actionBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarTabBarStyle = global::TabletopLab.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarTabStyle = global::TabletopLab.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarTabTextStyle = global::TabletopLab.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarTheme = global::TabletopLab.Droid.Resource.Attribute.actionBarTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionBarWidgetTheme = global::TabletopLab.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionButtonStyle = global::TabletopLab.Droid.Resource.Attribute.actionButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionDropDownStyle = global::TabletopLab.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionLayout = global::TabletopLab.Droid.Resource.Attribute.actionLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionMenuTextAppearance = global::TabletopLab.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionMenuTextColor = global::TabletopLab.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeBackground = global::TabletopLab.Droid.Resource.Attribute.actionModeBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeCloseButtonStyle = global::TabletopLab.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeCloseDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeCopyDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeCutDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeFindDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModePasteDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModePopupWindowStyle = global::TabletopLab.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeSelectAllDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeShareDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeSplitBackground = global::TabletopLab.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeStyle = global::TabletopLab.Droid.Resource.Attribute.actionModeStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionModeWebSearchDrawable = global::TabletopLab.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionOverflowButtonStyle = global::TabletopLab.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionOverflowMenuStyle = global::TabletopLab.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionProviderClass = global::TabletopLab.Droid.Resource.Attribute.actionProviderClass;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.actionViewClass = global::TabletopLab.Droid.Resource.Attribute.actionViewClass;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.activityChooserViewStyle = global::TabletopLab.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.alertDialogButtonGroupStyle = global::TabletopLab.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.alertDialogCenterButtons = global::TabletopLab.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.alertDialogStyle = global::TabletopLab.Droid.Resource.Attribute.alertDialogStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.alertDialogTheme = global::TabletopLab.Droid.Resource.Attribute.alertDialogTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.allowStacking = global::TabletopLab.Droid.Resource.Attribute.allowStacking;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.alpha = global::TabletopLab.Droid.Resource.Attribute.alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.alphabeticModifiers = global::TabletopLab.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.arrowHeadLength = global::TabletopLab.Droid.Resource.Attribute.arrowHeadLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.arrowShaftLength = global::TabletopLab.Droid.Resource.Attribute.arrowShaftLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.autoCompleteTextViewStyle = global::TabletopLab.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.autoSizeMaxTextSize = global::TabletopLab.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.autoSizeMinTextSize = global::TabletopLab.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.autoSizePresetSizes = global::TabletopLab.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.autoSizeStepGranularity = global::TabletopLab.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.autoSizeTextType = global::TabletopLab.Droid.Resource.Attribute.autoSizeTextType;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.background = global::TabletopLab.Droid.Resource.Attribute.background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.backgroundSplit = global::TabletopLab.Droid.Resource.Attribute.backgroundSplit;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.backgroundStacked = global::TabletopLab.Droid.Resource.Attribute.backgroundStacked;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.backgroundTint = global::TabletopLab.Droid.Resource.Attribute.backgroundTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.backgroundTintMode = global::TabletopLab.Droid.Resource.Attribute.backgroundTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.barLength = global::TabletopLab.Droid.Resource.Attribute.barLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.behavior_autoHide = global::TabletopLab.Droid.Resource.Attribute.behavior_autoHide;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.behavior_hideable = global::TabletopLab.Droid.Resource.Attribute.behavior_hideable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.behavior_overlapTop = global::TabletopLab.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.behavior_peekHeight = global::TabletopLab.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.behavior_skipCollapsed = global::TabletopLab.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.borderlessButtonStyle = global::TabletopLab.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.borderWidth = global::TabletopLab.Droid.Resource.Attribute.borderWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.bottomSheetDialogTheme = global::TabletopLab.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.bottomSheetStyle = global::TabletopLab.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonBarButtonStyle = global::TabletopLab.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonBarNegativeButtonStyle = global::TabletopLab.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonBarNeutralButtonStyle = global::TabletopLab.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonBarPositiveButtonStyle = global::TabletopLab.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonBarStyle = global::TabletopLab.Droid.Resource.Attribute.buttonBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonGravity = global::TabletopLab.Droid.Resource.Attribute.buttonGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonPanelSideLayout = global::TabletopLab.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonStyle = global::TabletopLab.Droid.Resource.Attribute.buttonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonStyleSmall = global::TabletopLab.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonTint = global::TabletopLab.Droid.Resource.Attribute.buttonTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.buttonTintMode = global::TabletopLab.Droid.Resource.Attribute.buttonTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.cardBackgroundColor = global::TabletopLab.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.cardCornerRadius = global::TabletopLab.Droid.Resource.Attribute.cardCornerRadius;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.cardElevation = global::TabletopLab.Droid.Resource.Attribute.cardElevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.cardMaxElevation = global::TabletopLab.Droid.Resource.Attribute.cardMaxElevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.cardPreventCornerOverlap = global::TabletopLab.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.cardUseCompatPadding = global::TabletopLab.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.checkboxStyle = global::TabletopLab.Droid.Resource.Attribute.checkboxStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.checkedTextViewStyle = global::TabletopLab.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.closeIcon = global::TabletopLab.Droid.Resource.Attribute.closeIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.closeItemLayout = global::TabletopLab.Droid.Resource.Attribute.closeItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.collapseContentDescription = global::TabletopLab.Droid.Resource.Attribute.collapseContentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.collapsedTitleGravity = global::TabletopLab.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.collapsedTitleTextAppearance = global::TabletopLab.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.collapseIcon = global::TabletopLab.Droid.Resource.Attribute.collapseIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.color = global::TabletopLab.Droid.Resource.Attribute.color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorAccent = global::TabletopLab.Droid.Resource.Attribute.colorAccent;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorBackgroundFloating = global::TabletopLab.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorButtonNormal = global::TabletopLab.Droid.Resource.Attribute.colorButtonNormal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorControlActivated = global::TabletopLab.Droid.Resource.Attribute.colorControlActivated;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorControlHighlight = global::TabletopLab.Droid.Resource.Attribute.colorControlHighlight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorControlNormal = global::TabletopLab.Droid.Resource.Attribute.colorControlNormal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorError = global::TabletopLab.Droid.Resource.Attribute.colorError;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorPrimary = global::TabletopLab.Droid.Resource.Attribute.colorPrimary;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorPrimaryDark = global::TabletopLab.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.colorSwitchThumbNormal = global::TabletopLab.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.commitIcon = global::TabletopLab.Droid.Resource.Attribute.commitIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentDescription = global::TabletopLab.Droid.Resource.Attribute.contentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentInsetEnd = global::TabletopLab.Droid.Resource.Attribute.contentInsetEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentInsetEndWithActions = global::TabletopLab.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentInsetLeft = global::TabletopLab.Droid.Resource.Attribute.contentInsetLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentInsetRight = global::TabletopLab.Droid.Resource.Attribute.contentInsetRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentInsetStart = global::TabletopLab.Droid.Resource.Attribute.contentInsetStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentInsetStartWithNavigation = global::TabletopLab.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentPadding = global::TabletopLab.Droid.Resource.Attribute.contentPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentPaddingBottom = global::TabletopLab.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentPaddingLeft = global::TabletopLab.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentPaddingRight = global::TabletopLab.Droid.Resource.Attribute.contentPaddingRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentPaddingTop = global::TabletopLab.Droid.Resource.Attribute.contentPaddingTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.contentScrim = global::TabletopLab.Droid.Resource.Attribute.contentScrim;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.controlBackground = global::TabletopLab.Droid.Resource.Attribute.controlBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.counterEnabled = global::TabletopLab.Droid.Resource.Attribute.counterEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.counterMaxLength = global::TabletopLab.Droid.Resource.Attribute.counterMaxLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.counterOverflowTextAppearance = global::TabletopLab.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.counterTextAppearance = global::TabletopLab.Droid.Resource.Attribute.counterTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.customNavigationLayout = global::TabletopLab.Droid.Resource.Attribute.customNavigationLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.defaultQueryHint = global::TabletopLab.Droid.Resource.Attribute.defaultQueryHint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.dialogPreferredPadding = global::TabletopLab.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.dialogTheme = global::TabletopLab.Droid.Resource.Attribute.dialogTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.displayOptions = global::TabletopLab.Droid.Resource.Attribute.displayOptions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.divider = global::TabletopLab.Droid.Resource.Attribute.divider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.dividerHorizontal = global::TabletopLab.Droid.Resource.Attribute.dividerHorizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.dividerPadding = global::TabletopLab.Droid.Resource.Attribute.dividerPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.dividerVertical = global::TabletopLab.Droid.Resource.Attribute.dividerVertical;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.drawableSize = global::TabletopLab.Droid.Resource.Attribute.drawableSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.drawerArrowStyle = global::TabletopLab.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.dropdownListPreferredItemHeight = global::TabletopLab.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.dropDownListViewStyle = global::TabletopLab.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.editTextBackground = global::TabletopLab.Droid.Resource.Attribute.editTextBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.editTextColor = global::TabletopLab.Droid.Resource.Attribute.editTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.editTextStyle = global::TabletopLab.Droid.Resource.Attribute.editTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.elevation = global::TabletopLab.Droid.Resource.Attribute.elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.errorEnabled = global::TabletopLab.Droid.Resource.Attribute.errorEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.errorTextAppearance = global::TabletopLab.Droid.Resource.Attribute.errorTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandActivityOverflowButtonDrawable = global::TabletopLab.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expanded = global::TabletopLab.Droid.Resource.Attribute.expanded;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandedTitleGravity = global::TabletopLab.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandedTitleMargin = global::TabletopLab.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandedTitleMarginBottom = global::TabletopLab.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandedTitleMarginEnd = global::TabletopLab.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandedTitleMarginStart = global::TabletopLab.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandedTitleMarginTop = global::TabletopLab.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.expandedTitleTextAppearance = global::TabletopLab.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fabSize = global::TabletopLab.Droid.Resource.Attribute.fabSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fastScrollEnabled = global::TabletopLab.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::TabletopLab.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::TabletopLab.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fastScrollVerticalThumbDrawable = global::TabletopLab.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fastScrollVerticalTrackDrawable = global::TabletopLab.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.font = global::TabletopLab.Droid.Resource.Attribute.font;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontFamily = global::TabletopLab.Droid.Resource.Attribute.fontFamily;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontProviderAuthority = global::TabletopLab.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontProviderCerts = global::TabletopLab.Droid.Resource.Attribute.fontProviderCerts;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontProviderFetchStrategy = global::TabletopLab.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontProviderFetchTimeout = global::TabletopLab.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontProviderPackage = global::TabletopLab.Droid.Resource.Attribute.fontProviderPackage;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontProviderQuery = global::TabletopLab.Droid.Resource.Attribute.fontProviderQuery;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontStyle = global::TabletopLab.Droid.Resource.Attribute.fontStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.fontWeight = global::TabletopLab.Droid.Resource.Attribute.fontWeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.foregroundInsidePadding = global::TabletopLab.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.gapBetweenBars = global::TabletopLab.Droid.Resource.Attribute.gapBetweenBars;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.goIcon = global::TabletopLab.Droid.Resource.Attribute.goIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.headerLayout = global::TabletopLab.Droid.Resource.Attribute.headerLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.height = global::TabletopLab.Droid.Resource.Attribute.height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.hideOnContentScroll = global::TabletopLab.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.hintAnimationEnabled = global::TabletopLab.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.hintEnabled = global::TabletopLab.Droid.Resource.Attribute.hintEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.hintTextAppearance = global::TabletopLab.Droid.Resource.Attribute.hintTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.homeAsUpIndicator = global::TabletopLab.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.homeLayout = global::TabletopLab.Droid.Resource.Attribute.homeLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.icon = global::TabletopLab.Droid.Resource.Attribute.icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.iconifiedByDefault = global::TabletopLab.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.iconTint = global::TabletopLab.Droid.Resource.Attribute.iconTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.iconTintMode = global::TabletopLab.Droid.Resource.Attribute.iconTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.imageButtonStyle = global::TabletopLab.Droid.Resource.Attribute.imageButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.indeterminateProgressStyle = global::TabletopLab.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.initialActivityCount = global::TabletopLab.Droid.Resource.Attribute.initialActivityCount;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.insetForeground = global::TabletopLab.Droid.Resource.Attribute.insetForeground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.isLightTheme = global::TabletopLab.Droid.Resource.Attribute.isLightTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.itemBackground = global::TabletopLab.Droid.Resource.Attribute.itemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.itemIconTint = global::TabletopLab.Droid.Resource.Attribute.itemIconTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.itemPadding = global::TabletopLab.Droid.Resource.Attribute.itemPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.itemTextAppearance = global::TabletopLab.Droid.Resource.Attribute.itemTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.itemTextColor = global::TabletopLab.Droid.Resource.Attribute.itemTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.keylines = global::TabletopLab.Droid.Resource.Attribute.keylines;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout = global::TabletopLab.Droid.Resource.Attribute.layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layoutManager = global::TabletopLab.Droid.Resource.Attribute.layoutManager;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_anchor = global::TabletopLab.Droid.Resource.Attribute.layout_anchor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_anchorGravity = global::TabletopLab.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_behavior = global::TabletopLab.Droid.Resource.Attribute.layout_behavior;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_collapseMode = global::TabletopLab.Droid.Resource.Attribute.layout_collapseMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_collapseParallaxMultiplier = global::TabletopLab.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_dodgeInsetEdges = global::TabletopLab.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_insetEdge = global::TabletopLab.Droid.Resource.Attribute.layout_insetEdge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_keyline = global::TabletopLab.Droid.Resource.Attribute.layout_keyline;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_scrollFlags = global::TabletopLab.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.layout_scrollInterpolator = global::TabletopLab.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listChoiceBackgroundIndicator = global::TabletopLab.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listDividerAlertDialog = global::TabletopLab.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listItemLayout = global::TabletopLab.Droid.Resource.Attribute.listItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listLayout = global::TabletopLab.Droid.Resource.Attribute.listLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listMenuViewStyle = global::TabletopLab.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listPopupWindowStyle = global::TabletopLab.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listPreferredItemHeight = global::TabletopLab.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listPreferredItemHeightLarge = global::TabletopLab.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listPreferredItemHeightSmall = global::TabletopLab.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listPreferredItemPaddingLeft = global::TabletopLab.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.listPreferredItemPaddingRight = global::TabletopLab.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.logo = global::TabletopLab.Droid.Resource.Attribute.logo;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.logoDescription = global::TabletopLab.Droid.Resource.Attribute.logoDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.maxActionInlineWidth = global::TabletopLab.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.maxButtonHeight = global::TabletopLab.Droid.Resource.Attribute.maxButtonHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.measureWithLargestChild = global::TabletopLab.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.menu = global::TabletopLab.Droid.Resource.Attribute.menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.multiChoiceItemLayout = global::TabletopLab.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.navigationContentDescription = global::TabletopLab.Droid.Resource.Attribute.navigationContentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.navigationIcon = global::TabletopLab.Droid.Resource.Attribute.navigationIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.navigationMode = global::TabletopLab.Droid.Resource.Attribute.navigationMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.northAlign = global::TabletopLab.Droid.Resource.Attribute.northAlign;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.numericModifiers = global::TabletopLab.Droid.Resource.Attribute.numericModifiers;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.overlapAnchor = global::TabletopLab.Droid.Resource.Attribute.overlapAnchor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.paddingBottomNoButtons = global::TabletopLab.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.paddingEnd = global::TabletopLab.Droid.Resource.Attribute.paddingEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.paddingStart = global::TabletopLab.Droid.Resource.Attribute.paddingStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.paddingTopNoTitle = global::TabletopLab.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.panelBackground = global::TabletopLab.Droid.Resource.Attribute.panelBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.panelMenuListTheme = global::TabletopLab.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.panelMenuListWidth = global::TabletopLab.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.passwordToggleContentDescription = global::TabletopLab.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.passwordToggleDrawable = global::TabletopLab.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.passwordToggleEnabled = global::TabletopLab.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.passwordToggleTint = global::TabletopLab.Droid.Resource.Attribute.passwordToggleTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.passwordToggleTintMode = global::TabletopLab.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.popupMenuStyle = global::TabletopLab.Droid.Resource.Attribute.popupMenuStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.popupTheme = global::TabletopLab.Droid.Resource.Attribute.popupTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.popupWindowStyle = global::TabletopLab.Droid.Resource.Attribute.popupWindowStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.preserveIconSpacing = global::TabletopLab.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.pressedTranslationZ = global::TabletopLab.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.progressBarPadding = global::TabletopLab.Droid.Resource.Attribute.progressBarPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.progressBarStyle = global::TabletopLab.Droid.Resource.Attribute.progressBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.queryBackground = global::TabletopLab.Droid.Resource.Attribute.queryBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.queryHint = global::TabletopLab.Droid.Resource.Attribute.queryHint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.radioButtonStyle = global::TabletopLab.Droid.Resource.Attribute.radioButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.ratingBarStyle = global::TabletopLab.Droid.Resource.Attribute.ratingBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.ratingBarStyleIndicator = global::TabletopLab.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.ratingBarStyleSmall = global::TabletopLab.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.renderVideoFeed = global::TabletopLab.Droid.Resource.Attribute.renderVideoFeed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.reverseLayout = global::TabletopLab.Droid.Resource.Attribute.reverseLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.rippleColor = global::TabletopLab.Droid.Resource.Attribute.rippleColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.scrimAnimationDuration = global::TabletopLab.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.scrimVisibleHeightTrigger = global::TabletopLab.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.searchHintIcon = global::TabletopLab.Droid.Resource.Attribute.searchHintIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.searchIcon = global::TabletopLab.Droid.Resource.Attribute.searchIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.searchViewStyle = global::TabletopLab.Droid.Resource.Attribute.searchViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.seekBarStyle = global::TabletopLab.Droid.Resource.Attribute.seekBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.selectableItemBackground = global::TabletopLab.Droid.Resource.Attribute.selectableItemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.selectableItemBackgroundBorderless = global::TabletopLab.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.showAsAction = global::TabletopLab.Droid.Resource.Attribute.showAsAction;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.showDividers = global::TabletopLab.Droid.Resource.Attribute.showDividers;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.showText = global::TabletopLab.Droid.Resource.Attribute.showText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.showTitle = global::TabletopLab.Droid.Resource.Attribute.showTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.singleChoiceItemLayout = global::TabletopLab.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.spanCount = global::TabletopLab.Droid.Resource.Attribute.spanCount;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.spinBars = global::TabletopLab.Droid.Resource.Attribute.spinBars;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.spinnerDropDownItemStyle = global::TabletopLab.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.spinnerStyle = global::TabletopLab.Droid.Resource.Attribute.spinnerStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.splitTrack = global::TabletopLab.Droid.Resource.Attribute.splitTrack;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.srcCompat = global::TabletopLab.Droid.Resource.Attribute.srcCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.stackFromEnd = global::TabletopLab.Droid.Resource.Attribute.stackFromEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.state_above_anchor = global::TabletopLab.Droid.Resource.Attribute.state_above_anchor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.state_collapsed = global::TabletopLab.Droid.Resource.Attribute.state_collapsed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.state_collapsible = global::TabletopLab.Droid.Resource.Attribute.state_collapsible;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.statusBarBackground = global::TabletopLab.Droid.Resource.Attribute.statusBarBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.statusBarScrim = global::TabletopLab.Droid.Resource.Attribute.statusBarScrim;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.subMenuArrow = global::TabletopLab.Droid.Resource.Attribute.subMenuArrow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.submitBackground = global::TabletopLab.Droid.Resource.Attribute.submitBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.subtitle = global::TabletopLab.Droid.Resource.Attribute.subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.subtitleTextAppearance = global::TabletopLab.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.subtitleTextColor = global::TabletopLab.Droid.Resource.Attribute.subtitleTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.subtitleTextStyle = global::TabletopLab.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.suggestionRowLayout = global::TabletopLab.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.switchMinWidth = global::TabletopLab.Droid.Resource.Attribute.switchMinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.switchPadding = global::TabletopLab.Droid.Resource.Attribute.switchPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.switchStyle = global::TabletopLab.Droid.Resource.Attribute.switchStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.switchTextAppearance = global::TabletopLab.Droid.Resource.Attribute.switchTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabBackground = global::TabletopLab.Droid.Resource.Attribute.tabBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabContentStart = global::TabletopLab.Droid.Resource.Attribute.tabContentStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabGravity = global::TabletopLab.Droid.Resource.Attribute.tabGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabIndicatorColor = global::TabletopLab.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabIndicatorHeight = global::TabletopLab.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabMaxWidth = global::TabletopLab.Droid.Resource.Attribute.tabMaxWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabMinWidth = global::TabletopLab.Droid.Resource.Attribute.tabMinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabMode = global::TabletopLab.Droid.Resource.Attribute.tabMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabPadding = global::TabletopLab.Droid.Resource.Attribute.tabPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabPaddingBottom = global::TabletopLab.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabPaddingEnd = global::TabletopLab.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabPaddingStart = global::TabletopLab.Droid.Resource.Attribute.tabPaddingStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabPaddingTop = global::TabletopLab.Droid.Resource.Attribute.tabPaddingTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabSelectedTextColor = global::TabletopLab.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabTextAppearance = global::TabletopLab.Droid.Resource.Attribute.tabTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tabTextColor = global::TabletopLab.Droid.Resource.Attribute.tabTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAllCaps = global::TabletopLab.Droid.Resource.Attribute.textAllCaps;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearanceLargePopupMenu = global::TabletopLab.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearanceListItem = global::TabletopLab.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearanceListItemSecondary = global::TabletopLab.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearanceListItemSmall = global::TabletopLab.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearancePopupMenuHeader = global::TabletopLab.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearanceSearchResultSubtitle = global::TabletopLab.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearanceSearchResultTitle = global::TabletopLab.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textAppearanceSmallPopupMenu = global::TabletopLab.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textColorAlertDialogListItem = global::TabletopLab.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.textColorSearchUrl = global::TabletopLab.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.theme = global::TabletopLab.Droid.Resource.Attribute.theme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.thickness = global::TabletopLab.Droid.Resource.Attribute.thickness;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.thumbTextPadding = global::TabletopLab.Droid.Resource.Attribute.thumbTextPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.thumbTint = global::TabletopLab.Droid.Resource.Attribute.thumbTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.thumbTintMode = global::TabletopLab.Droid.Resource.Attribute.thumbTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tickMark = global::TabletopLab.Droid.Resource.Attribute.tickMark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tickMarkTint = global::TabletopLab.Droid.Resource.Attribute.tickMarkTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tickMarkTintMode = global::TabletopLab.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tint = global::TabletopLab.Droid.Resource.Attribute.tint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tintMode = global::TabletopLab.Droid.Resource.Attribute.tintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.title = global::TabletopLab.Droid.Resource.Attribute.title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleEnabled = global::TabletopLab.Droid.Resource.Attribute.titleEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleMargin = global::TabletopLab.Droid.Resource.Attribute.titleMargin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleMarginBottom = global::TabletopLab.Droid.Resource.Attribute.titleMarginBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleMarginEnd = global::TabletopLab.Droid.Resource.Attribute.titleMarginEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleMargins = global::TabletopLab.Droid.Resource.Attribute.titleMargins;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleMarginStart = global::TabletopLab.Droid.Resource.Attribute.titleMarginStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleMarginTop = global::TabletopLab.Droid.Resource.Attribute.titleMarginTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleTextAppearance = global::TabletopLab.Droid.Resource.Attribute.titleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleTextColor = global::TabletopLab.Droid.Resource.Attribute.titleTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.titleTextStyle = global::TabletopLab.Droid.Resource.Attribute.titleTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.toolbarId = global::TabletopLab.Droid.Resource.Attribute.toolbarId;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.toolbarNavigationButtonStyle = global::TabletopLab.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.toolbarStyle = global::TabletopLab.Droid.Resource.Attribute.toolbarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tooltipForegroundColor = global::TabletopLab.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tooltipFrameBackground = global::TabletopLab.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.tooltipText = global::TabletopLab.Droid.Resource.Attribute.tooltipText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.track = global::TabletopLab.Droid.Resource.Attribute.track;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.trackTint = global::TabletopLab.Droid.Resource.Attribute.trackTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.trackTintMode = global::TabletopLab.Droid.Resource.Attribute.trackTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.useCompatPadding = global::TabletopLab.Droid.Resource.Attribute.useCompatPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.voiceIcon = global::TabletopLab.Droid.Resource.Attribute.voiceIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowActionBar = global::TabletopLab.Droid.Resource.Attribute.windowActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowActionBarOverlay = global::TabletopLab.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowActionModeOverlay = global::TabletopLab.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowFixedHeightMajor = global::TabletopLab.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowFixedHeightMinor = global::TabletopLab.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowFixedWidthMajor = global::TabletopLab.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowFixedWidthMinor = global::TabletopLab.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowMinWidthMajor = global::TabletopLab.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowMinWidthMinor = global::TabletopLab.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Attribute.windowNoTitle = global::TabletopLab.Droid.Resource.Attribute.windowNoTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Boolean.abc_action_bar_embed_tabs = global::TabletopLab.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Boolean.abc_allow_stacked_button_bar = global::TabletopLab.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::TabletopLab.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_background_cache_hint_selector_material_dark = global::TabletopLab.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_background_cache_hint_selector_material_light = global::TabletopLab.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_btn_colored_borderless_text_material = global::TabletopLab.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_btn_colored_text_material = global::TabletopLab.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_color_highlight_material = global::TabletopLab.Droid.Resource.Color.abc_color_highlight_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_hint_foreground_material_dark = global::TabletopLab.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_hint_foreground_material_light = global::TabletopLab.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_input_method_navigation_guard = global::TabletopLab.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_primary_text_disable_only_material_dark = global::TabletopLab.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_primary_text_disable_only_material_light = global::TabletopLab.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_primary_text_material_dark = global::TabletopLab.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_primary_text_material_light = global::TabletopLab.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_search_url_text = global::TabletopLab.Droid.Resource.Color.abc_search_url_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_search_url_text_normal = global::TabletopLab.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_search_url_text_pressed = global::TabletopLab.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_search_url_text_selected = global::TabletopLab.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_secondary_text_material_dark = global::TabletopLab.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_secondary_text_material_light = global::TabletopLab.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_tint_btn_checkable = global::TabletopLab.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_tint_default = global::TabletopLab.Droid.Resource.Color.abc_tint_default;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_tint_edittext = global::TabletopLab.Droid.Resource.Color.abc_tint_edittext;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_tint_seek_thumb = global::TabletopLab.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_tint_spinner = global::TabletopLab.Droid.Resource.Color.abc_tint_spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.abc_tint_switch_track = global::TabletopLab.Droid.Resource.Color.abc_tint_switch_track;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.accent_material_dark = global::TabletopLab.Droid.Resource.Color.accent_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.accent_material_light = global::TabletopLab.Droid.Resource.Color.accent_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.background_floating_material_dark = global::TabletopLab.Droid.Resource.Color.background_floating_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.background_floating_material_light = global::TabletopLab.Droid.Resource.Color.background_floating_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.background_material_dark = global::TabletopLab.Droid.Resource.Color.background_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.background_material_light = global::TabletopLab.Droid.Resource.Color.background_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.bright_foreground_disabled_material_dark = global::TabletopLab.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.bright_foreground_disabled_material_light = global::TabletopLab.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.bright_foreground_inverse_material_dark = global::TabletopLab.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.bright_foreground_inverse_material_light = global::TabletopLab.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.bright_foreground_material_dark = global::TabletopLab.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.bright_foreground_material_light = global::TabletopLab.Droid.Resource.Color.bright_foreground_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.button_material_dark = global::TabletopLab.Droid.Resource.Color.button_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.button_material_light = global::TabletopLab.Droid.Resource.Color.button_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.cardview_dark_background = global::TabletopLab.Droid.Resource.Color.cardview_dark_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.cardview_light_background = global::TabletopLab.Droid.Resource.Color.cardview_light_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.cardview_shadow_end_color = global::TabletopLab.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.cardview_shadow_start_color = global::TabletopLab.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_bottom_navigation_shadow_color = global::TabletopLab.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_error = global::TabletopLab.Droid.Resource.Color.design_error;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_fab_shadow_end_color = global::TabletopLab.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_fab_shadow_mid_color = global::TabletopLab.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_fab_shadow_start_color = global::TabletopLab.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_fab_stroke_end_inner_color = global::TabletopLab.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_fab_stroke_end_outer_color = global::TabletopLab.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_fab_stroke_top_inner_color = global::TabletopLab.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_fab_stroke_top_outer_color = global::TabletopLab.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_snackbar_background_color = global::TabletopLab.Droid.Resource.Color.design_snackbar_background_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.design_tint_password_toggle = global::TabletopLab.Droid.Resource.Color.design_tint_password_toggle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.dim_foreground_disabled_material_dark = global::TabletopLab.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.dim_foreground_disabled_material_light = global::TabletopLab.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.dim_foreground_material_dark = global::TabletopLab.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.dim_foreground_material_light = global::TabletopLab.Droid.Resource.Color.dim_foreground_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.foreground_material_dark = global::TabletopLab.Droid.Resource.Color.foreground_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.foreground_material_light = global::TabletopLab.Droid.Resource.Color.foreground_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.highlighted_text_material_dark = global::TabletopLab.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.highlighted_text_material_light = global::TabletopLab.Droid.Resource.Color.highlighted_text_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_blue_grey_800 = global::TabletopLab.Droid.Resource.Color.material_blue_grey_800;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_blue_grey_900 = global::TabletopLab.Droid.Resource.Color.material_blue_grey_900;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_blue_grey_950 = global::TabletopLab.Droid.Resource.Color.material_blue_grey_950;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_deep_teal_200 = global::TabletopLab.Droid.Resource.Color.material_deep_teal_200;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_deep_teal_500 = global::TabletopLab.Droid.Resource.Color.material_deep_teal_500;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_grey_100 = global::TabletopLab.Droid.Resource.Color.material_grey_100;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_grey_300 = global::TabletopLab.Droid.Resource.Color.material_grey_300;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_grey_50 = global::TabletopLab.Droid.Resource.Color.material_grey_50;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_grey_600 = global::TabletopLab.Droid.Resource.Color.material_grey_600;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_grey_800 = global::TabletopLab.Droid.Resource.Color.material_grey_800;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_grey_850 = global::TabletopLab.Droid.Resource.Color.material_grey_850;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.material_grey_900 = global::TabletopLab.Droid.Resource.Color.material_grey_900;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.notification_action_color_filter = global::TabletopLab.Droid.Resource.Color.notification_action_color_filter;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.notification_icon_bg_color = global::TabletopLab.Droid.Resource.Color.notification_icon_bg_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.notification_material_background_media_default_color = global::TabletopLab.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_dark_material_dark = global::TabletopLab.Droid.Resource.Color.primary_dark_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_dark_material_light = global::TabletopLab.Droid.Resource.Color.primary_dark_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_material_dark = global::TabletopLab.Droid.Resource.Color.primary_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_material_light = global::TabletopLab.Droid.Resource.Color.primary_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_text_default_material_dark = global::TabletopLab.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_text_default_material_light = global::TabletopLab.Droid.Resource.Color.primary_text_default_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_text_disabled_material_dark = global::TabletopLab.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.primary_text_disabled_material_light = global::TabletopLab.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.ripple_material_dark = global::TabletopLab.Droid.Resource.Color.ripple_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.ripple_material_light = global::TabletopLab.Droid.Resource.Color.ripple_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.secondary_text_default_material_dark = global::TabletopLab.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.secondary_text_default_material_light = global::TabletopLab.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.secondary_text_disabled_material_dark = global::TabletopLab.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.secondary_text_disabled_material_light = global::TabletopLab.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.switch_thumb_disabled_material_dark = global::TabletopLab.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.switch_thumb_disabled_material_light = global::TabletopLab.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.switch_thumb_material_dark = global::TabletopLab.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.switch_thumb_material_light = global::TabletopLab.Droid.Resource.Color.switch_thumb_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.switch_thumb_normal_material_dark = global::TabletopLab.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.switch_thumb_normal_material_light = global::TabletopLab.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.tooltip_background_dark = global::TabletopLab.Droid.Resource.Color.tooltip_background_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Color.tooltip_background_light = global::TabletopLab.Droid.Resource.Color.tooltip_background_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_content_inset_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_default_height_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_default_padding_end_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_default_padding_start_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_elevation_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_stacked_max_height = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_button_min_height_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_button_min_width_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_action_button_min_width_overflow_material = global::TabletopLab.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_alert_dialog_button_bar_height = global::TabletopLab.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_button_inset_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_button_inset_vertical_material = global::TabletopLab.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_button_padding_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_button_padding_vertical_material = global::TabletopLab.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::TabletopLab.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_config_prefDialogWidth = global::TabletopLab.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_control_corner_material = global::TabletopLab.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_control_inset_material = global::TabletopLab.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_control_padding_material = global::TabletopLab.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_fixed_height_major = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_fixed_height_minor = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_fixed_width_major = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_fixed_width_minor = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_min_width_major = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_min_width_minor = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_padding_material = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_padding_top_material = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dialog_title_divider_material = global::TabletopLab.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_disabled_alpha_material_dark = global::TabletopLab.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_disabled_alpha_material_light = global::TabletopLab.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dropdownitem_icon_width = global::TabletopLab.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dropdownitem_text_padding_left = global::TabletopLab.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_dropdownitem_text_padding_right = global::TabletopLab.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_edit_text_inset_bottom_material = global::TabletopLab.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_edit_text_inset_top_material = global::TabletopLab.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_floating_window_z = global::TabletopLab.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_list_item_padding_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_panel_menu_list_width = global::TabletopLab.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_progress_bar_height_material = global::TabletopLab.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_search_view_preferred_height = global::TabletopLab.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_search_view_preferred_width = global::TabletopLab.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_seekbar_track_background_height_material = global::TabletopLab.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_seekbar_track_progress_height_material = global::TabletopLab.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_select_dialog_padding_start_material = global::TabletopLab.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_switch_padding = global::TabletopLab.Droid.Resource.Dimension.abc_switch_padding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_body_1_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_body_2_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_button_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_caption_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_display_1_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_display_2_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_display_3_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_display_4_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_headline_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_large_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_medium_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_menu_header_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_menu_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_small_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_subhead_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_title_material = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.abc_text_size_title_material_toolbar = global::TabletopLab.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.cardview_compat_inset_shadow = global::TabletopLab.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.cardview_default_elevation = global::TabletopLab.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.cardview_default_radius = global::TabletopLab.Droid.Resource.Dimension.cardview_default_radius;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.compat_button_inset_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.compat_button_inset_vertical_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.compat_button_padding_horizontal_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.compat_button_padding_vertical_material = global::TabletopLab.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.compat_control_corner_material = global::TabletopLab.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_appbar_elevation = global::TabletopLab.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_active_text_size = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_elevation = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_height = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_item_max_width = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_item_min_width = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_margin = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_shadow_height = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_navigation_text_size = global::TabletopLab.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_sheet_modal_elevation = global::TabletopLab.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_bottom_sheet_peek_height_min = global::TabletopLab.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_fab_border_width = global::TabletopLab.Droid.Resource.Dimension.design_fab_border_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_fab_elevation = global::TabletopLab.Droid.Resource.Dimension.design_fab_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_fab_image_size = global::TabletopLab.Droid.Resource.Dimension.design_fab_image_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_fab_size_mini = global::TabletopLab.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_fab_size_normal = global::TabletopLab.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_fab_translation_z_pressed = global::TabletopLab.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_navigation_elevation = global::TabletopLab.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_navigation_icon_padding = global::TabletopLab.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_navigation_icon_size = global::TabletopLab.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_navigation_max_width = global::TabletopLab.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_navigation_padding_bottom = global::TabletopLab.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_navigation_separator_vertical_padding = global::TabletopLab.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_action_inline_max_width = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_background_corner_radius = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_elevation = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_max_width = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_min_width = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_padding_horizontal = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_padding_vertical = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_snackbar_text_size = global::TabletopLab.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_tab_max_width = global::TabletopLab.Droid.Resource.Dimension.design_tab_max_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_tab_scrollable_min_width = global::TabletopLab.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_tab_text_size = global::TabletopLab.Droid.Resource.Dimension.design_tab_text_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.design_tab_text_size_2line = global::TabletopLab.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.disabled_alpha_material_dark = global::TabletopLab.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.disabled_alpha_material_light = global::TabletopLab.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.fastscroll_default_thickness = global::TabletopLab.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.fastscroll_margin = global::TabletopLab.Droid.Resource.Dimension.fastscroll_margin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.fastscroll_minimum_range = global::TabletopLab.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.highlight_alpha_material_colored = global::TabletopLab.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.highlight_alpha_material_dark = global::TabletopLab.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.highlight_alpha_material_light = global::TabletopLab.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.hint_alpha_material_dark = global::TabletopLab.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.hint_alpha_material_light = global::TabletopLab.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.hint_pressed_alpha_material_dark = global::TabletopLab.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.hint_pressed_alpha_material_light = global::TabletopLab.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::TabletopLab.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::TabletopLab.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::TabletopLab.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_action_icon_size = global::TabletopLab.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_action_text_size = global::TabletopLab.Droid.Resource.Dimension.notification_action_text_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_big_circle_margin = global::TabletopLab.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_content_margin_start = global::TabletopLab.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_large_icon_height = global::TabletopLab.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_large_icon_width = global::TabletopLab.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_main_column_padding_top = global::TabletopLab.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_media_narrow_margin = global::TabletopLab.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_right_icon_size = global::TabletopLab.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_right_side_padding_top = global::TabletopLab.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_small_icon_background_padding = global::TabletopLab.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_small_icon_size_as_large = global::TabletopLab.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_subtext_size = global::TabletopLab.Droid.Resource.Dimension.notification_subtext_size;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_top_pad = global::TabletopLab.Droid.Resource.Dimension.notification_top_pad;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.notification_top_pad_large_text = global::TabletopLab.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_corner_radius = global::TabletopLab.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_horizontal_padding = global::TabletopLab.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_margin = global::TabletopLab.Droid.Resource.Dimension.tooltip_margin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::TabletopLab.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_precise_anchor_threshold = global::TabletopLab.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_vertical_padding = global::TabletopLab.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_y_offset_non_touch = global::TabletopLab.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Dimension.tooltip_y_offset_touch = global::TabletopLab.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_action_bar_item_background_material = global::TabletopLab.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_borderless_material = global::TabletopLab.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_check_material = global::TabletopLab.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::TabletopLab.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::TabletopLab.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_colored_material = global::TabletopLab.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_default_mtrl_shape = global::TabletopLab.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_radio_material = global::TabletopLab.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::TabletopLab.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::TabletopLab.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::TabletopLab.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::TabletopLab.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_cab_background_internal_bg = global::TabletopLab.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_cab_background_top_material = global::TabletopLab.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_control_background_material = global::TabletopLab.Droid.Resource.Drawable.abc_control_background_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_dialog_material_background = global::TabletopLab.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_edit_text_material = global::TabletopLab.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_ab_back_material = global::TabletopLab.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::TabletopLab.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_clear_material = global::TabletopLab.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_go_search_api_material = global::TabletopLab.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_menu_overflow_material = global::TabletopLab.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_search_api_material = global::TabletopLab.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_star_black_16dp = global::TabletopLab.Droid.Resource.Drawable.abc_ic_star_black_16dp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_star_black_36dp = global::TabletopLab.Droid.Resource.Drawable.abc_ic_star_black_36dp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_star_black_48dp = global::TabletopLab.Droid.Resource.Drawable.abc_ic_star_black_48dp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_star_half_black_16dp = global::TabletopLab.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_star_half_black_36dp = global::TabletopLab.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_star_half_black_48dp = global::TabletopLab.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ic_voice_search_api_material = global::TabletopLab.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_item_background_holo_dark = global::TabletopLab.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_item_background_holo_light = global::TabletopLab.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_divider_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_focused_holo = global::TabletopLab.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_longpressed_holo = global::TabletopLab.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_pressed_holo_dark = global::TabletopLab.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_pressed_holo_light = global::TabletopLab.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::TabletopLab.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::TabletopLab.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::TabletopLab.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_selector_disabled_holo_light = global::TabletopLab.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_selector_holo_dark = global::TabletopLab.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_list_selector_holo_light = global::TabletopLab.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::TabletopLab.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_popup_background_mtrl_mult = global::TabletopLab.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ratingbar_indicator_material = global::TabletopLab.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ratingbar_material = global::TabletopLab.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_ratingbar_small_material = global::TabletopLab.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::TabletopLab.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::TabletopLab.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_seekbar_thumb_material = global::TabletopLab.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_seekbar_tick_mark_material = global::TabletopLab.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_seekbar_track_material = global::TabletopLab.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_spinner_textfield_background_material = global::TabletopLab.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_switch_thumb_material = global::TabletopLab.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_switch_track_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_tab_indicator_material = global::TabletopLab.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::TabletopLab.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_textfield_search_material = global::TabletopLab.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_text_cursor_material = global::TabletopLab.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::TabletopLab.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::TabletopLab.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::TabletopLab.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::TabletopLab.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::TabletopLab.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::TabletopLab.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.abc_vector_test = global::TabletopLab.Droid.Resource.Drawable.abc_vector_test;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.avd_hide_password = global::TabletopLab.Droid.Resource.Drawable.avd_hide_password;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.avd_show_password = global::TabletopLab.Droid.Resource.Drawable.avd_show_password;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.design_bottom_navigation_item_background = global::TabletopLab.Droid.Resource.Drawable.design_bottom_navigation_item_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.design_fab_background = global::TabletopLab.Droid.Resource.Drawable.design_fab_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.design_ic_visibility = global::TabletopLab.Droid.Resource.Drawable.design_ic_visibility;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.design_ic_visibility_off = global::TabletopLab.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.design_password_eye = global::TabletopLab.Droid.Resource.Drawable.design_password_eye;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.design_snackbar_background = global::TabletopLab.Droid.Resource.Drawable.design_snackbar_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.esri = global::TabletopLab.Droid.Resource.Drawable.esri;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.navigation_empty_icon = global::TabletopLab.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_action_background = global::TabletopLab.Droid.Resource.Drawable.notification_action_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_bg = global::TabletopLab.Droid.Resource.Drawable.notification_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_bg_low = global::TabletopLab.Droid.Resource.Drawable.notification_bg_low;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_bg_low_normal = global::TabletopLab.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_bg_low_pressed = global::TabletopLab.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_bg_normal = global::TabletopLab.Droid.Resource.Drawable.notification_bg_normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_bg_normal_pressed = global::TabletopLab.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_icon_background = global::TabletopLab.Droid.Resource.Drawable.notification_icon_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_template_icon_bg = global::TabletopLab.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_template_icon_low_bg = global::TabletopLab.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notification_tile_bg = global::TabletopLab.Droid.Resource.Drawable.notification_tile_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.notify_panel_notification_icon_bg = global::TabletopLab.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.sceneform_hand_phone = global::TabletopLab.Droid.Resource.Drawable.sceneform_hand_phone;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.sceneform_plane = global::TabletopLab.Droid.Resource.Drawable.sceneform_plane;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.tooltip_frame_dark = global::TabletopLab.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Drawable.tooltip_frame_light = global::TabletopLab.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action0 = global::TabletopLab.Droid.Resource.Id.action0;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.actions = global::TabletopLab.Droid.Resource.Id.actions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_bar = global::TabletopLab.Droid.Resource.Id.action_bar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_bar_activity_content = global::TabletopLab.Droid.Resource.Id.action_bar_activity_content;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_bar_container = global::TabletopLab.Droid.Resource.Id.action_bar_container;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_bar_root = global::TabletopLab.Droid.Resource.Id.action_bar_root;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_bar_spinner = global::TabletopLab.Droid.Resource.Id.action_bar_spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_bar_subtitle = global::TabletopLab.Droid.Resource.Id.action_bar_subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_bar_title = global::TabletopLab.Droid.Resource.Id.action_bar_title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_container = global::TabletopLab.Droid.Resource.Id.action_container;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_context_bar = global::TabletopLab.Droid.Resource.Id.action_context_bar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_divider = global::TabletopLab.Droid.Resource.Id.action_divider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_image = global::TabletopLab.Droid.Resource.Id.action_image;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_menu_divider = global::TabletopLab.Droid.Resource.Id.action_menu_divider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_menu_presenter = global::TabletopLab.Droid.Resource.Id.action_menu_presenter;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_mode_bar = global::TabletopLab.Droid.Resource.Id.action_mode_bar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_mode_bar_stub = global::TabletopLab.Droid.Resource.Id.action_mode_bar_stub;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_mode_close_button = global::TabletopLab.Droid.Resource.Id.action_mode_close_button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.action_text = global::TabletopLab.Droid.Resource.Id.action_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.activity_chooser_view_content = global::TabletopLab.Droid.Resource.Id.activity_chooser_view_content;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.add = global::TabletopLab.Droid.Resource.Id.add;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.alertTitle = global::TabletopLab.Droid.Resource.Id.alertTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.all = global::TabletopLab.Droid.Resource.Id.all;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.ALT = global::TabletopLab.Droid.Resource.Id.ALT;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.always = global::TabletopLab.Droid.Resource.Id.always;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.async = global::TabletopLab.Droid.Resource.Id.async;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.auto = global::TabletopLab.Droid.Resource.Id.auto;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.beginning = global::TabletopLab.Droid.Resource.Id.beginning;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.blocking = global::TabletopLab.Droid.Resource.Id.blocking;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.bottom = global::TabletopLab.Droid.Resource.Id.bottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.bottomtab_navarea = global::TabletopLab.Droid.Resource.Id.bottomtab_navarea;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.bottomtab_tabbar = global::TabletopLab.Droid.Resource.Id.bottomtab_tabbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.buttonPanel = global::TabletopLab.Droid.Resource.Id.buttonPanel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.cancel_action = global::TabletopLab.Droid.Resource.Id.cancel_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.center = global::TabletopLab.Droid.Resource.Id.center;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.center_horizontal = global::TabletopLab.Droid.Resource.Id.center_horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.center_vertical = global::TabletopLab.Droid.Resource.Id.center_vertical;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.checkbox = global::TabletopLab.Droid.Resource.Id.checkbox;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.chronometer = global::TabletopLab.Droid.Resource.Id.chronometer;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.clip_horizontal = global::TabletopLab.Droid.Resource.Id.clip_horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.clip_vertical = global::TabletopLab.Droid.Resource.Id.clip_vertical;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.collapseActionView = global::TabletopLab.Droid.Resource.Id.collapseActionView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.container = global::TabletopLab.Droid.Resource.Id.container;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.contentPanel = global::TabletopLab.Droid.Resource.Id.contentPanel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.coordinator = global::TabletopLab.Droid.Resource.Id.coordinator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.CTRL = global::TabletopLab.Droid.Resource.Id.CTRL;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.custom = global::TabletopLab.Droid.Resource.Id.custom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.customPanel = global::TabletopLab.Droid.Resource.Id.customPanel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.decor_content_parent = global::TabletopLab.Droid.Resource.Id.decor_content_parent;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.default_activity_button = global::TabletopLab.Droid.Resource.Id.default_activity_button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.design_bottom_sheet = global::TabletopLab.Droid.Resource.Id.design_bottom_sheet;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.design_menu_item_action_area = global::TabletopLab.Droid.Resource.Id.design_menu_item_action_area;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.design_menu_item_action_area_stub = global::TabletopLab.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.design_menu_item_text = global::TabletopLab.Droid.Resource.Id.design_menu_item_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.design_navigation_view = global::TabletopLab.Droid.Resource.Id.design_navigation_view;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.disableHome = global::TabletopLab.Droid.Resource.Id.disableHome;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.edit_query = global::TabletopLab.Droid.Resource.Id.edit_query;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.end = global::TabletopLab.Droid.Resource.Id.end;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.end_padder = global::TabletopLab.Droid.Resource.Id.end_padder;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.enterAlways = global::TabletopLab.Droid.Resource.Id.enterAlways;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.enterAlwaysCollapsed = global::TabletopLab.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.exitUntilCollapsed = global::TabletopLab.Droid.Resource.Id.exitUntilCollapsed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.expanded_menu = global::TabletopLab.Droid.Resource.Id.expanded_menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.expand_activities_button = global::TabletopLab.Droid.Resource.Id.expand_activities_button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.fill = global::TabletopLab.Droid.Resource.Id.fill;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.fill_horizontal = global::TabletopLab.Droid.Resource.Id.fill_horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.fill_vertical = global::TabletopLab.Droid.Resource.Id.fill_vertical;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.@fixed = global::TabletopLab.Droid.Resource.Id.@fixed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.flyoutcontent_appbar = global::TabletopLab.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.flyoutcontent_recycler = global::TabletopLab.Droid.Resource.Id.flyoutcontent_recycler;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.forever = global::TabletopLab.Droid.Resource.Id.forever;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.FUNCTION = global::TabletopLab.Droid.Resource.Id.FUNCTION;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.ghost_view = global::TabletopLab.Droid.Resource.Id.ghost_view;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.home = global::TabletopLab.Droid.Resource.Id.home;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.homeAsUp = global::TabletopLab.Droid.Resource.Id.homeAsUp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.icon = global::TabletopLab.Droid.Resource.Id.icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.icon_group = global::TabletopLab.Droid.Resource.Id.icon_group;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.ifRoom = global::TabletopLab.Droid.Resource.Id.ifRoom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.image = global::TabletopLab.Droid.Resource.Id.image;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.info = global::TabletopLab.Droid.Resource.Id.info;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.italic = global::TabletopLab.Droid.Resource.Id.italic;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.item_touch_helper_previous_elevation = global::TabletopLab.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.largeLabel = global::TabletopLab.Droid.Resource.Id.largeLabel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.left = global::TabletopLab.Droid.Resource.Id.left;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.line1 = global::TabletopLab.Droid.Resource.Id.line1;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.line3 = global::TabletopLab.Droid.Resource.Id.line3;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.listMode = global::TabletopLab.Droid.Resource.Id.listMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.list_item = global::TabletopLab.Droid.Resource.Id.list_item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.main_appbar = global::TabletopLab.Droid.Resource.Id.main_appbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.main_tablayout = global::TabletopLab.Droid.Resource.Id.main_tablayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.main_toolbar = global::TabletopLab.Droid.Resource.Id.main_toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.main_viewpager = global::TabletopLab.Droid.Resource.Id.main_viewpager;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.masked = global::TabletopLab.Droid.Resource.Id.masked;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.media_actions = global::TabletopLab.Droid.Resource.Id.media_actions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.message = global::TabletopLab.Droid.Resource.Id.message;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.META = global::TabletopLab.Droid.Resource.Id.META;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.middle = global::TabletopLab.Droid.Resource.Id.middle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.mini = global::TabletopLab.Droid.Resource.Id.mini;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.multiply = global::TabletopLab.Droid.Resource.Id.multiply;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.navigation_header_container = global::TabletopLab.Droid.Resource.Id.navigation_header_container;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.never = global::TabletopLab.Droid.Resource.Id.never;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.none = global::TabletopLab.Droid.Resource.Id.none;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.normal = global::TabletopLab.Droid.Resource.Id.normal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.notification_background = global::TabletopLab.Droid.Resource.Id.notification_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.notification_main_column = global::TabletopLab.Droid.Resource.Id.notification_main_column;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.notification_main_column_container = global::TabletopLab.Droid.Resource.Id.notification_main_column_container;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.parallax = global::TabletopLab.Droid.Resource.Id.parallax;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.parentPanel = global::TabletopLab.Droid.Resource.Id.parentPanel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.parent_matrix = global::TabletopLab.Droid.Resource.Id.parent_matrix;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.pin = global::TabletopLab.Droid.Resource.Id.pin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.progress_circular = global::TabletopLab.Droid.Resource.Id.progress_circular;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.progress_horizontal = global::TabletopLab.Droid.Resource.Id.progress_horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.radio = global::TabletopLab.Droid.Resource.Id.radio;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.right = global::TabletopLab.Droid.Resource.Id.right;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.right_icon = global::TabletopLab.Droid.Resource.Id.right_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.right_side = global::TabletopLab.Droid.Resource.Id.right_side;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.save_image_matrix = global::TabletopLab.Droid.Resource.Id.save_image_matrix;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.save_non_transition_alpha = global::TabletopLab.Droid.Resource.Id.save_non_transition_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.save_scale_type = global::TabletopLab.Droid.Resource.Id.save_scale_type;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.sceneform_ar_scene_view = global::TabletopLab.Droid.Resource.Id.sceneform_ar_scene_view;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.sceneform_hand_image = global::TabletopLab.Droid.Resource.Id.sceneform_hand_image;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.sceneform_hand_layout = global::TabletopLab.Droid.Resource.Id.sceneform_hand_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.screen = global::TabletopLab.Droid.Resource.Id.screen;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.scroll = global::TabletopLab.Droid.Resource.Id.scroll;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.scrollable = global::TabletopLab.Droid.Resource.Id.scrollable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.scrollIndicatorDown = global::TabletopLab.Droid.Resource.Id.scrollIndicatorDown;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.scrollIndicatorUp = global::TabletopLab.Droid.Resource.Id.scrollIndicatorUp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.scrollView = global::TabletopLab.Droid.Resource.Id.scrollView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_badge = global::TabletopLab.Droid.Resource.Id.search_badge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_bar = global::TabletopLab.Droid.Resource.Id.search_bar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_button = global::TabletopLab.Droid.Resource.Id.search_button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_close_btn = global::TabletopLab.Droid.Resource.Id.search_close_btn;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_edit_frame = global::TabletopLab.Droid.Resource.Id.search_edit_frame;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_go_btn = global::TabletopLab.Droid.Resource.Id.search_go_btn;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_mag_icon = global::TabletopLab.Droid.Resource.Id.search_mag_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_plate = global::TabletopLab.Droid.Resource.Id.search_plate;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_src_text = global::TabletopLab.Droid.Resource.Id.search_src_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.search_voice_btn = global::TabletopLab.Droid.Resource.Id.search_voice_btn;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.select_dialog_listview = global::TabletopLab.Droid.Resource.Id.select_dialog_listview;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.shellcontent_appbar = global::TabletopLab.Droid.Resource.Id.shellcontent_appbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.shellcontent_toolbar = global::TabletopLab.Droid.Resource.Id.shellcontent_toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.SHIFT = global::TabletopLab.Droid.Resource.Id.SHIFT;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.shortcut = global::TabletopLab.Droid.Resource.Id.shortcut;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.showCustom = global::TabletopLab.Droid.Resource.Id.showCustom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.showHome = global::TabletopLab.Droid.Resource.Id.showHome;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.showTitle = global::TabletopLab.Droid.Resource.Id.showTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.smallLabel = global::TabletopLab.Droid.Resource.Id.smallLabel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.snackbar_action = global::TabletopLab.Droid.Resource.Id.snackbar_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.snackbar_text = global::TabletopLab.Droid.Resource.Id.snackbar_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.snap = global::TabletopLab.Droid.Resource.Id.snap;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.spacer = global::TabletopLab.Droid.Resource.Id.spacer;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.split_action_bar = global::TabletopLab.Droid.Resource.Id.split_action_bar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.src_atop = global::TabletopLab.Droid.Resource.Id.src_atop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.src_in = global::TabletopLab.Droid.Resource.Id.src_in;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.src_over = global::TabletopLab.Droid.Resource.Id.src_over;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.start = global::TabletopLab.Droid.Resource.Id.start;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.status_bar_latest_event_content = global::TabletopLab.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.submenuarrow = global::TabletopLab.Droid.Resource.Id.submenuarrow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.submit_area = global::TabletopLab.Droid.Resource.Id.submit_area;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.SYM = global::TabletopLab.Droid.Resource.Id.SYM;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.tabMode = global::TabletopLab.Droid.Resource.Id.tabMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.tag_transition_group = global::TabletopLab.Droid.Resource.Id.tag_transition_group;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.text = global::TabletopLab.Droid.Resource.Id.text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.text2 = global::TabletopLab.Droid.Resource.Id.text2;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.textinput_counter = global::TabletopLab.Droid.Resource.Id.textinput_counter;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.textinput_error = global::TabletopLab.Droid.Resource.Id.textinput_error;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.textSpacerNoButtons = global::TabletopLab.Droid.Resource.Id.textSpacerNoButtons;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.textSpacerNoTitle = global::TabletopLab.Droid.Resource.Id.textSpacerNoTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.text_input_password_toggle = global::TabletopLab.Droid.Resource.Id.text_input_password_toggle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.time = global::TabletopLab.Droid.Resource.Id.time;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.title = global::TabletopLab.Droid.Resource.Id.title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.titleDividerNoCustom = global::TabletopLab.Droid.Resource.Id.titleDividerNoCustom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.title_template = global::TabletopLab.Droid.Resource.Id.title_template;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.top = global::TabletopLab.Droid.Resource.Id.top;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.topPanel = global::TabletopLab.Droid.Resource.Id.topPanel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.touch_outside = global::TabletopLab.Droid.Resource.Id.touch_outside;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.transition_current_scene = global::TabletopLab.Droid.Resource.Id.transition_current_scene;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.transition_layout_save = global::TabletopLab.Droid.Resource.Id.transition_layout_save;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.transition_position = global::TabletopLab.Droid.Resource.Id.transition_position;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.transition_scene_layoutid_cache = global::TabletopLab.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.transition_transform = global::TabletopLab.Droid.Resource.Id.transition_transform;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.uniform = global::TabletopLab.Droid.Resource.Id.uniform;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.up = global::TabletopLab.Droid.Resource.Id.up;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.useLogo = global::TabletopLab.Droid.Resource.Id.useLogo;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.view_offset_helper = global::TabletopLab.Droid.Resource.Id.view_offset_helper;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.visible = global::TabletopLab.Droid.Resource.Id.visible;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.withText = global::TabletopLab.Droid.Resource.Id.withText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.wrap_content = global::TabletopLab.Droid.Resource.Id.wrap_content;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.@__arcore_cancelButton = global::TabletopLab.Droid.Resource.Id.@__arcore_cancelButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.@__arcore_continueButton = global::TabletopLab.Droid.Resource.Id.@__arcore_continueButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Id.@__arcore_messageText = global::TabletopLab.Droid.Resource.Id.@__arcore_messageText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.abc_config_activityDefaultDur = global::TabletopLab.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.abc_config_activityShortDur = global::TabletopLab.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.app_bar_elevation_anim_duration = global::TabletopLab.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.bottom_sheet_slide_duration = global::TabletopLab.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.cancel_button_image_alpha = global::TabletopLab.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.config_tooltipAnimTime = global::TabletopLab.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.design_snackbar_text_max_lines = global::TabletopLab.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.hide_password_duration = global::TabletopLab.Droid.Resource.Integer.hide_password_duration;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.show_password_duration = global::TabletopLab.Droid.Resource.Integer.show_password_duration;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Integer.status_bar_notification_info_maxnum = global::TabletopLab.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_action_bar_title_item = global::TabletopLab.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_action_bar_up_container = global::TabletopLab.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_action_menu_item_layout = global::TabletopLab.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_action_menu_layout = global::TabletopLab.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_action_mode_bar = global::TabletopLab.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_action_mode_close_item_material = global::TabletopLab.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_activity_chooser_view = global::TabletopLab.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_activity_chooser_view_list_item = global::TabletopLab.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_alert_dialog_button_bar_material = global::TabletopLab.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_alert_dialog_material = global::TabletopLab.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_alert_dialog_title_material = global::TabletopLab.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_dialog_title_material = global::TabletopLab.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_expanded_menu_layout = global::TabletopLab.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_list_menu_item_checkbox = global::TabletopLab.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_list_menu_item_icon = global::TabletopLab.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_list_menu_item_layout = global::TabletopLab.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_list_menu_item_radio = global::TabletopLab.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_popup_menu_header_item_layout = global::TabletopLab.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_popup_menu_item_layout = global::TabletopLab.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_screen_content_include = global::TabletopLab.Droid.Resource.Layout.abc_screen_content_include;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_screen_simple = global::TabletopLab.Droid.Resource.Layout.abc_screen_simple;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_screen_simple_overlay_action_mode = global::TabletopLab.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_screen_toolbar = global::TabletopLab.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_search_dropdown_item_icons_2line = global::TabletopLab.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_search_view = global::TabletopLab.Droid.Resource.Layout.abc_search_view;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.abc_select_dialog_material = global::TabletopLab.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.BottomTabLayout = global::TabletopLab.Droid.Resource.Layout.BottomTabLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_bottom_navigation_item = global::TabletopLab.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_bottom_sheet_dialog = global::TabletopLab.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_layout_snackbar = global::TabletopLab.Droid.Resource.Layout.design_layout_snackbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_layout_snackbar_include = global::TabletopLab.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_layout_tab_icon = global::TabletopLab.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_layout_tab_text = global::TabletopLab.Droid.Resource.Layout.design_layout_tab_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_menu_item_action_area = global::TabletopLab.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_navigation_item = global::TabletopLab.Droid.Resource.Layout.design_navigation_item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_navigation_item_header = global::TabletopLab.Droid.Resource.Layout.design_navigation_item_header;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_navigation_item_separator = global::TabletopLab.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_navigation_item_subheader = global::TabletopLab.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_navigation_menu = global::TabletopLab.Droid.Resource.Layout.design_navigation_menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_navigation_menu_item = global::TabletopLab.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.design_text_input_password_icon = global::TabletopLab.Droid.Resource.Layout.design_text_input_password_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.FlyoutContent = global::TabletopLab.Droid.Resource.Layout.FlyoutContent;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_action = global::TabletopLab.Droid.Resource.Layout.notification_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_action_tombstone = global::TabletopLab.Droid.Resource.Layout.notification_action_tombstone;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_media_action = global::TabletopLab.Droid.Resource.Layout.notification_media_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_media_cancel_action = global::TabletopLab.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_big_media = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_big_media_custom = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_big_media_narrow = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_big_media_narrow_custom = global::TabletopLab.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_custom_big = global::TabletopLab.Droid.Resource.Layout.notification_template_custom_big;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_icon_group = global::TabletopLab.Droid.Resource.Layout.notification_template_icon_group;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_lines_media = global::TabletopLab.Droid.Resource.Layout.notification_template_lines_media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_media = global::TabletopLab.Droid.Resource.Layout.notification_template_media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_media_custom = global::TabletopLab.Droid.Resource.Layout.notification_template_media_custom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_part_chronometer = global::TabletopLab.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.notification_template_part_time = global::TabletopLab.Droid.Resource.Layout.notification_template_part_time;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.RootLayout = global::TabletopLab.Droid.Resource.Layout.RootLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.sceneform_plane_discovery_layout = global::TabletopLab.Droid.Resource.Layout.sceneform_plane_discovery_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.sceneform_ux_fragment_layout = global::TabletopLab.Droid.Resource.Layout.sceneform_ux_fragment_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.select_dialog_item_material = global::TabletopLab.Droid.Resource.Layout.select_dialog_item_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.select_dialog_multichoice_material = global::TabletopLab.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.select_dialog_singlechoice_material = global::TabletopLab.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.ShellContent = global::TabletopLab.Droid.Resource.Layout.ShellContent;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.support_simple_spinner_dropdown_item = global::TabletopLab.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Layout.@__arcore_education = global::TabletopLab.Droid.Resource.Layout.@__arcore_education;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.keep_arcore = global::TabletopLab.Droid.Resource.Raw.keep_arcore;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_camera_material = global::TabletopLab.Droid.Resource.Raw.sceneform_camera_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_default_light_probe = global::TabletopLab.Droid.Resource.Raw.sceneform_default_light_probe;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_face_mesh = global::TabletopLab.Droid.Resource.Raw.sceneform_face_mesh;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_face_mesh_occluder = global::TabletopLab.Droid.Resource.Raw.sceneform_face_mesh_occluder;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_footprint = global::TabletopLab.Droid.Resource.Raw.sceneform_footprint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_opaque_colored_material = global::TabletopLab.Droid.Resource.Raw.sceneform_opaque_colored_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_opaque_textured_material = global::TabletopLab.Droid.Resource.Raw.sceneform_opaque_textured_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_plane_material = global::TabletopLab.Droid.Resource.Raw.sceneform_plane_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_plane_shadow_material = global::TabletopLab.Droid.Resource.Raw.sceneform_plane_shadow_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_transparent_colored_material = global::TabletopLab.Droid.Resource.Raw.sceneform_transparent_colored_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_transparent_textured_material = global::TabletopLab.Droid.Resource.Raw.sceneform_transparent_textured_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Raw.sceneform_view_renderable = global::TabletopLab.Droid.Resource.Raw.sceneform_view_renderable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_action_bar_home_description = global::TabletopLab.Droid.Resource.String.abc_action_bar_home_description;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_action_bar_up_description = global::TabletopLab.Droid.Resource.String.abc_action_bar_up_description;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_action_menu_overflow_description = global::TabletopLab.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_action_mode_done = global::TabletopLab.Droid.Resource.String.abc_action_mode_done;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_activitychooserview_choose_application = global::TabletopLab.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_activity_chooser_view_see_all = global::TabletopLab.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_capital_off = global::TabletopLab.Droid.Resource.String.abc_capital_off;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_capital_on = global::TabletopLab.Droid.Resource.String.abc_capital_on;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_body_1_material = global::TabletopLab.Droid.Resource.String.abc_font_family_body_1_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_body_2_material = global::TabletopLab.Droid.Resource.String.abc_font_family_body_2_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_button_material = global::TabletopLab.Droid.Resource.String.abc_font_family_button_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_caption_material = global::TabletopLab.Droid.Resource.String.abc_font_family_caption_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_display_1_material = global::TabletopLab.Droid.Resource.String.abc_font_family_display_1_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_display_2_material = global::TabletopLab.Droid.Resource.String.abc_font_family_display_2_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_display_3_material = global::TabletopLab.Droid.Resource.String.abc_font_family_display_3_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_display_4_material = global::TabletopLab.Droid.Resource.String.abc_font_family_display_4_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_headline_material = global::TabletopLab.Droid.Resource.String.abc_font_family_headline_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_menu_material = global::TabletopLab.Droid.Resource.String.abc_font_family_menu_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_subhead_material = global::TabletopLab.Droid.Resource.String.abc_font_family_subhead_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_font_family_title_material = global::TabletopLab.Droid.Resource.String.abc_font_family_title_material;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_searchview_description_clear = global::TabletopLab.Droid.Resource.String.abc_searchview_description_clear;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_searchview_description_query = global::TabletopLab.Droid.Resource.String.abc_searchview_description_query;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_searchview_description_search = global::TabletopLab.Droid.Resource.String.abc_searchview_description_search;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_searchview_description_submit = global::TabletopLab.Droid.Resource.String.abc_searchview_description_submit;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_searchview_description_voice = global::TabletopLab.Droid.Resource.String.abc_searchview_description_voice;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_search_hint = global::TabletopLab.Droid.Resource.String.abc_search_hint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_shareactionprovider_share_with = global::TabletopLab.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_shareactionprovider_share_with_application = global::TabletopLab.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.abc_toolbar_collapse_description = global::TabletopLab.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.appbar_scrolling_view_behavior = global::TabletopLab.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.bottom_sheet_behavior = global::TabletopLab.Droid.Resource.String.bottom_sheet_behavior;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.character_counter_pattern = global::TabletopLab.Droid.Resource.String.character_counter_pattern;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.lib_name = global::TabletopLab.Droid.Resource.String.lib_name;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.password_toggle_content_description = global::TabletopLab.Droid.Resource.String.password_toggle_content_description;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.path_password_eye = global::TabletopLab.Droid.Resource.String.path_password_eye;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.path_password_eye_mask_strike_through = global::TabletopLab.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.path_password_eye_mask_visible = global::TabletopLab.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.path_password_strike_through = global::TabletopLab.Droid.Resource.String.path_password_strike_through;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.search_menu_title = global::TabletopLab.Droid.Resource.String.search_menu_title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.status_bar_notification_info_overflow = global::TabletopLab.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.@__arcore_cancel = global::TabletopLab.Droid.Resource.String.@__arcore_cancel;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.@__arcore_continue = global::TabletopLab.Droid.Resource.String.@__arcore_continue;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.@__arcore_installing = global::TabletopLab.Droid.Resource.String.@__arcore_installing;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.@__arcore_install_app = global::TabletopLab.Droid.Resource.String.@__arcore_install_app;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.String.@__arcore_install_feature = global::TabletopLab.Droid.Resource.String.@__arcore_install_feature;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.AlertDialog_AppCompat = global::TabletopLab.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.AlertDialog_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Animation_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Animation_AppCompat_DropDownUp = global::TabletopLab.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Animation_AppCompat_Tooltip = global::TabletopLab.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Animation_Design_BottomSheetDialog = global::TabletopLab.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_AlertDialog_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_AlertDialog_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Animation_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::TabletopLab.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Animation_AppCompat_Tooltip = global::TabletopLab.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_CardView = global::TabletopLab.Droid.Resource.Style.Base_CardView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_DialogWindowTitle_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Button = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::TabletopLab.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_ThemeOverlay_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::TabletopLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::TabletopLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::TabletopLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::TabletopLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::TabletopLab.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V21_Theme_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::TabletopLab.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V22_Theme_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V22_Theme_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V23_Theme_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V23_Theme_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V26_Theme_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V26_Theme_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::TabletopLab.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_Theme_AppCompat = global::TabletopLab.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::TabletopLab.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::TabletopLab.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::TabletopLab.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::TabletopLab.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActionMode = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Button = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Button_Small = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_EditText = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ImageButton = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ListView = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_SearchView = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Spinner = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::TabletopLab.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Base_Widget_Design_TabLayout = global::TabletopLab.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.CardView = global::TabletopLab.Droid.Resource.Style.CardView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.CardView_Dark = global::TabletopLab.Droid.Resource.Style.CardView_Dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.CardView_Light = global::TabletopLab.Droid.Resource.Style.CardView_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.collectionViewStyle = global::TabletopLab.Droid.Resource.Style.collectionViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_AppCompat = global::TabletopLab.Droid.Resource.Style.Platform_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat = global::TabletopLab.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::TabletopLab.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_V21_AppCompat = global::TabletopLab.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_V21_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_V25_AppCompat = global::TabletopLab.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_V25_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Platform_Widget_AppCompat_Spinner = global::TabletopLab.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::TabletopLab.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::TabletopLab.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::TabletopLab.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::TabletopLab.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Body1 = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Body2 = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Button = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Caption = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Display1 = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Display2 = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Display3 = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Display4 = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Headline = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Large = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Medium = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Menu = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Small = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Subhead = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Tooltip = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::TabletopLab.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Info = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Time = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::TabletopLab.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::TabletopLab.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Design_Counter = global::TabletopLab.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Design_Counter_Overflow = global::TabletopLab.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Design_Error = global::TabletopLab.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Design_Hint = global::TabletopLab.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Design_Snackbar_Message = global::TabletopLab.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Design_Tab = global::TabletopLab.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::TabletopLab.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::TabletopLab.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::TabletopLab.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.ThemeOverlay_AppCompat = global::TabletopLab.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::TabletopLab.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark = global::TabletopLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::TabletopLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::TabletopLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.ThemeOverlay_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_CompactMenu = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DayNight = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Dialog = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Dialog_Alert = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Light = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Light_Dialog = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_AppCompat_NoActionBar = global::TabletopLab.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_Design = global::TabletopLab.Droid.Resource.Style.Theme_Design;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_Design_BottomSheetDialog = global::TabletopLab.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_Design_Light = global::TabletopLab.Droid.Resource.Style.Theme_Design_Light;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::TabletopLab.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_Design_Light_NoActionBar = global::TabletopLab.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Theme_Design_NoActionBar = global::TabletopLab.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionButton = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActionMode = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ActivityChooserView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Button = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ButtonBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Button_Borderless = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Button_Colored = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Button_Small = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_EditText = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ImageButton = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_SearchView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ListMenuView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ListPopupWindow = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ListView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ListView_DropDown = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ListView_Menu = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_PopupMenu = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_PopupWindow = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ProgressBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_RatingBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_RatingBar_Small = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_SearchView = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_SeekBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Spinner = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Toolbar = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::TabletopLab.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Compat_NotificationActionContainer = global::TabletopLab.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Compat_NotificationActionText = global::TabletopLab.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_AppBarLayout = global::TabletopLab.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_BottomNavigationView = global::TabletopLab.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_BottomSheet_Modal = global::TabletopLab.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_CollapsingToolbar = global::TabletopLab.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_FloatingActionButton = global::TabletopLab.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_NavigationView = global::TabletopLab.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::TabletopLab.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_Snackbar = global::TabletopLab.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_TabLayout = global::TabletopLab.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Style.Widget_Design_TextInputLayout = global::TabletopLab.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar = global::TabletopLab.Droid.Resource.Styleable.ActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBarLayout = global::TabletopLab.Droid.Resource.Styleable.ActionBarLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::TabletopLab.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_background = global::TabletopLab.Droid.Resource.Styleable.ActionBar_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_backgroundSplit = global::TabletopLab.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_backgroundStacked = global::TabletopLab.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_contentInsetEnd = global::TabletopLab.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::TabletopLab.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_contentInsetLeft = global::TabletopLab.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_contentInsetRight = global::TabletopLab.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_contentInsetStart = global::TabletopLab.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::TabletopLab.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_customNavigationLayout = global::TabletopLab.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_displayOptions = global::TabletopLab.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_divider = global::TabletopLab.Droid.Resource.Styleable.ActionBar_divider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_elevation = global::TabletopLab.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_height = global::TabletopLab.Droid.Resource.Styleable.ActionBar_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_hideOnContentScroll = global::TabletopLab.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_homeAsUpIndicator = global::TabletopLab.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_homeLayout = global::TabletopLab.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_icon = global::TabletopLab.Droid.Resource.Styleable.ActionBar_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::TabletopLab.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_itemPadding = global::TabletopLab.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_logo = global::TabletopLab.Droid.Resource.Styleable.ActionBar_logo;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_navigationMode = global::TabletopLab.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_popupTheme = global::TabletopLab.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_progressBarPadding = global::TabletopLab.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_progressBarStyle = global::TabletopLab.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_subtitle = global::TabletopLab.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_subtitleTextStyle = global::TabletopLab.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_title = global::TabletopLab.Droid.Resource.Styleable.ActionBar_title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionBar_titleTextStyle = global::TabletopLab.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMenuItemView = global::TabletopLab.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMenuItemView_android_minWidth = global::TabletopLab.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMenuView = global::TabletopLab.Droid.Resource.Styleable.ActionMenuView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMode = global::TabletopLab.Droid.Resource.Styleable.ActionMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMode_background = global::TabletopLab.Droid.Resource.Styleable.ActionMode_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMode_backgroundSplit = global::TabletopLab.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMode_closeItemLayout = global::TabletopLab.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMode_height = global::TabletopLab.Droid.Resource.Styleable.ActionMode_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMode_subtitleTextStyle = global::TabletopLab.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActionMode_titleTextStyle = global::TabletopLab.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActivityChooserView = global::TabletopLab.Droid.Resource.Styleable.ActivityChooserView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::TabletopLab.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ActivityChooserView_initialActivityCount = global::TabletopLab.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog = global::TabletopLab.Droid.Resource.Styleable.AlertDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog_android_layout = global::TabletopLab.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::TabletopLab.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog_listItemLayout = global::TabletopLab.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog_listLayout = global::TabletopLab.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::TabletopLab.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog_showTitle = global::TabletopLab.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::TabletopLab.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayoutStates = global::TabletopLab.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::TabletopLab.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::TabletopLab.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_android_background = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_elevation = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_expanded = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_Layout = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::TabletopLab.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatImageView = global::TabletopLab.Droid.Resource.Styleable.AppCompatImageView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatImageView_android_src = global::TabletopLab.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatImageView_srcCompat = global::TabletopLab.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatImageView_tint = global::TabletopLab.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatImageView_tintMode = global::TabletopLab.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatSeekBar = global::TabletopLab.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatSeekBar_android_thumb = global::TabletopLab.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatSeekBar_tickMark = global::TabletopLab.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::TabletopLab.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::TabletopLab.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_android_textAppearance = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_fontFamily = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTextView_textAllCaps = global::TabletopLab.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarDivider = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarSize = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarTheme = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_buttonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_checkboxStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorAccent = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorControlActivated = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorControlNormal = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorError = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorPrimary = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_controlBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_dialogTheme = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_dividerVertical = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_editTextBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_editTextColor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_editTextStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_panelBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_searchViewStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_seekBarStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_spinnerStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_switchStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_toolbarStyle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowActionBar = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.AppCompatTheme_windowNoTitle = global::TabletopLab.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ArcGISARSceneView = global::TabletopLab.Droid.Resource.Styleable.ArcGISARSceneView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ArcGISARSceneView_northAlign = global::TabletopLab.Droid.Resource.Styleable.ArcGISARSceneView_northAlign;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ArcGISARSceneView_renderVideoFeed = global::TabletopLab.Droid.Resource.Styleable.ArcGISARSceneView_renderVideoFeed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomNavigationView = global::TabletopLab.Droid.Resource.Styleable.BottomNavigationView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomNavigationView_elevation = global::TabletopLab.Droid.Resource.Styleable.BottomNavigationView_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomNavigationView_itemBackground = global::TabletopLab.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomNavigationView_itemIconTint = global::TabletopLab.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomNavigationView_itemTextColor = global::TabletopLab.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomNavigationView_menu = global::TabletopLab.Droid.Resource.Styleable.BottomNavigationView_menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomSheetBehavior_Layout = global::TabletopLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::TabletopLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::TabletopLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::TabletopLab.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ButtonBarLayout = global::TabletopLab.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ButtonBarLayout_allowStacking = global::TabletopLab.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView = global::TabletopLab.Droid.Resource.Styleable.CardView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_android_minHeight = global::TabletopLab.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_android_minWidth = global::TabletopLab.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_cardBackgroundColor = global::TabletopLab.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_cardCornerRadius = global::TabletopLab.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_cardElevation = global::TabletopLab.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_cardMaxElevation = global::TabletopLab.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_cardPreventCornerOverlap = global::TabletopLab.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_cardUseCompatPadding = global::TabletopLab.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_contentPadding = global::TabletopLab.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_contentPaddingBottom = global::TabletopLab.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_contentPaddingLeft = global::TabletopLab.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_contentPaddingRight = global::TabletopLab.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CardView_contentPaddingTop = global::TabletopLab.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_title = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::TabletopLab.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ColorStateListItem = global::TabletopLab.Droid.Resource.Styleable.ColorStateListItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ColorStateListItem_alpha = global::TabletopLab.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ColorStateListItem_android_alpha = global::TabletopLab.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ColorStateListItem_android_color = global::TabletopLab.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CompoundButton = global::TabletopLab.Droid.Resource.Styleable.CompoundButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CompoundButton_android_button = global::TabletopLab.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CompoundButton_buttonTint = global::TabletopLab.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CompoundButton_buttonTintMode = global::TabletopLab.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_keylines = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::TabletopLab.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DesignTheme = global::TabletopLab.Droid.Resource.Styleable.DesignTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::TabletopLab.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DesignTheme_bottomSheetStyle = global::TabletopLab.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_barLength = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_color = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_drawableSize = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_spinBars = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.DrawerArrowToggle_thickness = global::TabletopLab.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_backgroundTint = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_borderWidth = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_elevation = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_fabSize = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_rippleColor = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FloatingActionButton_useCompatPadding = global::TabletopLab.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamily = global::TabletopLab.Droid.Resource.Styleable.FontFamily;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamilyFont = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamilyFont_android_font = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamilyFont_android_fontStyle = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamilyFont_android_fontWeight = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamilyFont_font = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamilyFont_fontStyle = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamilyFont_fontWeight = global::TabletopLab.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamily_fontProviderAuthority = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamily_fontProviderCerts = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamily_fontProviderPackage = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.FontFamily_fontProviderQuery = global::TabletopLab.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ForegroundLinearLayout = global::TabletopLab.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::TabletopLab.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::TabletopLab.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::TabletopLab.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_android_gravity = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_android_orientation = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_divider = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_Layout = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.LinearLayoutCompat_showDividers = global::TabletopLab.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ListPopupWindow = global::TabletopLab.Droid.Resource.Styleable.ListPopupWindow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::TabletopLab.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::TabletopLab.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuGroup = global::TabletopLab.Droid.Resource.Styleable.MenuGroup;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuGroup_android_checkableBehavior = global::TabletopLab.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuGroup_android_enabled = global::TabletopLab.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuGroup_android_id = global::TabletopLab.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuGroup_android_menuCategory = global::TabletopLab.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuGroup_android_orderInCategory = global::TabletopLab.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuGroup_android_visible = global::TabletopLab.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem = global::TabletopLab.Droid.Resource.Styleable.MenuItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_actionLayout = global::TabletopLab.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_actionProviderClass = global::TabletopLab.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_actionViewClass = global::TabletopLab.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_alphabeticModifiers = global::TabletopLab.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_checkable = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_checked = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_enabled = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_icon = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_id = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_menuCategory = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_numericShortcut = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_onClick = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_orderInCategory = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_title = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_titleCondensed = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_android_visible = global::TabletopLab.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_contentDescription = global::TabletopLab.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_iconTint = global::TabletopLab.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_iconTintMode = global::TabletopLab.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_numericModifiers = global::TabletopLab.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_showAsAction = global::TabletopLab.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuItem_tooltipText = global::TabletopLab.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView = global::TabletopLab.Droid.Resource.Styleable.MenuView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_android_headerBackground = global::TabletopLab.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_android_horizontalDivider = global::TabletopLab.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_android_itemBackground = global::TabletopLab.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::TabletopLab.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_android_itemTextAppearance = global::TabletopLab.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_android_verticalDivider = global::TabletopLab.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_android_windowAnimationStyle = global::TabletopLab.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_preserveIconSpacing = global::TabletopLab.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.MenuView_subMenuArrow = global::TabletopLab.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView = global::TabletopLab.Droid.Resource.Styleable.NavigationView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_android_background = global::TabletopLab.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::TabletopLab.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_android_maxWidth = global::TabletopLab.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_elevation = global::TabletopLab.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_headerLayout = global::TabletopLab.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_itemBackground = global::TabletopLab.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_itemIconTint = global::TabletopLab.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_itemTextAppearance = global::TabletopLab.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_itemTextColor = global::TabletopLab.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.NavigationView_menu = global::TabletopLab.Droid.Resource.Styleable.NavigationView_menu;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.PopupWindow = global::TabletopLab.Droid.Resource.Styleable.PopupWindow;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.PopupWindowBackgroundState = global::TabletopLab.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::TabletopLab.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::TabletopLab.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.PopupWindow_android_popupBackground = global::TabletopLab.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.PopupWindow_overlapAnchor = global::TabletopLab.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecycleListView = global::TabletopLab.Droid.Resource.Styleable.RecycleListView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::TabletopLab.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::TabletopLab.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView = global::TabletopLab.Droid.Resource.Styleable.RecyclerView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_android_descendantFocusability = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_android_orientation = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_fastScrollEnabled = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_layoutManager = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_reverseLayout = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_spanCount = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.RecyclerView_stackFromEnd = global::TabletopLab.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ScrimInsetsFrameLayout = global::TabletopLab.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::TabletopLab.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ScrollingViewBehavior_Layout = global::TabletopLab.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::TabletopLab.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView = global::TabletopLab.Droid.Resource.Styleable.SearchView;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_android_focusable = global::TabletopLab.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_android_imeOptions = global::TabletopLab.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_android_inputType = global::TabletopLab.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_android_maxWidth = global::TabletopLab.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_closeIcon = global::TabletopLab.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_commitIcon = global::TabletopLab.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_defaultQueryHint = global::TabletopLab.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_goIcon = global::TabletopLab.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_iconifiedByDefault = global::TabletopLab.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_layout = global::TabletopLab.Droid.Resource.Styleable.SearchView_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_queryBackground = global::TabletopLab.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_queryHint = global::TabletopLab.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_searchHintIcon = global::TabletopLab.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_searchIcon = global::TabletopLab.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_submitBackground = global::TabletopLab.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_suggestionRowLayout = global::TabletopLab.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SearchView_voiceIcon = global::TabletopLab.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SnackbarLayout = global::TabletopLab.Droid.Resource.Styleable.SnackbarLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SnackbarLayout_android_maxWidth = global::TabletopLab.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SnackbarLayout_elevation = global::TabletopLab.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::TabletopLab.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Spinner = global::TabletopLab.Droid.Resource.Styleable.Spinner;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Spinner_android_dropDownWidth = global::TabletopLab.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Spinner_android_entries = global::TabletopLab.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Spinner_android_popupBackground = global::TabletopLab.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Spinner_android_prompt = global::TabletopLab.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Spinner_popupTheme = global::TabletopLab.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_android_textOff = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_android_textOn = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_android_thumb = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_showText = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_splitTrack = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_switchMinWidth = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_switchPadding = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_switchTextAppearance = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_thumbTextPadding = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_thumbTint = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_thumbTintMode = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_track = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_trackTint = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.SwitchCompat_trackTintMode = global::TabletopLab.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabItem = global::TabletopLab.Droid.Resource.Styleable.TabItem;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabItem_android_icon = global::TabletopLab.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabItem_android_layout = global::TabletopLab.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabItem_android_text = global::TabletopLab.Droid.Resource.Styleable.TabItem_android_text;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout = global::TabletopLab.Droid.Resource.Styleable.TabLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabBackground = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabContentStart = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabGravity = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabIndicatorColor = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabIndicatorHeight = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabMaxWidth = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabMinWidth = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabMode = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabPadding = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabPaddingBottom = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabPaddingEnd = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabPaddingStart = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabPaddingTop = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabSelectedTextColor = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabTextAppearance = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TabLayout_tabTextColor = global::TabletopLab.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance = global::TabletopLab.Droid.Resource.Styleable.TextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_fontFamily = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_shadowColor = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_shadowDx = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_shadowDy = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_shadowRadius = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_textColor = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_textColorHint = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_textColorLink = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_textSize = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_textStyle = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_android_typeface = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_fontFamily = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextAppearance_textAllCaps = global::TabletopLab.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_android_hint = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_android_textColorHint = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_counterEnabled = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_counterMaxLength = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_counterTextAppearance = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_errorEnabled = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_errorTextAppearance = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_hintEnabled = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_hintTextAppearance = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_passwordToggleTint = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::TabletopLab.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar = global::TabletopLab.Droid.Resource.Styleable.Toolbar;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_android_gravity = global::TabletopLab.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_android_minHeight = global::TabletopLab.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_buttonGravity = global::TabletopLab.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_collapseContentDescription = global::TabletopLab.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_collapseIcon = global::TabletopLab.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_contentInsetEnd = global::TabletopLab.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::TabletopLab.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_contentInsetLeft = global::TabletopLab.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_contentInsetRight = global::TabletopLab.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_contentInsetStart = global::TabletopLab.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::TabletopLab.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_logo = global::TabletopLab.Droid.Resource.Styleable.Toolbar_logo;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_logoDescription = global::TabletopLab.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_maxButtonHeight = global::TabletopLab.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_navigationContentDescription = global::TabletopLab.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_navigationIcon = global::TabletopLab.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_popupTheme = global::TabletopLab.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_subtitle = global::TabletopLab.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_subtitleTextAppearance = global::TabletopLab.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_subtitleTextColor = global::TabletopLab.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_title = global::TabletopLab.Droid.Resource.Styleable.Toolbar_title;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleMargin = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleMarginBottom = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleMarginEnd = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleMargins = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleMarginStart = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleMarginTop = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleTextAppearance = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.Toolbar_titleTextColor = global::TabletopLab.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.View = global::TabletopLab.Droid.Resource.Styleable.View;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewBackgroundHelper = global::TabletopLab.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewBackgroundHelper_android_background = global::TabletopLab.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::TabletopLab.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::TabletopLab.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewStubCompat = global::TabletopLab.Droid.Resource.Styleable.ViewStubCompat;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewStubCompat_android_id = global::TabletopLab.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewStubCompat_android_inflatedId = global::TabletopLab.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.ViewStubCompat_android_layout = global::TabletopLab.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.View_android_focusable = global::TabletopLab.Droid.Resource.Styleable.View_android_focusable;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.View_android_theme = global::TabletopLab.Droid.Resource.Styleable.View_android_theme;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.View_paddingEnd = global::TabletopLab.Droid.Resource.Styleable.View_paddingEnd;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.View_paddingStart = global::TabletopLab.Droid.Resource.Styleable.View_paddingStart;
+			global::Esri.ArcGISRuntime.ARToolkit.Forms.Resource.Styleable.View_theme = global::TabletopLab.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::TabletopLab.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::TabletopLab.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::TabletopLab.Droid.Resource.Attribute.font;
@@ -3807,520 +5966,526 @@ namespace TabletopLab.Droid
 			public const int navigationViewStyle = 2130903344;
 			
 			// aapt resource value: 0x7F030131
-			public const int numericModifiers = 2130903345;
+			public const int northAlign = 2130903345;
 			
 			// aapt resource value: 0x7F030132
-			public const int overlapAnchor = 2130903346;
+			public const int numericModifiers = 2130903346;
 			
 			// aapt resource value: 0x7F030133
-			public const int paddingBottomNoButtons = 2130903347;
+			public const int overlapAnchor = 2130903347;
 			
 			// aapt resource value: 0x7F030134
-			public const int paddingEnd = 2130903348;
+			public const int paddingBottomNoButtons = 2130903348;
 			
 			// aapt resource value: 0x7F030135
-			public const int paddingStart = 2130903349;
+			public const int paddingEnd = 2130903349;
 			
 			// aapt resource value: 0x7F030136
-			public const int paddingTopNoTitle = 2130903350;
+			public const int paddingStart = 2130903350;
 			
 			// aapt resource value: 0x7F030137
-			public const int panelBackground = 2130903351;
+			public const int paddingTopNoTitle = 2130903351;
 			
 			// aapt resource value: 0x7F030138
-			public const int panelMenuListTheme = 2130903352;
+			public const int panelBackground = 2130903352;
 			
 			// aapt resource value: 0x7F030139
-			public const int panelMenuListWidth = 2130903353;
+			public const int panelMenuListTheme = 2130903353;
 			
 			// aapt resource value: 0x7F03013A
-			public const int passwordToggleContentDescription = 2130903354;
+			public const int panelMenuListWidth = 2130903354;
 			
 			// aapt resource value: 0x7F03013B
-			public const int passwordToggleDrawable = 2130903355;
+			public const int passwordToggleContentDescription = 2130903355;
 			
 			// aapt resource value: 0x7F03013C
-			public const int passwordToggleEnabled = 2130903356;
+			public const int passwordToggleDrawable = 2130903356;
 			
 			// aapt resource value: 0x7F03013D
-			public const int passwordToggleTint = 2130903357;
+			public const int passwordToggleEnabled = 2130903357;
 			
 			// aapt resource value: 0x7F03013E
-			public const int passwordToggleTintMode = 2130903358;
+			public const int passwordToggleTint = 2130903358;
 			
 			// aapt resource value: 0x7F03013F
-			public const int popupMenuStyle = 2130903359;
+			public const int passwordToggleTintMode = 2130903359;
 			
 			// aapt resource value: 0x7F030140
-			public const int popupTheme = 2130903360;
+			public const int popupMenuStyle = 2130903360;
 			
 			// aapt resource value: 0x7F030141
-			public const int popupWindowStyle = 2130903361;
+			public const int popupTheme = 2130903361;
 			
 			// aapt resource value: 0x7F030142
-			public const int preserveIconSpacing = 2130903362;
+			public const int popupWindowStyle = 2130903362;
 			
 			// aapt resource value: 0x7F030143
-			public const int pressedTranslationZ = 2130903363;
+			public const int preserveIconSpacing = 2130903363;
 			
 			// aapt resource value: 0x7F030144
-			public const int progressBarPadding = 2130903364;
+			public const int pressedTranslationZ = 2130903364;
 			
 			// aapt resource value: 0x7F030145
-			public const int progressBarStyle = 2130903365;
+			public const int progressBarPadding = 2130903365;
 			
 			// aapt resource value: 0x7F030146
-			public const int queryBackground = 2130903366;
+			public const int progressBarStyle = 2130903366;
 			
 			// aapt resource value: 0x7F030147
-			public const int queryHint = 2130903367;
+			public const int queryBackground = 2130903367;
 			
 			// aapt resource value: 0x7F030148
-			public const int radioButtonStyle = 2130903368;
+			public const int queryHint = 2130903368;
 			
 			// aapt resource value: 0x7F030149
-			public const int ratingBarStyle = 2130903369;
+			public const int radioButtonStyle = 2130903369;
 			
 			// aapt resource value: 0x7F03014A
-			public const int ratingBarStyleIndicator = 2130903370;
+			public const int ratingBarStyle = 2130903370;
 			
 			// aapt resource value: 0x7F03014B
-			public const int ratingBarStyleSmall = 2130903371;
+			public const int ratingBarStyleIndicator = 2130903371;
 			
 			// aapt resource value: 0x7F03014C
-			public const int reverseLayout = 2130903372;
+			public const int ratingBarStyleSmall = 2130903372;
 			
 			// aapt resource value: 0x7F03014D
-			public const int rippleColor = 2130903373;
+			public const int renderVideoFeed = 2130903373;
 			
 			// aapt resource value: 0x7F03014E
-			public const int scrimAnimationDuration = 2130903374;
+			public const int reverseLayout = 2130903374;
 			
 			// aapt resource value: 0x7F03014F
-			public const int scrimBackground = 2130903375;
+			public const int rippleColor = 2130903375;
 			
 			// aapt resource value: 0x7F030150
-			public const int scrimVisibleHeightTrigger = 2130903376;
+			public const int scrimAnimationDuration = 2130903376;
 			
 			// aapt resource value: 0x7F030151
-			public const int searchHintIcon = 2130903377;
+			public const int scrimBackground = 2130903377;
 			
 			// aapt resource value: 0x7F030152
-			public const int searchIcon = 2130903378;
+			public const int scrimVisibleHeightTrigger = 2130903378;
 			
 			// aapt resource value: 0x7F030153
-			public const int searchViewStyle = 2130903379;
+			public const int searchHintIcon = 2130903379;
 			
 			// aapt resource value: 0x7F030154
-			public const int seekBarStyle = 2130903380;
+			public const int searchIcon = 2130903380;
 			
 			// aapt resource value: 0x7F030155
-			public const int selectableItemBackground = 2130903381;
+			public const int searchViewStyle = 2130903381;
 			
 			// aapt resource value: 0x7F030156
-			public const int selectableItemBackgroundBorderless = 2130903382;
+			public const int seekBarStyle = 2130903382;
 			
 			// aapt resource value: 0x7F030157
-			public const int showAsAction = 2130903383;
+			public const int selectableItemBackground = 2130903383;
 			
 			// aapt resource value: 0x7F030158
-			public const int showDividers = 2130903384;
+			public const int selectableItemBackgroundBorderless = 2130903384;
 			
 			// aapt resource value: 0x7F030159
-			public const int showMotionSpec = 2130903385;
+			public const int showAsAction = 2130903385;
 			
 			// aapt resource value: 0x7F03015A
-			public const int showText = 2130903386;
+			public const int showDividers = 2130903386;
 			
 			// aapt resource value: 0x7F03015B
-			public const int showTitle = 2130903387;
+			public const int showMotionSpec = 2130903387;
 			
 			// aapt resource value: 0x7F03015C
-			public const int singleChoiceItemLayout = 2130903388;
+			public const int showText = 2130903388;
 			
 			// aapt resource value: 0x7F03015D
-			public const int singleLine = 2130903389;
+			public const int showTitle = 2130903389;
 			
 			// aapt resource value: 0x7F03015E
-			public const int singleSelection = 2130903390;
+			public const int singleChoiceItemLayout = 2130903390;
 			
 			// aapt resource value: 0x7F03015F
-			public const int snackbarButtonStyle = 2130903391;
+			public const int singleLine = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int snackbarStyle = 2130903392;
+			public const int singleSelection = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int spanCount = 2130903393;
+			public const int snackbarButtonStyle = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int spinBars = 2130903394;
+			public const int snackbarStyle = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int spinnerDropDownItemStyle = 2130903395;
+			public const int spanCount = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int spinnerStyle = 2130903396;
+			public const int spinBars = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int splitTrack = 2130903397;
+			public const int spinnerDropDownItemStyle = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int srcCompat = 2130903398;
+			public const int spinnerStyle = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int stackFromEnd = 2130903399;
+			public const int splitTrack = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int state_above_anchor = 2130903400;
+			public const int srcCompat = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int state_collapsed = 2130903401;
+			public const int stackFromEnd = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int state_collapsible = 2130903402;
+			public const int state_above_anchor = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int state_liftable = 2130903403;
+			public const int state_collapsed = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int state_lifted = 2130903404;
+			public const int state_collapsible = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int statusBarBackground = 2130903405;
+			public const int state_liftable = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int statusBarScrim = 2130903406;
+			public const int state_lifted = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int strokeColor = 2130903407;
+			public const int statusBarBackground = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int strokeWidth = 2130903408;
+			public const int statusBarScrim = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int subMenuArrow = 2130903409;
+			public const int strokeColor = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int submitBackground = 2130903410;
+			public const int strokeWidth = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int subtitle = 2130903411;
+			public const int subMenuArrow = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int subtitleTextAppearance = 2130903412;
+			public const int submitBackground = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int subtitleTextColor = 2130903413;
+			public const int subtitle = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int subtitleTextStyle = 2130903414;
+			public const int subtitleTextAppearance = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int suggestionRowLayout = 2130903415;
+			public const int subtitleTextColor = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int switchMinWidth = 2130903416;
+			public const int subtitleTextStyle = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int switchPadding = 2130903417;
+			public const int suggestionRowLayout = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int switchStyle = 2130903418;
+			public const int switchMinWidth = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int switchTextAppearance = 2130903419;
+			public const int switchPadding = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int tabBackground = 2130903420;
+			public const int switchStyle = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int tabContentStart = 2130903421;
+			public const int switchTextAppearance = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int tabGravity = 2130903422;
+			public const int tabBackground = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int tabIconTint = 2130903423;
+			public const int tabContentStart = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int tabIconTintMode = 2130903424;
+			public const int tabGravity = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int tabIndicator = 2130903425;
+			public const int tabIconTint = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int tabIndicatorAnimationDuration = 2130903426;
+			public const int tabIconTintMode = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int tabIndicatorColor = 2130903427;
+			public const int tabIndicator = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int tabIndicatorFullWidth = 2130903428;
+			public const int tabIndicatorAnimationDuration = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int tabIndicatorGravity = 2130903429;
+			public const int tabIndicatorColor = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int tabIndicatorHeight = 2130903430;
+			public const int tabIndicatorFullWidth = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int tabInlineLabel = 2130903431;
+			public const int tabIndicatorGravity = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int tabMaxWidth = 2130903432;
+			public const int tabIndicatorHeight = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int tabMinWidth = 2130903433;
+			public const int tabInlineLabel = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int tabMode = 2130903434;
+			public const int tabMaxWidth = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int tabPadding = 2130903435;
+			public const int tabMinWidth = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int tabPaddingBottom = 2130903436;
+			public const int tabMode = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int tabPaddingEnd = 2130903437;
+			public const int tabPadding = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int tabPaddingStart = 2130903438;
+			public const int tabPaddingBottom = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int tabPaddingTop = 2130903439;
+			public const int tabPaddingEnd = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int tabRippleColor = 2130903440;
+			public const int tabPaddingStart = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int tabSelectedTextColor = 2130903441;
+			public const int tabPaddingTop = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabStyle = 2130903442;
+			public const int tabRippleColor = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabTextAppearance = 2130903443;
+			public const int tabSelectedTextColor = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabTextColor = 2130903444;
+			public const int tabStyle = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabUnboundedRipple = 2130903445;
+			public const int tabTextAppearance = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int textAllCaps = 2130903446;
+			public const int tabTextColor = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int textAppearanceBody1 = 2130903447;
+			public const int tabUnboundedRipple = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int textAppearanceBody2 = 2130903448;
+			public const int textAllCaps = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int textAppearanceButton = 2130903449;
+			public const int textAppearanceBody1 = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int textAppearanceCaption = 2130903450;
+			public const int textAppearanceBody2 = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int textAppearanceHeadline1 = 2130903451;
+			public const int textAppearanceButton = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int textAppearanceHeadline2 = 2130903452;
+			public const int textAppearanceCaption = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int textAppearanceHeadline3 = 2130903453;
+			public const int textAppearanceHeadline1 = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int textAppearanceHeadline4 = 2130903454;
+			public const int textAppearanceHeadline2 = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int textAppearanceHeadline5 = 2130903455;
+			public const int textAppearanceHeadline3 = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int textAppearanceHeadline6 = 2130903456;
+			public const int textAppearanceHeadline4 = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int textAppearanceLargePopupMenu = 2130903457;
+			public const int textAppearanceHeadline5 = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int textAppearanceListItem = 2130903458;
+			public const int textAppearanceHeadline6 = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int textAppearanceListItemSecondary = 2130903459;
+			public const int textAppearanceLargePopupMenu = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int textAppearanceListItemSmall = 2130903460;
+			public const int textAppearanceListItem = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int textAppearanceOverline = 2130903461;
+			public const int textAppearanceListItemSecondary = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int textAppearancePopupMenuHeader = 2130903462;
+			public const int textAppearanceListItemSmall = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int textAppearanceSearchResultSubtitle = 2130903463;
+			public const int textAppearanceOverline = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int textAppearanceSearchResultTitle = 2130903464;
+			public const int textAppearancePopupMenuHeader = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int textAppearanceSmallPopupMenu = 2130903465;
+			public const int textAppearanceSearchResultSubtitle = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int textAppearanceSubtitle1 = 2130903466;
+			public const int textAppearanceSearchResultTitle = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int textAppearanceSubtitle2 = 2130903467;
+			public const int textAppearanceSmallPopupMenu = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textColorAlertDialogListItem = 2130903468;
+			public const int textAppearanceSubtitle1 = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textColorSearchUrl = 2130903469;
+			public const int textAppearanceSubtitle2 = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textEndPadding = 2130903470;
+			public const int textColorAlertDialogListItem = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textInputStyle = 2130903471;
+			public const int textColorSearchUrl = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textStartPadding = 2130903472;
+			public const int textEndPadding = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int theme = 2130903473;
+			public const int textInputStyle = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int thickness = 2130903474;
+			public const int textStartPadding = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int thumbTextPadding = 2130903475;
+			public const int theme = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int thumbTint = 2130903476;
+			public const int thickness = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int thumbTintMode = 2130903477;
+			public const int thumbTextPadding = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int tickMark = 2130903478;
+			public const int thumbTint = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int tickMarkTint = 2130903479;
+			public const int thumbTintMode = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int tickMarkTintMode = 2130903480;
+			public const int tickMark = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int tint = 2130903481;
+			public const int tickMarkTint = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int tintMode = 2130903482;
+			public const int tickMarkTintMode = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int title = 2130903483;
+			public const int tint = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int titleEnabled = 2130903484;
+			public const int tintMode = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int titleMargin = 2130903485;
+			public const int title = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int titleMarginBottom = 2130903486;
+			public const int titleEnabled = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int titleMarginEnd = 2130903487;
-			
-			// aapt resource value: 0x7F0301C2
-			public const int titleMargins = 2130903490;
+			public const int titleMargin = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int titleMarginStart = 2130903488;
+			public const int titleMarginBottom = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int titleMarginTop = 2130903489;
-			
-			// aapt resource value: 0x7F0301C3
-			public const int titleTextAppearance = 2130903491;
+			public const int titleMarginEnd = 2130903489;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int titleTextColor = 2130903492;
+			public const int titleMargins = 2130903492;
+			
+			// aapt resource value: 0x7F0301C2
+			public const int titleMarginStart = 2130903490;
+			
+			// aapt resource value: 0x7F0301C3
+			public const int titleMarginTop = 2130903491;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int titleTextStyle = 2130903493;
+			public const int titleTextAppearance = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int toolbarId = 2130903494;
+			public const int titleTextColor = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int toolbarNavigationButtonStyle = 2130903495;
+			public const int titleTextStyle = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int toolbarStyle = 2130903496;
+			public const int toolbarId = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tooltipForegroundColor = 2130903497;
+			public const int toolbarNavigationButtonStyle = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tooltipFrameBackground = 2130903498;
+			public const int toolbarStyle = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int tooltipText = 2130903499;
+			public const int tooltipForegroundColor = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int track = 2130903500;
+			public const int tooltipFrameBackground = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int trackTint = 2130903501;
+			public const int tooltipText = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int trackTintMode = 2130903502;
+			public const int track = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int ttcIndex = 2130903503;
+			public const int trackTint = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int useCompatPadding = 2130903504;
+			public const int trackTintMode = 2130903504;
 			
 			// aapt resource value: 0x7F0301D1
-			public const int viewInflaterClass = 2130903505;
+			public const int ttcIndex = 2130903505;
 			
 			// aapt resource value: 0x7F0301D2
-			public const int voiceIcon = 2130903506;
+			public const int useCompatPadding = 2130903506;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int windowActionBar = 2130903507;
+			public const int viewInflaterClass = 2130903507;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int windowActionBarOverlay = 2130903508;
+			public const int voiceIcon = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int windowActionModeOverlay = 2130903509;
+			public const int windowActionBar = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int windowFixedHeightMajor = 2130903510;
+			public const int windowActionBarOverlay = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int windowFixedHeightMinor = 2130903511;
+			public const int windowActionModeOverlay = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int windowFixedWidthMajor = 2130903512;
+			public const int windowFixedHeightMajor = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int windowFixedWidthMinor = 2130903513;
+			public const int windowFixedHeightMinor = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int windowMinWidthMajor = 2130903514;
+			public const int windowFixedWidthMajor = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int windowMinWidthMinor = 2130903515;
+			public const int windowFixedWidthMinor = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int windowNoTitle = 2130903516;
+			public const int windowMinWidthMajor = 2130903516;
+			
+			// aapt resource value: 0x7F0301DD
+			public const int windowMinWidthMinor = 2130903517;
+			
+			// aapt resource value: 0x7F0301DE
+			public const int windowNoTitle = 2130903518;
 			
 			static Attribute()
 			{
@@ -5734,64 +7899,73 @@ namespace TabletopLab.Droid
 			public const int design_snackbar_background = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int ic_mtrl_chip_checked_black = 2131165282;
+			public const int esri = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int ic_mtrl_chip_checked_circle = 2131165283;
+			public const int ic_mtrl_chip_checked_black = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int ic_mtrl_chip_close_circle = 2131165284;
+			public const int ic_mtrl_chip_checked_circle = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int mtrl_snackbar_background = 2131165285;
+			public const int ic_mtrl_chip_close_circle = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int mtrl_tabs_default_indicator = 2131165286;
+			public const int mtrl_snackbar_background = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int navigation_empty_icon = 2131165287;
+			public const int mtrl_tabs_default_indicator = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int notification_action_background = 2131165288;
+			public const int navigation_empty_icon = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int notification_bg = 2131165289;
+			public const int notification_action_background = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int notification_bg_low = 2131165290;
+			public const int notification_bg = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int notification_bg_low_normal = 2131165291;
+			public const int notification_bg_low = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int notification_bg_low_pressed = 2131165292;
+			public const int notification_bg_low_normal = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int notification_bg_normal = 2131165293;
+			public const int notification_bg_low_pressed = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int notification_bg_normal_pressed = 2131165294;
+			public const int notification_bg_normal = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int notification_icon_background = 2131165295;
+			public const int notification_bg_normal_pressed = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int notification_template_icon_bg = 2131165296;
+			public const int notification_icon_background = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int notification_template_icon_low_bg = 2131165297;
+			public const int notification_template_icon_bg = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int notification_tile_bg = 2131165298;
+			public const int notification_template_icon_low_bg = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int notify_panel_notification_icon_bg = 2131165299;
+			public const int notification_tile_bg = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int tooltip_frame_dark = 2131165300;
+			public const int notify_panel_notification_icon_bg = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int tooltip_frame_light = 2131165301;
+			public const int sceneform_hand_phone = 2131165301;
+			
+			// aapt resource value: 0x7F070076
+			public const int sceneform_plane = 2131165302;
+			
+			// aapt resource value: 0x7F070077
+			public const int tooltip_frame_dark = 2131165303;
+			
+			// aapt resource value: 0x7F070078
+			public const int tooltip_frame_light = 2131165304;
 			
 			static Drawable()
 			{
@@ -5806,626 +7980,644 @@ namespace TabletopLab.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F080006
-			public const int action0 = 2131230726;
-			
-			// aapt resource value: 0x7F080018
-			public const int actions = 2131230744;
-			
-			// aapt resource value: 0x7F080007
-			public const int action_bar = 2131230727;
-			
-			// aapt resource value: 0x7F080008
-			public const int action_bar_activity_content = 2131230728;
-			
 			// aapt resource value: 0x7F080009
-			public const int action_bar_container = 2131230729;
-			
-			// aapt resource value: 0x7F08000A
-			public const int action_bar_root = 2131230730;
-			
-			// aapt resource value: 0x7F08000B
-			public const int action_bar_spinner = 2131230731;
-			
-			// aapt resource value: 0x7F08000C
-			public const int action_bar_subtitle = 2131230732;
-			
-			// aapt resource value: 0x7F08000D
-			public const int action_bar_title = 2131230733;
-			
-			// aapt resource value: 0x7F08000E
-			public const int action_container = 2131230734;
-			
-			// aapt resource value: 0x7F08000F
-			public const int action_context_bar = 2131230735;
-			
-			// aapt resource value: 0x7F080010
-			public const int action_divider = 2131230736;
-			
-			// aapt resource value: 0x7F080011
-			public const int action_image = 2131230737;
-			
-			// aapt resource value: 0x7F080012
-			public const int action_menu_divider = 2131230738;
-			
-			// aapt resource value: 0x7F080013
-			public const int action_menu_presenter = 2131230739;
-			
-			// aapt resource value: 0x7F080014
-			public const int action_mode_bar = 2131230740;
-			
-			// aapt resource value: 0x7F080015
-			public const int action_mode_bar_stub = 2131230741;
-			
-			// aapt resource value: 0x7F080016
-			public const int action_mode_close_button = 2131230742;
-			
-			// aapt resource value: 0x7F080017
-			public const int action_text = 2131230743;
-			
-			// aapt resource value: 0x7F080019
-			public const int activity_chooser_view_content = 2131230745;
-			
-			// aapt resource value: 0x7F08001A
-			public const int add = 2131230746;
+			public const int action0 = 2131230729;
 			
 			// aapt resource value: 0x7F08001B
-			public const int alertTitle = 2131230747;
+			public const int actions = 2131230747;
+			
+			// aapt resource value: 0x7F08000A
+			public const int action_bar = 2131230730;
+			
+			// aapt resource value: 0x7F08000B
+			public const int action_bar_activity_content = 2131230731;
+			
+			// aapt resource value: 0x7F08000C
+			public const int action_bar_container = 2131230732;
+			
+			// aapt resource value: 0x7F08000D
+			public const int action_bar_root = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int action_bar_spinner = 2131230734;
+			
+			// aapt resource value: 0x7F08000F
+			public const int action_bar_subtitle = 2131230735;
+			
+			// aapt resource value: 0x7F080010
+			public const int action_bar_title = 2131230736;
+			
+			// aapt resource value: 0x7F080011
+			public const int action_container = 2131230737;
+			
+			// aapt resource value: 0x7F080012
+			public const int action_context_bar = 2131230738;
+			
+			// aapt resource value: 0x7F080013
+			public const int action_divider = 2131230739;
+			
+			// aapt resource value: 0x7F080014
+			public const int action_image = 2131230740;
+			
+			// aapt resource value: 0x7F080015
+			public const int action_menu_divider = 2131230741;
+			
+			// aapt resource value: 0x7F080016
+			public const int action_menu_presenter = 2131230742;
+			
+			// aapt resource value: 0x7F080017
+			public const int action_mode_bar = 2131230743;
+			
+			// aapt resource value: 0x7F080018
+			public const int action_mode_bar_stub = 2131230744;
+			
+			// aapt resource value: 0x7F080019
+			public const int action_mode_close_button = 2131230745;
+			
+			// aapt resource value: 0x7F08001A
+			public const int action_text = 2131230746;
 			
 			// aapt resource value: 0x7F08001C
-			public const int all = 2131230748;
+			public const int activity_chooser_view_content = 2131230748;
+			
+			// aapt resource value: 0x7F08001D
+			public const int add = 2131230749;
+			
+			// aapt resource value: 0x7F08001E
+			public const int alertTitle = 2131230750;
+			
+			// aapt resource value: 0x7F08001F
+			public const int all = 2131230751;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08001D
-			public const int always = 2131230749;
-			
-			// aapt resource value: 0x7F08001E
-			public const int async = 2131230750;
-			
-			// aapt resource value: 0x7F08001F
-			public const int auto = 2131230751;
-			
 			// aapt resource value: 0x7F080020
-			public const int beginning = 2131230752;
+			public const int always = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int blocking = 2131230753;
+			public const int async = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int bottom = 2131230754;
+			public const int auto = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int bottomtab_navarea = 2131230755;
+			public const int beginning = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int bottomtab_tabbar = 2131230756;
+			public const int blocking = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int browser_actions_header_text = 2131230757;
-			
-			// aapt resource value: 0x7F080028
-			public const int browser_actions_menu_items = 2131230760;
+			public const int bottom = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int browser_actions_menu_item_icon = 2131230758;
+			public const int bottomtab_navarea = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int browser_actions_menu_item_text = 2131230759;
+			public const int bottomtab_tabbar = 2131230759;
 			
-			// aapt resource value: 0x7F080029
-			public const int browser_actions_menu_view = 2131230761;
-			
-			// aapt resource value: 0x7F08002A
-			public const int buttonPanel = 2131230762;
+			// aapt resource value: 0x7F080028
+			public const int browser_actions_header_text = 2131230760;
 			
 			// aapt resource value: 0x7F08002B
-			public const int cancel_action = 2131230763;
+			public const int browser_actions_menu_items = 2131230763;
+			
+			// aapt resource value: 0x7F080029
+			public const int browser_actions_menu_item_icon = 2131230761;
+			
+			// aapt resource value: 0x7F08002A
+			public const int browser_actions_menu_item_text = 2131230762;
 			
 			// aapt resource value: 0x7F08002C
-			public const int center = 2131230764;
+			public const int browser_actions_menu_view = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int center_horizontal = 2131230765;
+			public const int buttonPanel = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int center_vertical = 2131230766;
+			public const int cancel_action = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int checkbox = 2131230767;
+			public const int center = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int chronometer = 2131230768;
+			public const int center_horizontal = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int clip_horizontal = 2131230769;
+			public const int center_vertical = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int clip_vertical = 2131230770;
+			public const int checkbox = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int collapseActionView = 2131230771;
+			public const int chronometer = 2131230771;
 			
 			// aapt resource value: 0x7F080034
-			public const int container = 2131230772;
+			public const int clip_horizontal = 2131230772;
 			
 			// aapt resource value: 0x7F080035
-			public const int content = 2131230773;
+			public const int clip_vertical = 2131230773;
 			
 			// aapt resource value: 0x7F080036
-			public const int contentPanel = 2131230774;
+			public const int collapseActionView = 2131230774;
 			
 			// aapt resource value: 0x7F080037
-			public const int coordinator = 2131230775;
+			public const int container = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int content = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int contentPanel = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int coordinator = 2131230778;
 			
 			// aapt resource value: 0x7F080001
 			public const int CTRL = 2131230721;
 			
-			// aapt resource value: 0x7F080038
-			public const int custom = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int customPanel = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int decor_content_parent = 2131230778;
-			
 			// aapt resource value: 0x7F08003B
-			public const int default_activity_button = 2131230779;
+			public const int custom = 2131230779;
 			
 			// aapt resource value: 0x7F08003C
-			public const int design_bottom_sheet = 2131230780;
+			public const int customPanel = 2131230780;
 			
 			// aapt resource value: 0x7F08003D
-			public const int design_menu_item_action_area = 2131230781;
+			public const int decor_content_parent = 2131230781;
 			
 			// aapt resource value: 0x7F08003E
-			public const int design_menu_item_action_area_stub = 2131230782;
+			public const int default_activity_button = 2131230782;
 			
 			// aapt resource value: 0x7F08003F
-			public const int design_menu_item_text = 2131230783;
+			public const int design_bottom_sheet = 2131230783;
 			
 			// aapt resource value: 0x7F080040
-			public const int design_navigation_view = 2131230784;
+			public const int design_menu_item_action_area = 2131230784;
 			
 			// aapt resource value: 0x7F080041
-			public const int disableHome = 2131230785;
+			public const int design_menu_item_action_area_stub = 2131230785;
 			
 			// aapt resource value: 0x7F080042
-			public const int edit_query = 2131230786;
+			public const int design_menu_item_text = 2131230786;
 			
 			// aapt resource value: 0x7F080043
-			public const int end = 2131230787;
+			public const int design_navigation_view = 2131230787;
 			
 			// aapt resource value: 0x7F080044
-			public const int end_padder = 2131230788;
+			public const int disableHome = 2131230788;
 			
 			// aapt resource value: 0x7F080045
-			public const int enterAlways = 2131230789;
+			public const int edit_query = 2131230789;
 			
 			// aapt resource value: 0x7F080046
-			public const int enterAlwaysCollapsed = 2131230790;
+			public const int end = 2131230790;
 			
 			// aapt resource value: 0x7F080047
-			public const int exitUntilCollapsed = 2131230791;
-			
-			// aapt resource value: 0x7F080049
-			public const int expanded_menu = 2131230793;
+			public const int end_padder = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int expand_activities_button = 2131230792;
+			public const int enterAlways = 2131230792;
+			
+			// aapt resource value: 0x7F080049
+			public const int enterAlwaysCollapsed = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int fill = 2131230794;
-			
-			// aapt resource value: 0x7F08004D
-			public const int filled = 2131230797;
-			
-			// aapt resource value: 0x7F08004B
-			public const int fill_horizontal = 2131230795;
+			public const int exitUntilCollapsed = 2131230794;
 			
 			// aapt resource value: 0x7F08004C
-			public const int fill_vertical = 2131230796;
+			public const int expanded_menu = 2131230796;
 			
-			// aapt resource value: 0x7F08004E
-			public const int @fixed = 2131230798;
+			// aapt resource value: 0x7F08004B
+			public const int expand_activities_button = 2131230795;
 			
-			// aapt resource value: 0x7F08004F
-			public const int flyoutcontent_appbar = 2131230799;
+			// aapt resource value: 0x7F08004D
+			public const int fill = 2131230797;
 			
 			// aapt resource value: 0x7F080050
-			public const int flyoutcontent_recycler = 2131230800;
+			public const int filled = 2131230800;
+			
+			// aapt resource value: 0x7F08004E
+			public const int fill_horizontal = 2131230798;
+			
+			// aapt resource value: 0x7F08004F
+			public const int fill_vertical = 2131230799;
 			
 			// aapt resource value: 0x7F080051
-			public const int forever = 2131230801;
+			public const int @fixed = 2131230801;
+			
+			// aapt resource value: 0x7F080052
+			public const int flyoutcontent_appbar = 2131230802;
+			
+			// aapt resource value: 0x7F080053
+			public const int flyoutcontent_recycler = 2131230803;
+			
+			// aapt resource value: 0x7F080054
+			public const int forever = 2131230804;
 			
 			// aapt resource value: 0x7F080002
 			public const int FUNCTION = 2131230722;
 			
-			// aapt resource value: 0x7F080052
-			public const int ghost_view = 2131230802;
-			
-			// aapt resource value: 0x7F080053
-			public const int group_divider = 2131230803;
-			
-			// aapt resource value: 0x7F080054
-			public const int home = 2131230804;
-			
 			// aapt resource value: 0x7F080055
-			public const int homeAsUp = 2131230805;
+			public const int ghost_view = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int icon = 2131230806;
+			public const int group_divider = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int icon_group = 2131230807;
+			public const int home = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int ifRoom = 2131230808;
+			public const int homeAsUp = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int image = 2131230809;
+			public const int icon = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int info = 2131230810;
+			public const int icon_group = 2131230810;
 			
 			// aapt resource value: 0x7F08005B
-			public const int italic = 2131230811;
+			public const int ifRoom = 2131230811;
 			
 			// aapt resource value: 0x7F08005C
-			public const int item_touch_helper_previous_elevation = 2131230812;
+			public const int image = 2131230812;
 			
 			// aapt resource value: 0x7F08005D
-			public const int labeled = 2131230813;
+			public const int info = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int largeLabel = 2131230814;
+			public const int italic = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int left = 2131230815;
+			public const int item_touch_helper_previous_elevation = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int line1 = 2131230816;
+			public const int labeled = 2131230816;
 			
 			// aapt resource value: 0x7F080061
-			public const int line3 = 2131230817;
+			public const int largeLabel = 2131230817;
 			
 			// aapt resource value: 0x7F080062
-			public const int listMode = 2131230818;
+			public const int left = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int list_item = 2131230819;
+			public const int line1 = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int main_appbar = 2131230820;
+			public const int line3 = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int main_tablayout = 2131230821;
+			public const int listMode = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int main_toolbar = 2131230822;
+			public const int list_item = 2131230822;
 			
 			// aapt resource value: 0x7F080067
-			public const int main_viewpager = 2131230823;
+			public const int main_appbar = 2131230823;
 			
 			// aapt resource value: 0x7F080068
-			public const int masked = 2131230824;
+			public const int main_tablayout = 2131230824;
 			
 			// aapt resource value: 0x7F080069
-			public const int media_actions = 2131230825;
+			public const int main_toolbar = 2131230825;
 			
 			// aapt resource value: 0x7F08006A
-			public const int message = 2131230826;
+			public const int main_viewpager = 2131230826;
+			
+			// aapt resource value: 0x7F08006B
+			public const int masked = 2131230827;
+			
+			// aapt resource value: 0x7F08006C
+			public const int media_actions = 2131230828;
+			
+			// aapt resource value: 0x7F08006D
+			public const int message = 2131230829;
 			
 			// aapt resource value: 0x7F080003
 			public const int META = 2131230723;
 			
-			// aapt resource value: 0x7F08006B
-			public const int middle = 2131230827;
-			
-			// aapt resource value: 0x7F08006C
-			public const int mini = 2131230828;
-			
-			// aapt resource value: 0x7F08006D
-			public const int mtrl_child_content_container = 2131230829;
-			
 			// aapt resource value: 0x7F08006E
-			public const int mtrl_internal_children_alpha_tag = 2131230830;
+			public const int middle = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int multiply = 2131230831;
+			public const int mini = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int navigation_header_container = 2131230832;
+			public const int mtrl_child_content_container = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int never = 2131230833;
+			public const int mtrl_internal_children_alpha_tag = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int none = 2131230834;
+			public const int multiply = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int normal = 2131230835;
+			public const int navigation_header_container = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int notification_background = 2131230836;
+			public const int never = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int notification_main_column = 2131230837;
+			public const int none = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int notification_main_column_container = 2131230838;
+			public const int normal = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int outline = 2131230839;
+			public const int notification_background = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int parallax = 2131230840;
+			public const int notification_main_column = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int parentPanel = 2131230841;
+			public const int notification_main_column_container = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int parent_matrix = 2131230842;
+			public const int outline = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int pin = 2131230843;
+			public const int parallax = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int progress_circular = 2131230844;
+			public const int parentPanel = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int progress_horizontal = 2131230845;
+			public const int parent_matrix = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int radio = 2131230846;
+			public const int pin = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int right = 2131230847;
+			public const int progress_circular = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int right_icon = 2131230848;
+			public const int progress_horizontal = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int right_side = 2131230849;
+			public const int radio = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int save_image_matrix = 2131230850;
+			public const int right = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int save_non_transition_alpha = 2131230851;
+			public const int right_icon = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int save_scale_type = 2131230852;
+			public const int right_side = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int screen = 2131230853;
+			public const int save_image_matrix = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int scroll = 2131230854;
-			
-			// aapt resource value: 0x7F08008A
-			public const int scrollable = 2131230858;
+			public const int save_non_transition_alpha = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int scrollIndicatorDown = 2131230855;
+			public const int save_scale_type = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int scrollIndicatorUp = 2131230856;
+			public const int sceneform_ar_scene_view = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int scrollView = 2131230857;
+			public const int sceneform_hand_image = 2131230857;
+			
+			// aapt resource value: 0x7F08008A
+			public const int sceneform_hand_layout = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int search_badge = 2131230859;
+			public const int screen = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int search_bar = 2131230860;
-			
-			// aapt resource value: 0x7F08008D
-			public const int search_button = 2131230861;
-			
-			// aapt resource value: 0x7F08008E
-			public const int search_close_btn = 2131230862;
-			
-			// aapt resource value: 0x7F08008F
-			public const int search_edit_frame = 2131230863;
+			public const int scroll = 2131230860;
 			
 			// aapt resource value: 0x7F080090
-			public const int search_go_btn = 2131230864;
+			public const int scrollable = 2131230864;
+			
+			// aapt resource value: 0x7F08008D
+			public const int scrollIndicatorDown = 2131230861;
+			
+			// aapt resource value: 0x7F08008E
+			public const int scrollIndicatorUp = 2131230862;
+			
+			// aapt resource value: 0x7F08008F
+			public const int scrollView = 2131230863;
 			
 			// aapt resource value: 0x7F080091
-			public const int search_mag_icon = 2131230865;
+			public const int search_badge = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int search_plate = 2131230866;
+			public const int search_bar = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int search_src_text = 2131230867;
+			public const int search_button = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int search_voice_btn = 2131230868;
-			
-			// aapt resource value: 0x7F080096
-			public const int selected = 2131230870;
+			public const int search_close_btn = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int select_dialog_listview = 2131230869;
+			public const int search_edit_frame = 2131230869;
+			
+			// aapt resource value: 0x7F080096
+			public const int search_go_btn = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int shellcontent_appbar = 2131230871;
+			public const int search_mag_icon = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int shellcontent_toolbar = 2131230872;
+			public const int search_plate = 2131230872;
+			
+			// aapt resource value: 0x7F080099
+			public const int search_src_text = 2131230873;
+			
+			// aapt resource value: 0x7F08009A
+			public const int search_voice_btn = 2131230874;
+			
+			// aapt resource value: 0x7F08009C
+			public const int selected = 2131230876;
+			
+			// aapt resource value: 0x7F08009B
+			public const int select_dialog_listview = 2131230875;
+			
+			// aapt resource value: 0x7F08009D
+			public const int shellcontent_appbar = 2131230877;
+			
+			// aapt resource value: 0x7F08009E
+			public const int shellcontent_toolbar = 2131230878;
 			
 			// aapt resource value: 0x7F080004
 			public const int SHIFT = 2131230724;
 			
-			// aapt resource value: 0x7F080099
-			public const int shortcut = 2131230873;
-			
-			// aapt resource value: 0x7F08009A
-			public const int showCustom = 2131230874;
-			
-			// aapt resource value: 0x7F08009B
-			public const int showHome = 2131230875;
-			
-			// aapt resource value: 0x7F08009C
-			public const int showTitle = 2131230876;
-			
-			// aapt resource value: 0x7F08009D
-			public const int sliding_tabs = 2131230877;
-			
-			// aapt resource value: 0x7F08009E
-			public const int smallLabel = 2131230878;
-			
 			// aapt resource value: 0x7F08009F
-			public const int snackbar_action = 2131230879;
+			public const int shortcut = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int snackbar_text = 2131230880;
+			public const int showCustom = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int snap = 2131230881;
+			public const int showHome = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int snapMargins = 2131230882;
+			public const int showTitle = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int spacer = 2131230883;
+			public const int sliding_tabs = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int split_action_bar = 2131230884;
+			public const int smallLabel = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int src_atop = 2131230885;
+			public const int snackbar_action = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int src_in = 2131230886;
+			public const int snackbar_text = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int src_over = 2131230887;
+			public const int snap = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int start = 2131230888;
+			public const int snapMargins = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int status_bar_latest_event_content = 2131230889;
+			public const int spacer = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int stretch = 2131230890;
+			public const int split_action_bar = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int submenuarrow = 2131230891;
+			public const int src_atop = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int submit_area = 2131230892;
+			public const int src_in = 2131230892;
+			
+			// aapt resource value: 0x7F0800AD
+			public const int src_over = 2131230893;
+			
+			// aapt resource value: 0x7F0800AE
+			public const int start = 2131230894;
+			
+			// aapt resource value: 0x7F0800AF
+			public const int status_bar_latest_event_content = 2131230895;
+			
+			// aapt resource value: 0x7F0800B0
+			public const int stretch = 2131230896;
+			
+			// aapt resource value: 0x7F0800B1
+			public const int submenuarrow = 2131230897;
+			
+			// aapt resource value: 0x7F0800B2
+			public const int submit_area = 2131230898;
 			
 			// aapt resource value: 0x7F080005
 			public const int SYM = 2131230725;
 			
-			// aapt resource value: 0x7F0800AD
-			public const int tabMode = 2131230893;
-			
-			// aapt resource value: 0x7F0800AE
-			public const int tag_transition_group = 2131230894;
-			
-			// aapt resource value: 0x7F0800AF
-			public const int tag_unhandled_key_event_manager = 2131230895;
-			
-			// aapt resource value: 0x7F0800B0
-			public const int tag_unhandled_key_listeners = 2131230896;
-			
-			// aapt resource value: 0x7F0800B1
-			public const int text = 2131230897;
-			
-			// aapt resource value: 0x7F0800B2
-			public const int text2 = 2131230898;
-			
-			// aapt resource value: 0x7F0800B7
-			public const int textinput_counter = 2131230903;
-			
-			// aapt resource value: 0x7F0800B8
-			public const int textinput_error = 2131230904;
-			
-			// aapt resource value: 0x7F0800B9
-			public const int textinput_helper_text = 2131230905;
-			
 			// aapt resource value: 0x7F0800B3
-			public const int textSpacerNoButtons = 2131230899;
+			public const int tabMode = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int textSpacerNoTitle = 2131230900;
+			public const int tag_transition_group = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int textStart = 2131230901;
+			public const int tag_unhandled_key_event_manager = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int text_input_password_toggle = 2131230902;
+			public const int tag_unhandled_key_listeners = 2131230902;
 			
-			// aapt resource value: 0x7F0800BA
-			public const int time = 2131230906;
+			// aapt resource value: 0x7F0800B7
+			public const int text = 2131230903;
 			
-			// aapt resource value: 0x7F0800BB
-			public const int title = 2131230907;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int titleDividerNoCustom = 2131230908;
+			// aapt resource value: 0x7F0800B8
+			public const int text2 = 2131230904;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int title_template = 2131230909;
+			public const int textinput_counter = 2131230909;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int toolbar = 2131230910;
+			public const int textinput_error = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int top = 2131230911;
+			public const int textinput_helper_text = 2131230911;
+			
+			// aapt resource value: 0x7F0800B9
+			public const int textSpacerNoButtons = 2131230905;
+			
+			// aapt resource value: 0x7F0800BA
+			public const int textSpacerNoTitle = 2131230906;
+			
+			// aapt resource value: 0x7F0800BB
+			public const int textStart = 2131230907;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int text_input_password_toggle = 2131230908;
 			
 			// aapt resource value: 0x7F0800C0
-			public const int topPanel = 2131230912;
+			public const int time = 2131230912;
 			
 			// aapt resource value: 0x7F0800C1
-			public const int touch_outside = 2131230913;
+			public const int title = 2131230913;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int transition_current_scene = 2131230914;
+			public const int titleDividerNoCustom = 2131230914;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int transition_layout_save = 2131230915;
+			public const int title_template = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int transition_position = 2131230916;
+			public const int toolbar = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int transition_scene_layoutid_cache = 2131230917;
+			public const int top = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int transition_transform = 2131230918;
+			public const int topPanel = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int uniform = 2131230919;
+			public const int touch_outside = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int unlabeled = 2131230920;
+			public const int transition_current_scene = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int up = 2131230921;
+			public const int transition_layout_save = 2131230921;
 			
 			// aapt resource value: 0x7F0800CA
-			public const int useLogo = 2131230922;
+			public const int transition_position = 2131230922;
 			
 			// aapt resource value: 0x7F0800CB
-			public const int view_offset_helper = 2131230923;
+			public const int transition_scene_layoutid_cache = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int visible = 2131230924;
+			public const int transition_transform = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int withText = 2131230925;
+			public const int uniform = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int wrap_content = 2131230926;
+			public const int unlabeled = 2131230926;
+			
+			// aapt resource value: 0x7F0800CF
+			public const int up = 2131230927;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int useLogo = 2131230928;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int view_offset_helper = 2131230929;
+			
+			// aapt resource value: 0x7F0800D2
+			public const int visible = 2131230930;
+			
+			// aapt resource value: 0x7F0800D3
+			public const int withText = 2131230931;
+			
+			// aapt resource value: 0x7F0800D4
+			public const int wrap_content = 2131230932;
+			
+			// aapt resource value: 0x7F080006
+			public const int @__arcore_cancelButton = 2131230726;
+			
+			// aapt resource value: 0x7F080007
+			public const int @__arcore_continueButton = 2131230727;
+			
+			// aapt resource value: 0x7F080008
+			public const int @__arcore_messageText = 2131230728;
 			
 			static Id()
 			{
@@ -6523,218 +8715,227 @@ namespace TabletopLab.Droid
 		public partial class Layout
 		{
 			
-			// aapt resource value: 0x7F0B0000
-			public const int abc_action_bar_title_item = 2131427328;
-			
 			// aapt resource value: 0x7F0B0001
-			public const int abc_action_bar_up_container = 2131427329;
+			public const int abc_action_bar_title_item = 2131427329;
 			
 			// aapt resource value: 0x7F0B0002
-			public const int abc_action_menu_item_layout = 2131427330;
+			public const int abc_action_bar_up_container = 2131427330;
 			
 			// aapt resource value: 0x7F0B0003
-			public const int abc_action_menu_layout = 2131427331;
+			public const int abc_action_menu_item_layout = 2131427331;
 			
 			// aapt resource value: 0x7F0B0004
-			public const int abc_action_mode_bar = 2131427332;
+			public const int abc_action_menu_layout = 2131427332;
 			
 			// aapt resource value: 0x7F0B0005
-			public const int abc_action_mode_close_item_material = 2131427333;
+			public const int abc_action_mode_bar = 2131427333;
 			
 			// aapt resource value: 0x7F0B0006
-			public const int abc_activity_chooser_view = 2131427334;
+			public const int abc_action_mode_close_item_material = 2131427334;
 			
 			// aapt resource value: 0x7F0B0007
-			public const int abc_activity_chooser_view_list_item = 2131427335;
+			public const int abc_activity_chooser_view = 2131427335;
 			
 			// aapt resource value: 0x7F0B0008
-			public const int abc_alert_dialog_button_bar_material = 2131427336;
+			public const int abc_activity_chooser_view_list_item = 2131427336;
 			
 			// aapt resource value: 0x7F0B0009
-			public const int abc_alert_dialog_material = 2131427337;
+			public const int abc_alert_dialog_button_bar_material = 2131427337;
 			
 			// aapt resource value: 0x7F0B000A
-			public const int abc_alert_dialog_title_material = 2131427338;
+			public const int abc_alert_dialog_material = 2131427338;
 			
 			// aapt resource value: 0x7F0B000B
-			public const int abc_cascading_menu_item_layout = 2131427339;
+			public const int abc_alert_dialog_title_material = 2131427339;
 			
 			// aapt resource value: 0x7F0B000C
-			public const int abc_dialog_title_material = 2131427340;
+			public const int abc_cascading_menu_item_layout = 2131427340;
 			
 			// aapt resource value: 0x7F0B000D
-			public const int abc_expanded_menu_layout = 2131427341;
+			public const int abc_dialog_title_material = 2131427341;
 			
 			// aapt resource value: 0x7F0B000E
-			public const int abc_list_menu_item_checkbox = 2131427342;
+			public const int abc_expanded_menu_layout = 2131427342;
 			
 			// aapt resource value: 0x7F0B000F
-			public const int abc_list_menu_item_icon = 2131427343;
+			public const int abc_list_menu_item_checkbox = 2131427343;
 			
 			// aapt resource value: 0x7F0B0010
-			public const int abc_list_menu_item_layout = 2131427344;
+			public const int abc_list_menu_item_icon = 2131427344;
 			
 			// aapt resource value: 0x7F0B0011
-			public const int abc_list_menu_item_radio = 2131427345;
+			public const int abc_list_menu_item_layout = 2131427345;
 			
 			// aapt resource value: 0x7F0B0012
-			public const int abc_popup_menu_header_item_layout = 2131427346;
+			public const int abc_list_menu_item_radio = 2131427346;
 			
 			// aapt resource value: 0x7F0B0013
-			public const int abc_popup_menu_item_layout = 2131427347;
+			public const int abc_popup_menu_header_item_layout = 2131427347;
 			
 			// aapt resource value: 0x7F0B0014
-			public const int abc_screen_content_include = 2131427348;
+			public const int abc_popup_menu_item_layout = 2131427348;
 			
 			// aapt resource value: 0x7F0B0015
-			public const int abc_screen_simple = 2131427349;
+			public const int abc_screen_content_include = 2131427349;
 			
 			// aapt resource value: 0x7F0B0016
-			public const int abc_screen_simple_overlay_action_mode = 2131427350;
+			public const int abc_screen_simple = 2131427350;
 			
 			// aapt resource value: 0x7F0B0017
-			public const int abc_screen_toolbar = 2131427351;
+			public const int abc_screen_simple_overlay_action_mode = 2131427351;
 			
 			// aapt resource value: 0x7F0B0018
-			public const int abc_search_dropdown_item_icons_2line = 2131427352;
+			public const int abc_screen_toolbar = 2131427352;
 			
 			// aapt resource value: 0x7F0B0019
-			public const int abc_search_view = 2131427353;
+			public const int abc_search_dropdown_item_icons_2line = 2131427353;
 			
 			// aapt resource value: 0x7F0B001A
-			public const int abc_select_dialog_material = 2131427354;
+			public const int abc_search_view = 2131427354;
 			
 			// aapt resource value: 0x7F0B001B
-			public const int abc_tooltip = 2131427355;
+			public const int abc_select_dialog_material = 2131427355;
 			
 			// aapt resource value: 0x7F0B001C
-			public const int BottomTabLayout = 2131427356;
+			public const int abc_tooltip = 2131427356;
 			
 			// aapt resource value: 0x7F0B001D
-			public const int browser_actions_context_menu_page = 2131427357;
+			public const int BottomTabLayout = 2131427357;
 			
 			// aapt resource value: 0x7F0B001E
-			public const int browser_actions_context_menu_row = 2131427358;
+			public const int browser_actions_context_menu_page = 2131427358;
 			
 			// aapt resource value: 0x7F0B001F
-			public const int design_bottom_navigation_item = 2131427359;
+			public const int browser_actions_context_menu_row = 2131427359;
 			
 			// aapt resource value: 0x7F0B0020
-			public const int design_bottom_sheet_dialog = 2131427360;
+			public const int design_bottom_navigation_item = 2131427360;
 			
 			// aapt resource value: 0x7F0B0021
-			public const int design_layout_snackbar = 2131427361;
+			public const int design_bottom_sheet_dialog = 2131427361;
 			
 			// aapt resource value: 0x7F0B0022
-			public const int design_layout_snackbar_include = 2131427362;
+			public const int design_layout_snackbar = 2131427362;
 			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_tab_icon = 2131427363;
+			public const int design_layout_snackbar_include = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_tab_text = 2131427364;
+			public const int design_layout_tab_icon = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_menu_item_action_area = 2131427365;
+			public const int design_layout_tab_text = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_navigation_item = 2131427366;
+			public const int design_menu_item_action_area = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_navigation_item_header = 2131427367;
+			public const int design_navigation_item = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item_separator = 2131427368;
+			public const int design_navigation_item_header = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_subheader = 2131427369;
+			public const int design_navigation_item_separator = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_menu = 2131427370;
+			public const int design_navigation_item_subheader = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_menu_item = 2131427371;
+			public const int design_navigation_menu = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_text_input_password_icon = 2131427372;
+			public const int design_navigation_menu_item = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int FlyoutContent = 2131427373;
+			public const int design_text_input_password_icon = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int mtrl_layout_snackbar = 2131427374;
+			public const int FlyoutContent = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int mtrl_layout_snackbar_include = 2131427375;
+			public const int mtrl_layout_snackbar = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int notification_action = 2131427376;
+			public const int mtrl_layout_snackbar_include = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int notification_action_tombstone = 2131427377;
+			public const int notification_action = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int notification_media_action = 2131427378;
+			public const int notification_action_tombstone = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int notification_media_cancel_action = 2131427379;
+			public const int notification_media_action = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int notification_template_big_media = 2131427380;
+			public const int notification_media_cancel_action = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int notification_template_big_media_custom = 2131427381;
+			public const int notification_template_big_media = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int notification_template_big_media_narrow = 2131427382;
+			public const int notification_template_big_media_custom = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int notification_template_big_media_narrow_custom = 2131427383;
+			public const int notification_template_big_media_narrow = 2131427383;
 			
 			// aapt resource value: 0x7F0B0038
-			public const int notification_template_custom_big = 2131427384;
+			public const int notification_template_big_media_narrow_custom = 2131427384;
 			
 			// aapt resource value: 0x7F0B0039
-			public const int notification_template_icon_group = 2131427385;
+			public const int notification_template_custom_big = 2131427385;
 			
 			// aapt resource value: 0x7F0B003A
-			public const int notification_template_lines_media = 2131427386;
+			public const int notification_template_icon_group = 2131427386;
 			
 			// aapt resource value: 0x7F0B003B
-			public const int notification_template_media = 2131427387;
+			public const int notification_template_lines_media = 2131427387;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int notification_template_media_custom = 2131427388;
+			public const int notification_template_media = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int notification_template_part_chronometer = 2131427389;
+			public const int notification_template_media_custom = 2131427389;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int notification_template_part_time = 2131427390;
+			public const int notification_template_part_chronometer = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int RootLayout = 2131427391;
+			public const int notification_template_part_time = 2131427391;
 			
 			// aapt resource value: 0x7F0B0040
-			public const int select_dialog_item_material = 2131427392;
+			public const int RootLayout = 2131427392;
 			
 			// aapt resource value: 0x7F0B0041
-			public const int select_dialog_multichoice_material = 2131427393;
+			public const int sceneform_plane_discovery_layout = 2131427393;
 			
 			// aapt resource value: 0x7F0B0042
-			public const int select_dialog_singlechoice_material = 2131427394;
+			public const int sceneform_ux_fragment_layout = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int ShellContent = 2131427395;
+			public const int select_dialog_item_material = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int support_simple_spinner_dropdown_item = 2131427396;
+			public const int select_dialog_multichoice_material = 2131427396;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int Tabbar = 2131427397;
+			public const int select_dialog_singlechoice_material = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int Toolbar = 2131427398;
+			public const int ShellContent = 2131427398;
+			
+			// aapt resource value: 0x7F0B0047
+			public const int support_simple_spinner_dropdown_item = 2131427399;
+			
+			// aapt resource value: 0x7F0B0048
+			public const int Tabbar = 2131427400;
+			
+			// aapt resource value: 0x7F0B0049
+			public const int Toolbar = 2131427401;
+			
+			// aapt resource value: 0x7F0B0000
+			public const int @__arcore_education = 2131427328;
 			
 			static Layout()
 			{
@@ -6768,170 +8969,240 @@ namespace TabletopLab.Droid
 			}
 		}
 		
-		public partial class String
+		public partial class Raw
 		{
 			
 			// aapt resource value: 0x7F0D0000
-			public const int abc_action_bar_home_description = 2131558400;
+			public const int keep_arcore = 2131558400;
 			
 			// aapt resource value: 0x7F0D0001
-			public const int abc_action_bar_up_description = 2131558401;
+			public const int sceneform_camera_material = 2131558401;
 			
 			// aapt resource value: 0x7F0D0002
-			public const int abc_action_menu_overflow_description = 2131558402;
+			public const int sceneform_default_light_probe = 2131558402;
 			
 			// aapt resource value: 0x7F0D0003
-			public const int abc_action_mode_done = 2131558403;
-			
-			// aapt resource value: 0x7F0D0005
-			public const int abc_activitychooserview_choose_application = 2131558405;
+			public const int sceneform_face_mesh = 2131558403;
 			
 			// aapt resource value: 0x7F0D0004
-			public const int abc_activity_chooser_view_see_all = 2131558404;
+			public const int sceneform_face_mesh_occluder = 2131558404;
+			
+			// aapt resource value: 0x7F0D0005
+			public const int sceneform_footprint = 2131558405;
 			
 			// aapt resource value: 0x7F0D0006
-			public const int abc_capital_off = 2131558406;
+			public const int sceneform_opaque_colored_material = 2131558406;
 			
 			// aapt resource value: 0x7F0D0007
-			public const int abc_capital_on = 2131558407;
+			public const int sceneform_opaque_textured_material = 2131558407;
 			
 			// aapt resource value: 0x7F0D0008
-			public const int abc_font_family_body_1_material = 2131558408;
+			public const int sceneform_plane_material = 2131558408;
 			
 			// aapt resource value: 0x7F0D0009
-			public const int abc_font_family_body_2_material = 2131558409;
+			public const int sceneform_plane_shadow_material = 2131558409;
 			
 			// aapt resource value: 0x7F0D000A
-			public const int abc_font_family_button_material = 2131558410;
+			public const int sceneform_transparent_colored_material = 2131558410;
 			
 			// aapt resource value: 0x7F0D000B
-			public const int abc_font_family_caption_material = 2131558411;
+			public const int sceneform_transparent_textured_material = 2131558411;
 			
 			// aapt resource value: 0x7F0D000C
-			public const int abc_font_family_display_1_material = 2131558412;
+			public const int sceneform_view_renderable = 2131558412;
 			
-			// aapt resource value: 0x7F0D000D
-			public const int abc_font_family_display_2_material = 2131558413;
+			static Raw()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
 			
-			// aapt resource value: 0x7F0D000E
-			public const int abc_font_family_display_3_material = 2131558414;
+			private Raw()
+			{
+			}
+		}
+		
+		public partial class String
+		{
 			
-			// aapt resource value: 0x7F0D000F
-			public const int abc_font_family_display_4_material = 2131558415;
+			// aapt resource value: 0x7F0E0005
+			public const int abc_action_bar_home_description = 2131623941;
 			
-			// aapt resource value: 0x7F0D0010
-			public const int abc_font_family_headline_material = 2131558416;
+			// aapt resource value: 0x7F0E0006
+			public const int abc_action_bar_up_description = 2131623942;
 			
-			// aapt resource value: 0x7F0D0011
-			public const int abc_font_family_menu_material = 2131558417;
+			// aapt resource value: 0x7F0E0007
+			public const int abc_action_menu_overflow_description = 2131623943;
 			
-			// aapt resource value: 0x7F0D0012
-			public const int abc_font_family_subhead_material = 2131558418;
+			// aapt resource value: 0x7F0E0008
+			public const int abc_action_mode_done = 2131623944;
 			
-			// aapt resource value: 0x7F0D0013
-			public const int abc_font_family_title_material = 2131558419;
+			// aapt resource value: 0x7F0E000A
+			public const int abc_activitychooserview_choose_application = 2131623946;
 			
-			// aapt resource value: 0x7F0D0014
-			public const int abc_menu_alt_shortcut_label = 2131558420;
+			// aapt resource value: 0x7F0E0009
+			public const int abc_activity_chooser_view_see_all = 2131623945;
 			
-			// aapt resource value: 0x7F0D0015
-			public const int abc_menu_ctrl_shortcut_label = 2131558421;
+			// aapt resource value: 0x7F0E000B
+			public const int abc_capital_off = 2131623947;
 			
-			// aapt resource value: 0x7F0D0016
-			public const int abc_menu_delete_shortcut_label = 2131558422;
+			// aapt resource value: 0x7F0E000C
+			public const int abc_capital_on = 2131623948;
 			
-			// aapt resource value: 0x7F0D0017
-			public const int abc_menu_enter_shortcut_label = 2131558423;
+			// aapt resource value: 0x7F0E000D
+			public const int abc_font_family_body_1_material = 2131623949;
 			
-			// aapt resource value: 0x7F0D0018
-			public const int abc_menu_function_shortcut_label = 2131558424;
+			// aapt resource value: 0x7F0E000E
+			public const int abc_font_family_body_2_material = 2131623950;
 			
-			// aapt resource value: 0x7F0D0019
-			public const int abc_menu_meta_shortcut_label = 2131558425;
+			// aapt resource value: 0x7F0E000F
+			public const int abc_font_family_button_material = 2131623951;
 			
-			// aapt resource value: 0x7F0D001A
-			public const int abc_menu_shift_shortcut_label = 2131558426;
+			// aapt resource value: 0x7F0E0010
+			public const int abc_font_family_caption_material = 2131623952;
 			
-			// aapt resource value: 0x7F0D001B
-			public const int abc_menu_space_shortcut_label = 2131558427;
+			// aapt resource value: 0x7F0E0011
+			public const int abc_font_family_display_1_material = 2131623953;
 			
-			// aapt resource value: 0x7F0D001C
-			public const int abc_menu_sym_shortcut_label = 2131558428;
+			// aapt resource value: 0x7F0E0012
+			public const int abc_font_family_display_2_material = 2131623954;
 			
-			// aapt resource value: 0x7F0D001D
-			public const int abc_prepend_shortcut_label = 2131558429;
+			// aapt resource value: 0x7F0E0013
+			public const int abc_font_family_display_3_material = 2131623955;
 			
-			// aapt resource value: 0x7F0D001F
-			public const int abc_searchview_description_clear = 2131558431;
+			// aapt resource value: 0x7F0E0014
+			public const int abc_font_family_display_4_material = 2131623956;
 			
-			// aapt resource value: 0x7F0D0020
-			public const int abc_searchview_description_query = 2131558432;
+			// aapt resource value: 0x7F0E0015
+			public const int abc_font_family_headline_material = 2131623957;
 			
-			// aapt resource value: 0x7F0D0021
-			public const int abc_searchview_description_search = 2131558433;
+			// aapt resource value: 0x7F0E0016
+			public const int abc_font_family_menu_material = 2131623958;
 			
-			// aapt resource value: 0x7F0D0022
-			public const int abc_searchview_description_submit = 2131558434;
+			// aapt resource value: 0x7F0E0017
+			public const int abc_font_family_subhead_material = 2131623959;
 			
-			// aapt resource value: 0x7F0D0023
-			public const int abc_searchview_description_voice = 2131558435;
+			// aapt resource value: 0x7F0E0018
+			public const int abc_font_family_title_material = 2131623960;
 			
-			// aapt resource value: 0x7F0D001E
-			public const int abc_search_hint = 2131558430;
+			// aapt resource value: 0x7F0E0019
+			public const int abc_menu_alt_shortcut_label = 2131623961;
 			
-			// aapt resource value: 0x7F0D0024
-			public const int abc_shareactionprovider_share_with = 2131558436;
+			// aapt resource value: 0x7F0E001A
+			public const int abc_menu_ctrl_shortcut_label = 2131623962;
 			
-			// aapt resource value: 0x7F0D0025
-			public const int abc_shareactionprovider_share_with_application = 2131558437;
+			// aapt resource value: 0x7F0E001B
+			public const int abc_menu_delete_shortcut_label = 2131623963;
 			
-			// aapt resource value: 0x7F0D0026
-			public const int abc_toolbar_collapse_description = 2131558438;
+			// aapt resource value: 0x7F0E001C
+			public const int abc_menu_enter_shortcut_label = 2131623964;
 			
-			// aapt resource value: 0x7F0D0027
-			public const int appbar_scrolling_view_behavior = 2131558439;
+			// aapt resource value: 0x7F0E001D
+			public const int abc_menu_function_shortcut_label = 2131623965;
 			
-			// aapt resource value: 0x7F0D0028
-			public const int bottom_sheet_behavior = 2131558440;
+			// aapt resource value: 0x7F0E001E
+			public const int abc_menu_meta_shortcut_label = 2131623966;
 			
-			// aapt resource value: 0x7F0D0029
-			public const int character_counter_content_description = 2131558441;
+			// aapt resource value: 0x7F0E001F
+			public const int abc_menu_shift_shortcut_label = 2131623967;
 			
-			// aapt resource value: 0x7F0D002A
-			public const int character_counter_pattern = 2131558442;
+			// aapt resource value: 0x7F0E0020
+			public const int abc_menu_space_shortcut_label = 2131623968;
 			
-			// aapt resource value: 0x7F0D002B
-			public const int fab_transformation_scrim_behavior = 2131558443;
+			// aapt resource value: 0x7F0E0021
+			public const int abc_menu_sym_shortcut_label = 2131623969;
 			
-			// aapt resource value: 0x7F0D002C
-			public const int fab_transformation_sheet_behavior = 2131558444;
+			// aapt resource value: 0x7F0E0022
+			public const int abc_prepend_shortcut_label = 2131623970;
 			
-			// aapt resource value: 0x7F0D002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131558445;
+			// aapt resource value: 0x7F0E0024
+			public const int abc_searchview_description_clear = 2131623972;
 			
-			// aapt resource value: 0x7F0D002E
-			public const int mtrl_chip_close_icon_content_description = 2131558446;
+			// aapt resource value: 0x7F0E0025
+			public const int abc_searchview_description_query = 2131623973;
 			
-			// aapt resource value: 0x7F0D002F
-			public const int password_toggle_content_description = 2131558447;
+			// aapt resource value: 0x7F0E0026
+			public const int abc_searchview_description_search = 2131623974;
 			
-			// aapt resource value: 0x7F0D0030
-			public const int path_password_eye = 2131558448;
+			// aapt resource value: 0x7F0E0027
+			public const int abc_searchview_description_submit = 2131623975;
 			
-			// aapt resource value: 0x7F0D0031
-			public const int path_password_eye_mask_strike_through = 2131558449;
+			// aapt resource value: 0x7F0E0028
+			public const int abc_searchview_description_voice = 2131623976;
 			
-			// aapt resource value: 0x7F0D0032
-			public const int path_password_eye_mask_visible = 2131558450;
+			// aapt resource value: 0x7F0E0023
+			public const int abc_search_hint = 2131623971;
 			
-			// aapt resource value: 0x7F0D0033
-			public const int path_password_strike_through = 2131558451;
+			// aapt resource value: 0x7F0E0029
+			public const int abc_shareactionprovider_share_with = 2131623977;
 			
-			// aapt resource value: 0x7F0D0034
-			public const int search_menu_title = 2131558452;
+			// aapt resource value: 0x7F0E002A
+			public const int abc_shareactionprovider_share_with_application = 2131623978;
 			
-			// aapt resource value: 0x7F0D0035
-			public const int status_bar_notification_info_overflow = 2131558453;
+			// aapt resource value: 0x7F0E002B
+			public const int abc_toolbar_collapse_description = 2131623979;
+			
+			// aapt resource value: 0x7F0E002C
+			public const int appbar_scrolling_view_behavior = 2131623980;
+			
+			// aapt resource value: 0x7F0E002D
+			public const int bottom_sheet_behavior = 2131623981;
+			
+			// aapt resource value: 0x7F0E002E
+			public const int character_counter_content_description = 2131623982;
+			
+			// aapt resource value: 0x7F0E002F
+			public const int character_counter_pattern = 2131623983;
+			
+			// aapt resource value: 0x7F0E0030
+			public const int fab_transformation_scrim_behavior = 2131623984;
+			
+			// aapt resource value: 0x7F0E0031
+			public const int fab_transformation_sheet_behavior = 2131623985;
+			
+			// aapt resource value: 0x7F0E0032
+			public const int hide_bottom_view_on_scroll_behavior = 2131623986;
+			
+			// aapt resource value: 0x7F0E0033
+			public const int lib_name = 2131623987;
+			
+			// aapt resource value: 0x7F0E0034
+			public const int mtrl_chip_close_icon_content_description = 2131623988;
+			
+			// aapt resource value: 0x7F0E0035
+			public const int password_toggle_content_description = 2131623989;
+			
+			// aapt resource value: 0x7F0E0036
+			public const int path_password_eye = 2131623990;
+			
+			// aapt resource value: 0x7F0E0037
+			public const int path_password_eye_mask_strike_through = 2131623991;
+			
+			// aapt resource value: 0x7F0E0038
+			public const int path_password_eye_mask_visible = 2131623992;
+			
+			// aapt resource value: 0x7F0E0039
+			public const int path_password_strike_through = 2131623993;
+			
+			// aapt resource value: 0x7F0E003A
+			public const int search_menu_title = 2131623994;
+			
+			// aapt resource value: 0x7F0E003B
+			public const int status_bar_notification_info_overflow = 2131623995;
+			
+			// aapt resource value: 0x7F0E0000
+			public const int @__arcore_cancel = 2131623936;
+			
+			// aapt resource value: 0x7F0E0001
+			public const int @__arcore_continue = 2131623937;
+			
+			// aapt resource value: 0x7F0E0004
+			public const int @__arcore_installing = 2131623940;
+			
+			// aapt resource value: 0x7F0E0002
+			public const int @__arcore_install_app = 2131623938;
+			
+			// aapt resource value: 0x7F0E0003
+			public const int @__arcore_install_feature = 2131623939;
 			
 			static String()
 			{
@@ -6946,1517 +9217,1517 @@ namespace TabletopLab.Droid
 		public partial class Style
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int AlertDialog_AppCompat = 2131623936;
+			// aapt resource value: 0x7F0F0000
+			public const int AlertDialog_AppCompat = 2131689472;
 			
-			// aapt resource value: 0x7F0E0001
-			public const int AlertDialog_AppCompat_Light = 2131623937;
+			// aapt resource value: 0x7F0F0001
+			public const int AlertDialog_AppCompat_Light = 2131689473;
 			
-			// aapt resource value: 0x7F0E0002
-			public const int Animation_AppCompat_Dialog = 2131623938;
+			// aapt resource value: 0x7F0F0002
+			public const int Animation_AppCompat_Dialog = 2131689474;
 			
-			// aapt resource value: 0x7F0E0003
-			public const int Animation_AppCompat_DropDownUp = 2131623939;
+			// aapt resource value: 0x7F0F0003
+			public const int Animation_AppCompat_DropDownUp = 2131689475;
 			
-			// aapt resource value: 0x7F0E0004
-			public const int Animation_AppCompat_Tooltip = 2131623940;
+			// aapt resource value: 0x7F0F0004
+			public const int Animation_AppCompat_Tooltip = 2131689476;
 			
-			// aapt resource value: 0x7F0E0005
-			public const int Animation_Design_BottomSheetDialog = 2131623941;
+			// aapt resource value: 0x7F0F0005
+			public const int Animation_Design_BottomSheetDialog = 2131689477;
 			
-			// aapt resource value: 0x7F0E0006
-			public const int AppCompatDialogStyle = 2131623942;
+			// aapt resource value: 0x7F0F0006
+			public const int AppCompatDialogStyle = 2131689478;
 			
-			// aapt resource value: 0x7F0E0007
-			public const int Base_AlertDialog_AppCompat = 2131623943;
+			// aapt resource value: 0x7F0F0007
+			public const int Base_AlertDialog_AppCompat = 2131689479;
 			
-			// aapt resource value: 0x7F0E0008
-			public const int Base_AlertDialog_AppCompat_Light = 2131623944;
+			// aapt resource value: 0x7F0F0008
+			public const int Base_AlertDialog_AppCompat_Light = 2131689480;
 			
-			// aapt resource value: 0x7F0E0009
-			public const int Base_Animation_AppCompat_Dialog = 2131623945;
+			// aapt resource value: 0x7F0F0009
+			public const int Base_Animation_AppCompat_Dialog = 2131689481;
 			
-			// aapt resource value: 0x7F0E000A
-			public const int Base_Animation_AppCompat_DropDownUp = 2131623946;
+			// aapt resource value: 0x7F0F000A
+			public const int Base_Animation_AppCompat_DropDownUp = 2131689482;
 			
-			// aapt resource value: 0x7F0E000B
-			public const int Base_Animation_AppCompat_Tooltip = 2131623947;
+			// aapt resource value: 0x7F0F000B
+			public const int Base_Animation_AppCompat_Tooltip = 2131689483;
 			
-			// aapt resource value: 0x7F0E000C
-			public const int Base_CardView = 2131623948;
+			// aapt resource value: 0x7F0F000C
+			public const int Base_CardView = 2131689484;
 			
-			// aapt resource value: 0x7F0E000E
-			public const int Base_DialogWindowTitleBackground_AppCompat = 2131623950;
+			// aapt resource value: 0x7F0F000E
+			public const int Base_DialogWindowTitleBackground_AppCompat = 2131689486;
 			
-			// aapt resource value: 0x7F0E000D
-			public const int Base_DialogWindowTitle_AppCompat = 2131623949;
+			// aapt resource value: 0x7F0F000D
+			public const int Base_DialogWindowTitle_AppCompat = 2131689485;
 			
-			// aapt resource value: 0x7F0E000F
-			public const int Base_TextAppearance_AppCompat = 2131623951;
+			// aapt resource value: 0x7F0F000F
+			public const int Base_TextAppearance_AppCompat = 2131689487;
 			
-			// aapt resource value: 0x7F0E0010
-			public const int Base_TextAppearance_AppCompat_Body1 = 2131623952;
+			// aapt resource value: 0x7F0F0010
+			public const int Base_TextAppearance_AppCompat_Body1 = 2131689488;
 			
-			// aapt resource value: 0x7F0E0011
-			public const int Base_TextAppearance_AppCompat_Body2 = 2131623953;
+			// aapt resource value: 0x7F0F0011
+			public const int Base_TextAppearance_AppCompat_Body2 = 2131689489;
 			
-			// aapt resource value: 0x7F0E0012
-			public const int Base_TextAppearance_AppCompat_Button = 2131623954;
+			// aapt resource value: 0x7F0F0012
+			public const int Base_TextAppearance_AppCompat_Button = 2131689490;
 			
-			// aapt resource value: 0x7F0E0013
-			public const int Base_TextAppearance_AppCompat_Caption = 2131623955;
+			// aapt resource value: 0x7F0F0013
+			public const int Base_TextAppearance_AppCompat_Caption = 2131689491;
 			
-			// aapt resource value: 0x7F0E0014
-			public const int Base_TextAppearance_AppCompat_Display1 = 2131623956;
+			// aapt resource value: 0x7F0F0014
+			public const int Base_TextAppearance_AppCompat_Display1 = 2131689492;
 			
-			// aapt resource value: 0x7F0E0015
-			public const int Base_TextAppearance_AppCompat_Display2 = 2131623957;
+			// aapt resource value: 0x7F0F0015
+			public const int Base_TextAppearance_AppCompat_Display2 = 2131689493;
 			
-			// aapt resource value: 0x7F0E0016
-			public const int Base_TextAppearance_AppCompat_Display3 = 2131623958;
+			// aapt resource value: 0x7F0F0016
+			public const int Base_TextAppearance_AppCompat_Display3 = 2131689494;
 			
-			// aapt resource value: 0x7F0E0017
-			public const int Base_TextAppearance_AppCompat_Display4 = 2131623959;
+			// aapt resource value: 0x7F0F0017
+			public const int Base_TextAppearance_AppCompat_Display4 = 2131689495;
 			
-			// aapt resource value: 0x7F0E0018
-			public const int Base_TextAppearance_AppCompat_Headline = 2131623960;
+			// aapt resource value: 0x7F0F0018
+			public const int Base_TextAppearance_AppCompat_Headline = 2131689496;
 			
-			// aapt resource value: 0x7F0E0019
-			public const int Base_TextAppearance_AppCompat_Inverse = 2131623961;
+			// aapt resource value: 0x7F0F0019
+			public const int Base_TextAppearance_AppCompat_Inverse = 2131689497;
 			
-			// aapt resource value: 0x7F0E001A
-			public const int Base_TextAppearance_AppCompat_Large = 2131623962;
+			// aapt resource value: 0x7F0F001A
+			public const int Base_TextAppearance_AppCompat_Large = 2131689498;
 			
-			// aapt resource value: 0x7F0E001B
-			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131623963;
+			// aapt resource value: 0x7F0F001B
+			public const int Base_TextAppearance_AppCompat_Large_Inverse = 2131689499;
 			
-			// aapt resource value: 0x7F0E001C
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131623964;
+			// aapt resource value: 0x7F0F001C
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689500;
 			
-			// aapt resource value: 0x7F0E001D
-			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131623965;
+			// aapt resource value: 0x7F0F001D
+			public const int Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689501;
 			
-			// aapt resource value: 0x7F0E001E
-			public const int Base_TextAppearance_AppCompat_Medium = 2131623966;
+			// aapt resource value: 0x7F0F001E
+			public const int Base_TextAppearance_AppCompat_Medium = 2131689502;
 			
-			// aapt resource value: 0x7F0E001F
-			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131623967;
+			// aapt resource value: 0x7F0F001F
+			public const int Base_TextAppearance_AppCompat_Medium_Inverse = 2131689503;
 			
-			// aapt resource value: 0x7F0E0020
-			public const int Base_TextAppearance_AppCompat_Menu = 2131623968;
+			// aapt resource value: 0x7F0F0020
+			public const int Base_TextAppearance_AppCompat_Menu = 2131689504;
 			
-			// aapt resource value: 0x7F0E0021
-			public const int Base_TextAppearance_AppCompat_SearchResult = 2131623969;
+			// aapt resource value: 0x7F0F0021
+			public const int Base_TextAppearance_AppCompat_SearchResult = 2131689505;
 			
-			// aapt resource value: 0x7F0E0022
-			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131623970;
+			// aapt resource value: 0x7F0F0022
+			public const int Base_TextAppearance_AppCompat_SearchResult_Subtitle = 2131689506;
 			
-			// aapt resource value: 0x7F0E0023
-			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131623971;
+			// aapt resource value: 0x7F0F0023
+			public const int Base_TextAppearance_AppCompat_SearchResult_Title = 2131689507;
 			
-			// aapt resource value: 0x7F0E0024
-			public const int Base_TextAppearance_AppCompat_Small = 2131623972;
+			// aapt resource value: 0x7F0F0024
+			public const int Base_TextAppearance_AppCompat_Small = 2131689508;
 			
-			// aapt resource value: 0x7F0E0025
-			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131623973;
+			// aapt resource value: 0x7F0F0025
+			public const int Base_TextAppearance_AppCompat_Small_Inverse = 2131689509;
 			
-			// aapt resource value: 0x7F0E0026
-			public const int Base_TextAppearance_AppCompat_Subhead = 2131623974;
+			// aapt resource value: 0x7F0F0026
+			public const int Base_TextAppearance_AppCompat_Subhead = 2131689510;
 			
-			// aapt resource value: 0x7F0E0027
-			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131623975;
+			// aapt resource value: 0x7F0F0027
+			public const int Base_TextAppearance_AppCompat_Subhead_Inverse = 2131689511;
 			
-			// aapt resource value: 0x7F0E0028
-			public const int Base_TextAppearance_AppCompat_Title = 2131623976;
+			// aapt resource value: 0x7F0F0028
+			public const int Base_TextAppearance_AppCompat_Title = 2131689512;
 			
-			// aapt resource value: 0x7F0E0029
-			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131623977;
+			// aapt resource value: 0x7F0F0029
+			public const int Base_TextAppearance_AppCompat_Title_Inverse = 2131689513;
 			
-			// aapt resource value: 0x7F0E002A
-			public const int Base_TextAppearance_AppCompat_Tooltip = 2131623978;
+			// aapt resource value: 0x7F0F002A
+			public const int Base_TextAppearance_AppCompat_Tooltip = 2131689514;
 			
-			// aapt resource value: 0x7F0E002B
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131623979;
+			// aapt resource value: 0x7F0F002B
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689515;
 			
-			// aapt resource value: 0x7F0E002C
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131623980;
+			// aapt resource value: 0x7F0F002C
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689516;
 			
-			// aapt resource value: 0x7F0E002D
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131623981;
+			// aapt resource value: 0x7F0F002D
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689517;
 			
-			// aapt resource value: 0x7F0E002E
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131623982;
+			// aapt resource value: 0x7F0F002E
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689518;
 			
-			// aapt resource value: 0x7F0E002F
-			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131623983;
+			// aapt resource value: 0x7F0F002F
+			public const int Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689519;
 			
-			// aapt resource value: 0x7F0E0030
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131623984;
+			// aapt resource value: 0x7F0F0030
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689520;
 			
-			// aapt resource value: 0x7F0E0031
-			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131623985;
+			// aapt resource value: 0x7F0F0031
+			public const int Base_TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689521;
 			
-			// aapt resource value: 0x7F0E0032
-			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131623986;
+			// aapt resource value: 0x7F0F0032
+			public const int Base_TextAppearance_AppCompat_Widget_Button = 2131689522;
 			
-			// aapt resource value: 0x7F0E0033
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131623987;
+			// aapt resource value: 0x7F0F0033
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689523;
 			
-			// aapt resource value: 0x7F0E0034
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131623988;
+			// aapt resource value: 0x7F0F0034
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Colored = 2131689524;
 			
-			// aapt resource value: 0x7F0E0035
-			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131623989;
+			// aapt resource value: 0x7F0F0035
+			public const int Base_TextAppearance_AppCompat_Widget_Button_Inverse = 2131689525;
 			
-			// aapt resource value: 0x7F0E0036
-			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131623990;
+			// aapt resource value: 0x7F0F0036
+			public const int Base_TextAppearance_AppCompat_Widget_DropDownItem = 2131689526;
 			
-			// aapt resource value: 0x7F0E0037
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131623991;
+			// aapt resource value: 0x7F0F0037
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689527;
 			
-			// aapt resource value: 0x7F0E0038
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131623992;
+			// aapt resource value: 0x7F0F0038
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689528;
 			
-			// aapt resource value: 0x7F0E0039
-			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131623993;
+			// aapt resource value: 0x7F0F0039
+			public const int Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689529;
 			
-			// aapt resource value: 0x7F0E003A
-			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131623994;
+			// aapt resource value: 0x7F0F003A
+			public const int Base_TextAppearance_AppCompat_Widget_Switch = 2131689530;
 			
-			// aapt resource value: 0x7F0E003B
-			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131623995;
+			// aapt resource value: 0x7F0F003B
+			public const int Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689531;
 			
-			// aapt resource value: 0x7F0E003C
-			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131623996;
+			// aapt resource value: 0x7F0F003C
+			public const int Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689532;
 			
-			// aapt resource value: 0x7F0E003D
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131623997;
+			// aapt resource value: 0x7F0F003D
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689533;
 			
-			// aapt resource value: 0x7F0E003E
-			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131623998;
+			// aapt resource value: 0x7F0F003E
+			public const int Base_TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689534;
 			
-			// aapt resource value: 0x7F0E005E
-			public const int Base_ThemeOverlay_AppCompat = 2131624030;
+			// aapt resource value: 0x7F0F005E
+			public const int Base_ThemeOverlay_AppCompat = 2131689566;
 			
-			// aapt resource value: 0x7F0E005F
-			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131624031;
+			// aapt resource value: 0x7F0F005F
+			public const int Base_ThemeOverlay_AppCompat_ActionBar = 2131689567;
 			
-			// aapt resource value: 0x7F0E0060
-			public const int Base_ThemeOverlay_AppCompat_Dark = 2131624032;
+			// aapt resource value: 0x7F0F0060
+			public const int Base_ThemeOverlay_AppCompat_Dark = 2131689568;
 			
-			// aapt resource value: 0x7F0E0061
-			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131624033;
+			// aapt resource value: 0x7F0F0061
+			public const int Base_ThemeOverlay_AppCompat_Dark_ActionBar = 2131689569;
 			
-			// aapt resource value: 0x7F0E0062
-			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131624034;
+			// aapt resource value: 0x7F0F0062
+			public const int Base_ThemeOverlay_AppCompat_Dialog = 2131689570;
 			
-			// aapt resource value: 0x7F0E0063
-			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131624035;
+			// aapt resource value: 0x7F0F0063
+			public const int Base_ThemeOverlay_AppCompat_Dialog_Alert = 2131689571;
 			
-			// aapt resource value: 0x7F0E0064
-			public const int Base_ThemeOverlay_AppCompat_Light = 2131624036;
+			// aapt resource value: 0x7F0F0064
+			public const int Base_ThemeOverlay_AppCompat_Light = 2131689572;
 			
-			// aapt resource value: 0x7F0E0065
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131624037;
+			// aapt resource value: 0x7F0F0065
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog = 2131689573;
 			
-			// aapt resource value: 0x7F0E0066
-			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624038;
+			// aapt resource value: 0x7F0F0066
+			public const int Base_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689574;
 			
-			// aapt resource value: 0x7F0E003F
-			public const int Base_Theme_AppCompat = 2131623999;
+			// aapt resource value: 0x7F0F003F
+			public const int Base_Theme_AppCompat = 2131689535;
 			
-			// aapt resource value: 0x7F0E0040
-			public const int Base_Theme_AppCompat_CompactMenu = 2131624000;
+			// aapt resource value: 0x7F0F0040
+			public const int Base_Theme_AppCompat_CompactMenu = 2131689536;
 			
-			// aapt resource value: 0x7F0E0041
-			public const int Base_Theme_AppCompat_Dialog = 2131624001;
+			// aapt resource value: 0x7F0F0041
+			public const int Base_Theme_AppCompat_Dialog = 2131689537;
 			
-			// aapt resource value: 0x7F0E0045
-			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131624005;
+			// aapt resource value: 0x7F0F0045
+			public const int Base_Theme_AppCompat_DialogWhenLarge = 2131689541;
 			
-			// aapt resource value: 0x7F0E0042
-			public const int Base_Theme_AppCompat_Dialog_Alert = 2131624002;
+			// aapt resource value: 0x7F0F0042
+			public const int Base_Theme_AppCompat_Dialog_Alert = 2131689538;
 			
-			// aapt resource value: 0x7F0E0043
-			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131624003;
+			// aapt resource value: 0x7F0F0043
+			public const int Base_Theme_AppCompat_Dialog_FixedSize = 2131689539;
 			
-			// aapt resource value: 0x7F0E0044
-			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131624004;
+			// aapt resource value: 0x7F0F0044
+			public const int Base_Theme_AppCompat_Dialog_MinWidth = 2131689540;
 			
-			// aapt resource value: 0x7F0E0046
-			public const int Base_Theme_AppCompat_Light = 2131624006;
+			// aapt resource value: 0x7F0F0046
+			public const int Base_Theme_AppCompat_Light = 2131689542;
 			
-			// aapt resource value: 0x7F0E0047
-			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131624007;
+			// aapt resource value: 0x7F0F0047
+			public const int Base_Theme_AppCompat_Light_DarkActionBar = 2131689543;
 			
-			// aapt resource value: 0x7F0E0048
-			public const int Base_Theme_AppCompat_Light_Dialog = 2131624008;
+			// aapt resource value: 0x7F0F0048
+			public const int Base_Theme_AppCompat_Light_Dialog = 2131689544;
 			
-			// aapt resource value: 0x7F0E004C
-			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131624012;
+			// aapt resource value: 0x7F0F004C
+			public const int Base_Theme_AppCompat_Light_DialogWhenLarge = 2131689548;
 			
-			// aapt resource value: 0x7F0E0049
-			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131624009;
+			// aapt resource value: 0x7F0F0049
+			public const int Base_Theme_AppCompat_Light_Dialog_Alert = 2131689545;
 			
-			// aapt resource value: 0x7F0E004A
-			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131624010;
+			// aapt resource value: 0x7F0F004A
+			public const int Base_Theme_AppCompat_Light_Dialog_FixedSize = 2131689546;
 			
-			// aapt resource value: 0x7F0E004B
-			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131624011;
+			// aapt resource value: 0x7F0F004B
+			public const int Base_Theme_AppCompat_Light_Dialog_MinWidth = 2131689547;
 			
-			// aapt resource value: 0x7F0E004D
-			public const int Base_Theme_MaterialComponents = 2131624013;
+			// aapt resource value: 0x7F0F004D
+			public const int Base_Theme_MaterialComponents = 2131689549;
 			
-			// aapt resource value: 0x7F0E004E
-			public const int Base_Theme_MaterialComponents_Bridge = 2131624014;
+			// aapt resource value: 0x7F0F004E
+			public const int Base_Theme_MaterialComponents_Bridge = 2131689550;
 			
-			// aapt resource value: 0x7F0E004F
-			public const int Base_Theme_MaterialComponents_CompactMenu = 2131624015;
+			// aapt resource value: 0x7F0F004F
+			public const int Base_Theme_MaterialComponents_CompactMenu = 2131689551;
 			
-			// aapt resource value: 0x7F0E0050
-			public const int Base_Theme_MaterialComponents_Dialog = 2131624016;
+			// aapt resource value: 0x7F0F0050
+			public const int Base_Theme_MaterialComponents_Dialog = 2131689552;
 			
-			// aapt resource value: 0x7F0E0054
-			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131624020;
+			// aapt resource value: 0x7F0F0054
+			public const int Base_Theme_MaterialComponents_DialogWhenLarge = 2131689556;
 			
-			// aapt resource value: 0x7F0E0051
-			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131624017;
+			// aapt resource value: 0x7F0F0051
+			public const int Base_Theme_MaterialComponents_Dialog_Alert = 2131689553;
 			
-			// aapt resource value: 0x7F0E0052
-			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131624018;
+			// aapt resource value: 0x7F0F0052
+			public const int Base_Theme_MaterialComponents_Dialog_FixedSize = 2131689554;
 			
-			// aapt resource value: 0x7F0E0053
-			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131624019;
+			// aapt resource value: 0x7F0F0053
+			public const int Base_Theme_MaterialComponents_Dialog_MinWidth = 2131689555;
 			
-			// aapt resource value: 0x7F0E0055
-			public const int Base_Theme_MaterialComponents_Light = 2131624021;
+			// aapt resource value: 0x7F0F0055
+			public const int Base_Theme_MaterialComponents_Light = 2131689557;
 			
-			// aapt resource value: 0x7F0E0056
-			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131624022;
+			// aapt resource value: 0x7F0F0056
+			public const int Base_Theme_MaterialComponents_Light_Bridge = 2131689558;
 			
-			// aapt resource value: 0x7F0E0057
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131624023;
+			// aapt resource value: 0x7F0F0057
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar = 2131689559;
 			
-			// aapt resource value: 0x7F0E0058
-			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624024;
+			// aapt resource value: 0x7F0F0058
+			public const int Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689560;
 			
-			// aapt resource value: 0x7F0E0059
-			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131624025;
+			// aapt resource value: 0x7F0F0059
+			public const int Base_Theme_MaterialComponents_Light_Dialog = 2131689561;
 			
-			// aapt resource value: 0x7F0E005D
-			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131624029;
+			// aapt resource value: 0x7F0F005D
+			public const int Base_Theme_MaterialComponents_Light_DialogWhenLarge = 2131689565;
 			
-			// aapt resource value: 0x7F0E005A
-			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131624026;
+			// aapt resource value: 0x7F0F005A
+			public const int Base_Theme_MaterialComponents_Light_Dialog_Alert = 2131689562;
 			
-			// aapt resource value: 0x7F0E005B
-			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131624027;
+			// aapt resource value: 0x7F0F005B
+			public const int Base_Theme_MaterialComponents_Light_Dialog_FixedSize = 2131689563;
 			
-			// aapt resource value: 0x7F0E005C
-			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624028;
+			// aapt resource value: 0x7F0F005C
+			public const int Base_Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689564;
 			
-			// aapt resource value: 0x7F0E006E
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131624046;
+			// aapt resource value: 0x7F0F006E
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog = 2131689582;
 			
-			// aapt resource value: 0x7F0E006F
-			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624047;
+			// aapt resource value: 0x7F0F006F
+			public const int Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689583;
 			
-			// aapt resource value: 0x7F0E0067
-			public const int Base_V14_Theme_MaterialComponents = 2131624039;
+			// aapt resource value: 0x7F0F0067
+			public const int Base_V14_Theme_MaterialComponents = 2131689575;
 			
-			// aapt resource value: 0x7F0E0068
-			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131624040;
+			// aapt resource value: 0x7F0F0068
+			public const int Base_V14_Theme_MaterialComponents_Bridge = 2131689576;
 			
-			// aapt resource value: 0x7F0E0069
-			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131624041;
+			// aapt resource value: 0x7F0F0069
+			public const int Base_V14_Theme_MaterialComponents_Dialog = 2131689577;
 			
-			// aapt resource value: 0x7F0E006A
-			public const int Base_V14_Theme_MaterialComponents_Light = 2131624042;
+			// aapt resource value: 0x7F0F006A
+			public const int Base_V14_Theme_MaterialComponents_Light = 2131689578;
 			
-			// aapt resource value: 0x7F0E006B
-			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131624043;
+			// aapt resource value: 0x7F0F006B
+			public const int Base_V14_Theme_MaterialComponents_Light_Bridge = 2131689579;
 			
-			// aapt resource value: 0x7F0E006C
-			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624044;
+			// aapt resource value: 0x7F0F006C
+			public const int Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689580;
 			
-			// aapt resource value: 0x7F0E006D
-			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131624045;
+			// aapt resource value: 0x7F0F006D
+			public const int Base_V14_Theme_MaterialComponents_Light_Dialog = 2131689581;
 			
-			// aapt resource value: 0x7F0E0074
-			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131624052;
+			// aapt resource value: 0x7F0F0074
+			public const int Base_V21_ThemeOverlay_AppCompat_Dialog = 2131689588;
 			
-			// aapt resource value: 0x7F0E0070
-			public const int Base_V21_Theme_AppCompat = 2131624048;
+			// aapt resource value: 0x7F0F0070
+			public const int Base_V21_Theme_AppCompat = 2131689584;
 			
-			// aapt resource value: 0x7F0E0071
-			public const int Base_V21_Theme_AppCompat_Dialog = 2131624049;
+			// aapt resource value: 0x7F0F0071
+			public const int Base_V21_Theme_AppCompat_Dialog = 2131689585;
 			
-			// aapt resource value: 0x7F0E0072
-			public const int Base_V21_Theme_AppCompat_Light = 2131624050;
+			// aapt resource value: 0x7F0F0072
+			public const int Base_V21_Theme_AppCompat_Light = 2131689586;
 			
-			// aapt resource value: 0x7F0E0073
-			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131624051;
+			// aapt resource value: 0x7F0F0073
+			public const int Base_V21_Theme_AppCompat_Light_Dialog = 2131689587;
 			
-			// aapt resource value: 0x7F0E0075
-			public const int Base_V22_Theme_AppCompat = 2131624053;
+			// aapt resource value: 0x7F0F0075
+			public const int Base_V22_Theme_AppCompat = 2131689589;
 			
-			// aapt resource value: 0x7F0E0076
-			public const int Base_V22_Theme_AppCompat_Light = 2131624054;
+			// aapt resource value: 0x7F0F0076
+			public const int Base_V22_Theme_AppCompat_Light = 2131689590;
 			
-			// aapt resource value: 0x7F0E0077
-			public const int Base_V23_Theme_AppCompat = 2131624055;
+			// aapt resource value: 0x7F0F0077
+			public const int Base_V23_Theme_AppCompat = 2131689591;
 			
-			// aapt resource value: 0x7F0E0078
-			public const int Base_V23_Theme_AppCompat_Light = 2131624056;
+			// aapt resource value: 0x7F0F0078
+			public const int Base_V23_Theme_AppCompat_Light = 2131689592;
 			
-			// aapt resource value: 0x7F0E0079
-			public const int Base_V26_Theme_AppCompat = 2131624057;
+			// aapt resource value: 0x7F0F0079
+			public const int Base_V26_Theme_AppCompat = 2131689593;
 			
-			// aapt resource value: 0x7F0E007A
-			public const int Base_V26_Theme_AppCompat_Light = 2131624058;
+			// aapt resource value: 0x7F0F007A
+			public const int Base_V26_Theme_AppCompat_Light = 2131689594;
 			
-			// aapt resource value: 0x7F0E007B
-			public const int Base_V26_Widget_AppCompat_Toolbar = 2131624059;
+			// aapt resource value: 0x7F0F007B
+			public const int Base_V26_Widget_AppCompat_Toolbar = 2131689595;
 			
-			// aapt resource value: 0x7F0E007C
-			public const int Base_V28_Theme_AppCompat = 2131624060;
+			// aapt resource value: 0x7F0F007C
+			public const int Base_V28_Theme_AppCompat = 2131689596;
 			
-			// aapt resource value: 0x7F0E007D
-			public const int Base_V28_Theme_AppCompat_Light = 2131624061;
+			// aapt resource value: 0x7F0F007D
+			public const int Base_V28_Theme_AppCompat_Light = 2131689597;
 			
-			// aapt resource value: 0x7F0E0082
-			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131624066;
+			// aapt resource value: 0x7F0F0082
+			public const int Base_V7_ThemeOverlay_AppCompat_Dialog = 2131689602;
 			
-			// aapt resource value: 0x7F0E007E
-			public const int Base_V7_Theme_AppCompat = 2131624062;
+			// aapt resource value: 0x7F0F007E
+			public const int Base_V7_Theme_AppCompat = 2131689598;
 			
-			// aapt resource value: 0x7F0E007F
-			public const int Base_V7_Theme_AppCompat_Dialog = 2131624063;
+			// aapt resource value: 0x7F0F007F
+			public const int Base_V7_Theme_AppCompat_Dialog = 2131689599;
 			
-			// aapt resource value: 0x7F0E0080
-			public const int Base_V7_Theme_AppCompat_Light = 2131624064;
+			// aapt resource value: 0x7F0F0080
+			public const int Base_V7_Theme_AppCompat_Light = 2131689600;
 			
-			// aapt resource value: 0x7F0E0081
-			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131624065;
+			// aapt resource value: 0x7F0F0081
+			public const int Base_V7_Theme_AppCompat_Light_Dialog = 2131689601;
 			
-			// aapt resource value: 0x7F0E0083
-			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131624067;
+			// aapt resource value: 0x7F0F0083
+			public const int Base_V7_Widget_AppCompat_AutoCompleteTextView = 2131689603;
 			
-			// aapt resource value: 0x7F0E0084
-			public const int Base_V7_Widget_AppCompat_EditText = 2131624068;
+			// aapt resource value: 0x7F0F0084
+			public const int Base_V7_Widget_AppCompat_EditText = 2131689604;
 			
-			// aapt resource value: 0x7F0E0085
-			public const int Base_V7_Widget_AppCompat_Toolbar = 2131624069;
+			// aapt resource value: 0x7F0F0085
+			public const int Base_V7_Widget_AppCompat_Toolbar = 2131689605;
 			
-			// aapt resource value: 0x7F0E0086
-			public const int Base_Widget_AppCompat_ActionBar = 2131624070;
+			// aapt resource value: 0x7F0F0086
+			public const int Base_Widget_AppCompat_ActionBar = 2131689606;
 			
-			// aapt resource value: 0x7F0E0087
-			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131624071;
+			// aapt resource value: 0x7F0F0087
+			public const int Base_Widget_AppCompat_ActionBar_Solid = 2131689607;
 			
-			// aapt resource value: 0x7F0E0088
-			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131624072;
+			// aapt resource value: 0x7F0F0088
+			public const int Base_Widget_AppCompat_ActionBar_TabBar = 2131689608;
 			
-			// aapt resource value: 0x7F0E0089
-			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131624073;
+			// aapt resource value: 0x7F0F0089
+			public const int Base_Widget_AppCompat_ActionBar_TabText = 2131689609;
 			
-			// aapt resource value: 0x7F0E008A
-			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131624074;
+			// aapt resource value: 0x7F0F008A
+			public const int Base_Widget_AppCompat_ActionBar_TabView = 2131689610;
 			
-			// aapt resource value: 0x7F0E008B
-			public const int Base_Widget_AppCompat_ActionButton = 2131624075;
+			// aapt resource value: 0x7F0F008B
+			public const int Base_Widget_AppCompat_ActionButton = 2131689611;
 			
-			// aapt resource value: 0x7F0E008C
-			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131624076;
+			// aapt resource value: 0x7F0F008C
+			public const int Base_Widget_AppCompat_ActionButton_CloseMode = 2131689612;
 			
-			// aapt resource value: 0x7F0E008D
-			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131624077;
+			// aapt resource value: 0x7F0F008D
+			public const int Base_Widget_AppCompat_ActionButton_Overflow = 2131689613;
 			
-			// aapt resource value: 0x7F0E008E
-			public const int Base_Widget_AppCompat_ActionMode = 2131624078;
+			// aapt resource value: 0x7F0F008E
+			public const int Base_Widget_AppCompat_ActionMode = 2131689614;
 			
-			// aapt resource value: 0x7F0E008F
-			public const int Base_Widget_AppCompat_ActivityChooserView = 2131624079;
+			// aapt resource value: 0x7F0F008F
+			public const int Base_Widget_AppCompat_ActivityChooserView = 2131689615;
 			
-			// aapt resource value: 0x7F0E0090
-			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131624080;
+			// aapt resource value: 0x7F0F0090
+			public const int Base_Widget_AppCompat_AutoCompleteTextView = 2131689616;
 			
-			// aapt resource value: 0x7F0E0091
-			public const int Base_Widget_AppCompat_Button = 2131624081;
+			// aapt resource value: 0x7F0F0091
+			public const int Base_Widget_AppCompat_Button = 2131689617;
 			
-			// aapt resource value: 0x7F0E0097
-			public const int Base_Widget_AppCompat_ButtonBar = 2131624087;
+			// aapt resource value: 0x7F0F0097
+			public const int Base_Widget_AppCompat_ButtonBar = 2131689623;
 			
-			// aapt resource value: 0x7F0E0098
-			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131624088;
+			// aapt resource value: 0x7F0F0098
+			public const int Base_Widget_AppCompat_ButtonBar_AlertDialog = 2131689624;
 			
-			// aapt resource value: 0x7F0E0092
-			public const int Base_Widget_AppCompat_Button_Borderless = 2131624082;
+			// aapt resource value: 0x7F0F0092
+			public const int Base_Widget_AppCompat_Button_Borderless = 2131689618;
 			
-			// aapt resource value: 0x7F0E0093
-			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131624083;
+			// aapt resource value: 0x7F0F0093
+			public const int Base_Widget_AppCompat_Button_Borderless_Colored = 2131689619;
 			
-			// aapt resource value: 0x7F0E0094
-			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624084;
+			// aapt resource value: 0x7F0F0094
+			public const int Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689620;
 			
-			// aapt resource value: 0x7F0E0095
-			public const int Base_Widget_AppCompat_Button_Colored = 2131624085;
+			// aapt resource value: 0x7F0F0095
+			public const int Base_Widget_AppCompat_Button_Colored = 2131689621;
 			
-			// aapt resource value: 0x7F0E0096
-			public const int Base_Widget_AppCompat_Button_Small = 2131624086;
+			// aapt resource value: 0x7F0F0096
+			public const int Base_Widget_AppCompat_Button_Small = 2131689622;
 			
-			// aapt resource value: 0x7F0E0099
-			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131624089;
+			// aapt resource value: 0x7F0F0099
+			public const int Base_Widget_AppCompat_CompoundButton_CheckBox = 2131689625;
 			
-			// aapt resource value: 0x7F0E009A
-			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131624090;
+			// aapt resource value: 0x7F0F009A
+			public const int Base_Widget_AppCompat_CompoundButton_RadioButton = 2131689626;
 			
-			// aapt resource value: 0x7F0E009B
-			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131624091;
+			// aapt resource value: 0x7F0F009B
+			public const int Base_Widget_AppCompat_CompoundButton_Switch = 2131689627;
 			
-			// aapt resource value: 0x7F0E009C
-			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131624092;
+			// aapt resource value: 0x7F0F009C
+			public const int Base_Widget_AppCompat_DrawerArrowToggle = 2131689628;
 			
-			// aapt resource value: 0x7F0E009D
-			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131624093;
+			// aapt resource value: 0x7F0F009D
+			public const int Base_Widget_AppCompat_DrawerArrowToggle_Common = 2131689629;
 			
-			// aapt resource value: 0x7F0E009E
-			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131624094;
+			// aapt resource value: 0x7F0F009E
+			public const int Base_Widget_AppCompat_DropDownItem_Spinner = 2131689630;
 			
-			// aapt resource value: 0x7F0E009F
-			public const int Base_Widget_AppCompat_EditText = 2131624095;
+			// aapt resource value: 0x7F0F009F
+			public const int Base_Widget_AppCompat_EditText = 2131689631;
 			
-			// aapt resource value: 0x7F0E00A0
-			public const int Base_Widget_AppCompat_ImageButton = 2131624096;
+			// aapt resource value: 0x7F0F00A0
+			public const int Base_Widget_AppCompat_ImageButton = 2131689632;
 			
-			// aapt resource value: 0x7F0E00A1
-			public const int Base_Widget_AppCompat_Light_ActionBar = 2131624097;
+			// aapt resource value: 0x7F0F00A1
+			public const int Base_Widget_AppCompat_Light_ActionBar = 2131689633;
 			
-			// aapt resource value: 0x7F0E00A2
-			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131624098;
+			// aapt resource value: 0x7F0F00A2
+			public const int Base_Widget_AppCompat_Light_ActionBar_Solid = 2131689634;
 			
-			// aapt resource value: 0x7F0E00A3
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131624099;
+			// aapt resource value: 0x7F0F00A3
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabBar = 2131689635;
 			
-			// aapt resource value: 0x7F0E00A4
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131624100;
+			// aapt resource value: 0x7F0F00A4
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText = 2131689636;
 			
-			// aapt resource value: 0x7F0E00A5
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624101;
+			// aapt resource value: 0x7F0F00A5
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689637;
 			
-			// aapt resource value: 0x7F0E00A6
-			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131624102;
+			// aapt resource value: 0x7F0F00A6
+			public const int Base_Widget_AppCompat_Light_ActionBar_TabView = 2131689638;
 			
-			// aapt resource value: 0x7F0E00A7
-			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131624103;
+			// aapt resource value: 0x7F0F00A7
+			public const int Base_Widget_AppCompat_Light_PopupMenu = 2131689639;
 			
-			// aapt resource value: 0x7F0E00A8
-			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131624104;
+			// aapt resource value: 0x7F0F00A8
+			public const int Base_Widget_AppCompat_Light_PopupMenu_Overflow = 2131689640;
 			
-			// aapt resource value: 0x7F0E00A9
-			public const int Base_Widget_AppCompat_ListMenuView = 2131624105;
+			// aapt resource value: 0x7F0F00A9
+			public const int Base_Widget_AppCompat_ListMenuView = 2131689641;
 			
-			// aapt resource value: 0x7F0E00AA
-			public const int Base_Widget_AppCompat_ListPopupWindow = 2131624106;
+			// aapt resource value: 0x7F0F00AA
+			public const int Base_Widget_AppCompat_ListPopupWindow = 2131689642;
 			
-			// aapt resource value: 0x7F0E00AB
-			public const int Base_Widget_AppCompat_ListView = 2131624107;
+			// aapt resource value: 0x7F0F00AB
+			public const int Base_Widget_AppCompat_ListView = 2131689643;
 			
-			// aapt resource value: 0x7F0E00AC
-			public const int Base_Widget_AppCompat_ListView_DropDown = 2131624108;
+			// aapt resource value: 0x7F0F00AC
+			public const int Base_Widget_AppCompat_ListView_DropDown = 2131689644;
 			
-			// aapt resource value: 0x7F0E00AD
-			public const int Base_Widget_AppCompat_ListView_Menu = 2131624109;
+			// aapt resource value: 0x7F0F00AD
+			public const int Base_Widget_AppCompat_ListView_Menu = 2131689645;
 			
-			// aapt resource value: 0x7F0E00AE
-			public const int Base_Widget_AppCompat_PopupMenu = 2131624110;
+			// aapt resource value: 0x7F0F00AE
+			public const int Base_Widget_AppCompat_PopupMenu = 2131689646;
 			
-			// aapt resource value: 0x7F0E00AF
-			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131624111;
+			// aapt resource value: 0x7F0F00AF
+			public const int Base_Widget_AppCompat_PopupMenu_Overflow = 2131689647;
 			
-			// aapt resource value: 0x7F0E00B0
-			public const int Base_Widget_AppCompat_PopupWindow = 2131624112;
+			// aapt resource value: 0x7F0F00B0
+			public const int Base_Widget_AppCompat_PopupWindow = 2131689648;
 			
-			// aapt resource value: 0x7F0E00B1
-			public const int Base_Widget_AppCompat_ProgressBar = 2131624113;
+			// aapt resource value: 0x7F0F00B1
+			public const int Base_Widget_AppCompat_ProgressBar = 2131689649;
 			
-			// aapt resource value: 0x7F0E00B2
-			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131624114;
+			// aapt resource value: 0x7F0F00B2
+			public const int Base_Widget_AppCompat_ProgressBar_Horizontal = 2131689650;
 			
-			// aapt resource value: 0x7F0E00B3
-			public const int Base_Widget_AppCompat_RatingBar = 2131624115;
+			// aapt resource value: 0x7F0F00B3
+			public const int Base_Widget_AppCompat_RatingBar = 2131689651;
 			
-			// aapt resource value: 0x7F0E00B4
-			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131624116;
+			// aapt resource value: 0x7F0F00B4
+			public const int Base_Widget_AppCompat_RatingBar_Indicator = 2131689652;
 			
-			// aapt resource value: 0x7F0E00B5
-			public const int Base_Widget_AppCompat_RatingBar_Small = 2131624117;
+			// aapt resource value: 0x7F0F00B5
+			public const int Base_Widget_AppCompat_RatingBar_Small = 2131689653;
 			
-			// aapt resource value: 0x7F0E00B6
-			public const int Base_Widget_AppCompat_SearchView = 2131624118;
+			// aapt resource value: 0x7F0F00B6
+			public const int Base_Widget_AppCompat_SearchView = 2131689654;
 			
-			// aapt resource value: 0x7F0E00B7
-			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131624119;
+			// aapt resource value: 0x7F0F00B7
+			public const int Base_Widget_AppCompat_SearchView_ActionBar = 2131689655;
 			
-			// aapt resource value: 0x7F0E00B8
-			public const int Base_Widget_AppCompat_SeekBar = 2131624120;
+			// aapt resource value: 0x7F0F00B8
+			public const int Base_Widget_AppCompat_SeekBar = 2131689656;
 			
-			// aapt resource value: 0x7F0E00B9
-			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131624121;
+			// aapt resource value: 0x7F0F00B9
+			public const int Base_Widget_AppCompat_SeekBar_Discrete = 2131689657;
 			
-			// aapt resource value: 0x7F0E00BA
-			public const int Base_Widget_AppCompat_Spinner = 2131624122;
+			// aapt resource value: 0x7F0F00BA
+			public const int Base_Widget_AppCompat_Spinner = 2131689658;
 			
-			// aapt resource value: 0x7F0E00BB
-			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131624123;
+			// aapt resource value: 0x7F0F00BB
+			public const int Base_Widget_AppCompat_Spinner_Underlined = 2131689659;
 			
-			// aapt resource value: 0x7F0E00BC
-			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131624124;
+			// aapt resource value: 0x7F0F00BC
+			public const int Base_Widget_AppCompat_TextView_SpinnerItem = 2131689660;
 			
-			// aapt resource value: 0x7F0E00BD
-			public const int Base_Widget_AppCompat_Toolbar = 2131624125;
+			// aapt resource value: 0x7F0F00BD
+			public const int Base_Widget_AppCompat_Toolbar = 2131689661;
 			
-			// aapt resource value: 0x7F0E00BE
-			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131624126;
+			// aapt resource value: 0x7F0F00BE
+			public const int Base_Widget_AppCompat_Toolbar_Button_Navigation = 2131689662;
 			
-			// aapt resource value: 0x7F0E00BF
-			public const int Base_Widget_Design_TabLayout = 2131624127;
+			// aapt resource value: 0x7F0F00BF
+			public const int Base_Widget_Design_TabLayout = 2131689663;
 			
-			// aapt resource value: 0x7F0E00C0
-			public const int Base_Widget_MaterialComponents_Chip = 2131624128;
+			// aapt resource value: 0x7F0F00C0
+			public const int Base_Widget_MaterialComponents_Chip = 2131689664;
 			
-			// aapt resource value: 0x7F0E00C1
-			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131624129;
+			// aapt resource value: 0x7F0F00C1
+			public const int Base_Widget_MaterialComponents_TextInputEditText = 2131689665;
 			
-			// aapt resource value: 0x7F0E00C2
-			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131624130;
+			// aapt resource value: 0x7F0F00C2
+			public const int Base_Widget_MaterialComponents_TextInputLayout = 2131689666;
 			
-			// aapt resource value: 0x7F0E00C3
-			public const int CardView = 2131624131;
+			// aapt resource value: 0x7F0F00C3
+			public const int CardView = 2131689667;
 			
-			// aapt resource value: 0x7F0E00C4
-			public const int CardView_Dark = 2131624132;
+			// aapt resource value: 0x7F0F00C4
+			public const int CardView_Dark = 2131689668;
 			
-			// aapt resource value: 0x7F0E00C5
-			public const int CardView_Light = 2131624133;
+			// aapt resource value: 0x7F0F00C5
+			public const int CardView_Light = 2131689669;
 			
-			// aapt resource value: 0x7F0E01F7
-			public const int collectionViewStyle = 2131624439;
+			// aapt resource value: 0x7F0F01F7
+			public const int collectionViewStyle = 2131689975;
 			
-			// aapt resource value: 0x7F0E00C6
-			public const int MainTheme = 2131624134;
+			// aapt resource value: 0x7F0F00C6
+			public const int MainTheme = 2131689670;
 			
-			// aapt resource value: 0x7F0E00C7
-			public const int MainTheme_Base = 2131624135;
+			// aapt resource value: 0x7F0F00C7
+			public const int MainTheme_Base = 2131689671;
 			
-			// aapt resource value: 0x7F0E00C8
-			public const int Platform_AppCompat = 2131624136;
+			// aapt resource value: 0x7F0F00C8
+			public const int Platform_AppCompat = 2131689672;
 			
-			// aapt resource value: 0x7F0E00C9
-			public const int Platform_AppCompat_Light = 2131624137;
+			// aapt resource value: 0x7F0F00C9
+			public const int Platform_AppCompat_Light = 2131689673;
 			
-			// aapt resource value: 0x7F0E00CA
-			public const int Platform_MaterialComponents = 2131624138;
+			// aapt resource value: 0x7F0F00CA
+			public const int Platform_MaterialComponents = 2131689674;
 			
-			// aapt resource value: 0x7F0E00CB
-			public const int Platform_MaterialComponents_Dialog = 2131624139;
+			// aapt resource value: 0x7F0F00CB
+			public const int Platform_MaterialComponents_Dialog = 2131689675;
 			
-			// aapt resource value: 0x7F0E00CC
-			public const int Platform_MaterialComponents_Light = 2131624140;
+			// aapt resource value: 0x7F0F00CC
+			public const int Platform_MaterialComponents_Light = 2131689676;
 			
-			// aapt resource value: 0x7F0E00CD
-			public const int Platform_MaterialComponents_Light_Dialog = 2131624141;
+			// aapt resource value: 0x7F0F00CD
+			public const int Platform_MaterialComponents_Light_Dialog = 2131689677;
 			
-			// aapt resource value: 0x7F0E00CE
-			public const int Platform_ThemeOverlay_AppCompat = 2131624142;
+			// aapt resource value: 0x7F0F00CE
+			public const int Platform_ThemeOverlay_AppCompat = 2131689678;
 			
-			// aapt resource value: 0x7F0E00CF
-			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131624143;
+			// aapt resource value: 0x7F0F00CF
+			public const int Platform_ThemeOverlay_AppCompat_Dark = 2131689679;
 			
-			// aapt resource value: 0x7F0E00D0
-			public const int Platform_ThemeOverlay_AppCompat_Light = 2131624144;
+			// aapt resource value: 0x7F0F00D0
+			public const int Platform_ThemeOverlay_AppCompat_Light = 2131689680;
 			
-			// aapt resource value: 0x7F0E00D1
-			public const int Platform_V21_AppCompat = 2131624145;
+			// aapt resource value: 0x7F0F00D1
+			public const int Platform_V21_AppCompat = 2131689681;
 			
-			// aapt resource value: 0x7F0E00D2
-			public const int Platform_V21_AppCompat_Light = 2131624146;
+			// aapt resource value: 0x7F0F00D2
+			public const int Platform_V21_AppCompat_Light = 2131689682;
 			
-			// aapt resource value: 0x7F0E00D3
-			public const int Platform_V25_AppCompat = 2131624147;
+			// aapt resource value: 0x7F0F00D3
+			public const int Platform_V25_AppCompat = 2131689683;
 			
-			// aapt resource value: 0x7F0E00D4
-			public const int Platform_V25_AppCompat_Light = 2131624148;
+			// aapt resource value: 0x7F0F00D4
+			public const int Platform_V25_AppCompat_Light = 2131689684;
 			
-			// aapt resource value: 0x7F0E00D5
-			public const int Platform_Widget_AppCompat_Spinner = 2131624149;
+			// aapt resource value: 0x7F0F00D5
+			public const int Platform_Widget_AppCompat_Spinner = 2131689685;
 			
-			// aapt resource value: 0x7F0E00D6
-			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131624150;
+			// aapt resource value: 0x7F0F00D6
+			public const int RtlOverlay_DialogWindowTitle_AppCompat = 2131689686;
 			
-			// aapt resource value: 0x7F0E00D7
-			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131624151;
+			// aapt resource value: 0x7F0F00D7
+			public const int RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = 2131689687;
 			
-			// aapt resource value: 0x7F0E00D8
-			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131624152;
+			// aapt resource value: 0x7F0F00D8
+			public const int RtlOverlay_Widget_AppCompat_DialogTitle_Icon = 2131689688;
 			
-			// aapt resource value: 0x7F0E00D9
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131624153;
+			// aapt resource value: 0x7F0F00D9
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem = 2131689689;
 			
-			// aapt resource value: 0x7F0E00DA
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131624154;
+			// aapt resource value: 0x7F0F00DA
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = 2131689690;
 			
-			// aapt resource value: 0x7F0E00DB
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131624155;
+			// aapt resource value: 0x7F0F00DB
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = 2131689691;
 			
-			// aapt resource value: 0x7F0E00DC
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131624156;
+			// aapt resource value: 0x7F0F00DC
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = 2131689692;
 			
-			// aapt resource value: 0x7F0E00DD
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131624157;
+			// aapt resource value: 0x7F0F00DD
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = 2131689693;
 			
-			// aapt resource value: 0x7F0E00DE
-			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131624158;
+			// aapt resource value: 0x7F0F00DE
+			public const int RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = 2131689694;
 			
-			// aapt resource value: 0x7F0E00E4
-			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131624164;
+			// aapt resource value: 0x7F0F00E4
+			public const int RtlOverlay_Widget_AppCompat_SearchView_MagIcon = 2131689700;
 			
-			// aapt resource value: 0x7F0E00DF
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131624159;
+			// aapt resource value: 0x7F0F00DF
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown = 2131689695;
 			
-			// aapt resource value: 0x7F0E00E0
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131624160;
+			// aapt resource value: 0x7F0F00E0
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = 2131689696;
 			
-			// aapt resource value: 0x7F0E00E1
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131624161;
+			// aapt resource value: 0x7F0F00E1
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = 2131689697;
 			
-			// aapt resource value: 0x7F0E00E2
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131624162;
+			// aapt resource value: 0x7F0F00E2
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Query = 2131689698;
 			
-			// aapt resource value: 0x7F0E00E3
-			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131624163;
+			// aapt resource value: 0x7F0F00E3
+			public const int RtlOverlay_Widget_AppCompat_Search_DropDown_Text = 2131689699;
 			
-			// aapt resource value: 0x7F0E00E5
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131624165;
+			// aapt resource value: 0x7F0F00E5
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton = 2131689701;
 			
-			// aapt resource value: 0x7F0E00E6
-			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624166;
+			// aapt resource value: 0x7F0F00E6
+			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131689702;
 			
-			// aapt resource value: 0x7F0E00E7
-			public const int TextAppearance_AppCompat = 2131624167;
+			// aapt resource value: 0x7F0F00E7
+			public const int TextAppearance_AppCompat = 2131689703;
 			
-			// aapt resource value: 0x7F0E00E8
-			public const int TextAppearance_AppCompat_Body1 = 2131624168;
+			// aapt resource value: 0x7F0F00E8
+			public const int TextAppearance_AppCompat_Body1 = 2131689704;
 			
-			// aapt resource value: 0x7F0E00E9
-			public const int TextAppearance_AppCompat_Body2 = 2131624169;
+			// aapt resource value: 0x7F0F00E9
+			public const int TextAppearance_AppCompat_Body2 = 2131689705;
 			
-			// aapt resource value: 0x7F0E00EA
-			public const int TextAppearance_AppCompat_Button = 2131624170;
+			// aapt resource value: 0x7F0F00EA
+			public const int TextAppearance_AppCompat_Button = 2131689706;
 			
-			// aapt resource value: 0x7F0E00EB
-			public const int TextAppearance_AppCompat_Caption = 2131624171;
+			// aapt resource value: 0x7F0F00EB
+			public const int TextAppearance_AppCompat_Caption = 2131689707;
 			
-			// aapt resource value: 0x7F0E00EC
-			public const int TextAppearance_AppCompat_Display1 = 2131624172;
+			// aapt resource value: 0x7F0F00EC
+			public const int TextAppearance_AppCompat_Display1 = 2131689708;
 			
-			// aapt resource value: 0x7F0E00ED
-			public const int TextAppearance_AppCompat_Display2 = 2131624173;
+			// aapt resource value: 0x7F0F00ED
+			public const int TextAppearance_AppCompat_Display2 = 2131689709;
 			
-			// aapt resource value: 0x7F0E00EE
-			public const int TextAppearance_AppCompat_Display3 = 2131624174;
+			// aapt resource value: 0x7F0F00EE
+			public const int TextAppearance_AppCompat_Display3 = 2131689710;
 			
-			// aapt resource value: 0x7F0E00EF
-			public const int TextAppearance_AppCompat_Display4 = 2131624175;
+			// aapt resource value: 0x7F0F00EF
+			public const int TextAppearance_AppCompat_Display4 = 2131689711;
 			
-			// aapt resource value: 0x7F0E00F0
-			public const int TextAppearance_AppCompat_Headline = 2131624176;
+			// aapt resource value: 0x7F0F00F0
+			public const int TextAppearance_AppCompat_Headline = 2131689712;
 			
-			// aapt resource value: 0x7F0E00F1
-			public const int TextAppearance_AppCompat_Inverse = 2131624177;
+			// aapt resource value: 0x7F0F00F1
+			public const int TextAppearance_AppCompat_Inverse = 2131689713;
 			
-			// aapt resource value: 0x7F0E00F2
-			public const int TextAppearance_AppCompat_Large = 2131624178;
+			// aapt resource value: 0x7F0F00F2
+			public const int TextAppearance_AppCompat_Large = 2131689714;
 			
-			// aapt resource value: 0x7F0E00F3
-			public const int TextAppearance_AppCompat_Large_Inverse = 2131624179;
+			// aapt resource value: 0x7F0F00F3
+			public const int TextAppearance_AppCompat_Large_Inverse = 2131689715;
 			
-			// aapt resource value: 0x7F0E00F4
-			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131624180;
+			// aapt resource value: 0x7F0F00F4
+			public const int TextAppearance_AppCompat_Light_SearchResult_Subtitle = 2131689716;
 			
-			// aapt resource value: 0x7F0E00F5
-			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131624181;
+			// aapt resource value: 0x7F0F00F5
+			public const int TextAppearance_AppCompat_Light_SearchResult_Title = 2131689717;
 			
-			// aapt resource value: 0x7F0E00F6
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131624182;
+			// aapt resource value: 0x7F0F00F6
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = 2131689718;
 			
-			// aapt resource value: 0x7F0E00F7
-			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131624183;
+			// aapt resource value: 0x7F0F00F7
+			public const int TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = 2131689719;
 			
-			// aapt resource value: 0x7F0E00F8
-			public const int TextAppearance_AppCompat_Medium = 2131624184;
+			// aapt resource value: 0x7F0F00F8
+			public const int TextAppearance_AppCompat_Medium = 2131689720;
 			
-			// aapt resource value: 0x7F0E00F9
-			public const int TextAppearance_AppCompat_Medium_Inverse = 2131624185;
+			// aapt resource value: 0x7F0F00F9
+			public const int TextAppearance_AppCompat_Medium_Inverse = 2131689721;
 			
-			// aapt resource value: 0x7F0E00FA
-			public const int TextAppearance_AppCompat_Menu = 2131624186;
+			// aapt resource value: 0x7F0F00FA
+			public const int TextAppearance_AppCompat_Menu = 2131689722;
 			
-			// aapt resource value: 0x7F0E00FB
-			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131624187;
+			// aapt resource value: 0x7F0F00FB
+			public const int TextAppearance_AppCompat_SearchResult_Subtitle = 2131689723;
 			
-			// aapt resource value: 0x7F0E00FC
-			public const int TextAppearance_AppCompat_SearchResult_Title = 2131624188;
+			// aapt resource value: 0x7F0F00FC
+			public const int TextAppearance_AppCompat_SearchResult_Title = 2131689724;
 			
-			// aapt resource value: 0x7F0E00FD
-			public const int TextAppearance_AppCompat_Small = 2131624189;
+			// aapt resource value: 0x7F0F00FD
+			public const int TextAppearance_AppCompat_Small = 2131689725;
 			
-			// aapt resource value: 0x7F0E00FE
-			public const int TextAppearance_AppCompat_Small_Inverse = 2131624190;
+			// aapt resource value: 0x7F0F00FE
+			public const int TextAppearance_AppCompat_Small_Inverse = 2131689726;
 			
-			// aapt resource value: 0x7F0E00FF
-			public const int TextAppearance_AppCompat_Subhead = 2131624191;
+			// aapt resource value: 0x7F0F00FF
+			public const int TextAppearance_AppCompat_Subhead = 2131689727;
 			
-			// aapt resource value: 0x7F0E0100
-			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131624192;
+			// aapt resource value: 0x7F0F0100
+			public const int TextAppearance_AppCompat_Subhead_Inverse = 2131689728;
 			
-			// aapt resource value: 0x7F0E0101
-			public const int TextAppearance_AppCompat_Title = 2131624193;
+			// aapt resource value: 0x7F0F0101
+			public const int TextAppearance_AppCompat_Title = 2131689729;
 			
-			// aapt resource value: 0x7F0E0102
-			public const int TextAppearance_AppCompat_Title_Inverse = 2131624194;
+			// aapt resource value: 0x7F0F0102
+			public const int TextAppearance_AppCompat_Title_Inverse = 2131689730;
 			
-			// aapt resource value: 0x7F0E0103
-			public const int TextAppearance_AppCompat_Tooltip = 2131624195;
+			// aapt resource value: 0x7F0F0103
+			public const int TextAppearance_AppCompat_Tooltip = 2131689731;
 			
-			// aapt resource value: 0x7F0E0104
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131624196;
+			// aapt resource value: 0x7F0F0104
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Menu = 2131689732;
 			
-			// aapt resource value: 0x7F0E0105
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131624197;
+			// aapt resource value: 0x7F0F0105
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle = 2131689733;
 			
-			// aapt resource value: 0x7F0E0106
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131624198;
+			// aapt resource value: 0x7F0F0106
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = 2131689734;
 			
-			// aapt resource value: 0x7F0E0107
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131624199;
+			// aapt resource value: 0x7F0F0107
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title = 2131689735;
 			
-			// aapt resource value: 0x7F0E0108
-			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131624200;
+			// aapt resource value: 0x7F0F0108
+			public const int TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = 2131689736;
 			
-			// aapt resource value: 0x7F0E0109
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131624201;
+			// aapt resource value: 0x7F0F0109
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle = 2131689737;
 			
-			// aapt resource value: 0x7F0E010A
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131624202;
+			// aapt resource value: 0x7F0F010A
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = 2131689738;
 			
-			// aapt resource value: 0x7F0E010B
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131624203;
+			// aapt resource value: 0x7F0F010B
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title = 2131689739;
 			
-			// aapt resource value: 0x7F0E010C
-			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131624204;
+			// aapt resource value: 0x7F0F010C
+			public const int TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = 2131689740;
 			
-			// aapt resource value: 0x7F0E010D
-			public const int TextAppearance_AppCompat_Widget_Button = 2131624205;
+			// aapt resource value: 0x7F0F010D
+			public const int TextAppearance_AppCompat_Widget_Button = 2131689741;
 			
-			// aapt resource value: 0x7F0E010E
-			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131624206;
+			// aapt resource value: 0x7F0F010E
+			public const int TextAppearance_AppCompat_Widget_Button_Borderless_Colored = 2131689742;
 			
-			// aapt resource value: 0x7F0E010F
-			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131624207;
+			// aapt resource value: 0x7F0F010F
+			public const int TextAppearance_AppCompat_Widget_Button_Colored = 2131689743;
 			
-			// aapt resource value: 0x7F0E0110
-			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131624208;
+			// aapt resource value: 0x7F0F0110
+			public const int TextAppearance_AppCompat_Widget_Button_Inverse = 2131689744;
 			
-			// aapt resource value: 0x7F0E0111
-			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131624209;
+			// aapt resource value: 0x7F0F0111
+			public const int TextAppearance_AppCompat_Widget_DropDownItem = 2131689745;
 			
-			// aapt resource value: 0x7F0E0112
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131624210;
+			// aapt resource value: 0x7F0F0112
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Header = 2131689746;
 			
-			// aapt resource value: 0x7F0E0113
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131624211;
+			// aapt resource value: 0x7F0F0113
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Large = 2131689747;
 			
-			// aapt resource value: 0x7F0E0114
-			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131624212;
+			// aapt resource value: 0x7F0F0114
+			public const int TextAppearance_AppCompat_Widget_PopupMenu_Small = 2131689748;
 			
-			// aapt resource value: 0x7F0E0115
-			public const int TextAppearance_AppCompat_Widget_Switch = 2131624213;
+			// aapt resource value: 0x7F0F0115
+			public const int TextAppearance_AppCompat_Widget_Switch = 2131689749;
 			
-			// aapt resource value: 0x7F0E0116
-			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131624214;
+			// aapt resource value: 0x7F0F0116
+			public const int TextAppearance_AppCompat_Widget_TextView_SpinnerItem = 2131689750;
 			
-			// aapt resource value: 0x7F0E0117
-			public const int TextAppearance_Compat_Notification = 2131624215;
+			// aapt resource value: 0x7F0F0117
+			public const int TextAppearance_Compat_Notification = 2131689751;
 			
-			// aapt resource value: 0x7F0E0118
-			public const int TextAppearance_Compat_Notification_Info = 2131624216;
+			// aapt resource value: 0x7F0F0118
+			public const int TextAppearance_Compat_Notification_Info = 2131689752;
 			
-			// aapt resource value: 0x7F0E0119
-			public const int TextAppearance_Compat_Notification_Info_Media = 2131624217;
+			// aapt resource value: 0x7F0F0119
+			public const int TextAppearance_Compat_Notification_Info_Media = 2131689753;
 			
-			// aapt resource value: 0x7F0E011A
-			public const int TextAppearance_Compat_Notification_Line2 = 2131624218;
+			// aapt resource value: 0x7F0F011A
+			public const int TextAppearance_Compat_Notification_Line2 = 2131689754;
 			
-			// aapt resource value: 0x7F0E011B
-			public const int TextAppearance_Compat_Notification_Line2_Media = 2131624219;
+			// aapt resource value: 0x7F0F011B
+			public const int TextAppearance_Compat_Notification_Line2_Media = 2131689755;
 			
-			// aapt resource value: 0x7F0E011C
-			public const int TextAppearance_Compat_Notification_Media = 2131624220;
+			// aapt resource value: 0x7F0F011C
+			public const int TextAppearance_Compat_Notification_Media = 2131689756;
 			
-			// aapt resource value: 0x7F0E011D
-			public const int TextAppearance_Compat_Notification_Time = 2131624221;
+			// aapt resource value: 0x7F0F011D
+			public const int TextAppearance_Compat_Notification_Time = 2131689757;
 			
-			// aapt resource value: 0x7F0E011E
-			public const int TextAppearance_Compat_Notification_Time_Media = 2131624222;
+			// aapt resource value: 0x7F0F011E
+			public const int TextAppearance_Compat_Notification_Time_Media = 2131689758;
 			
-			// aapt resource value: 0x7F0E011F
-			public const int TextAppearance_Compat_Notification_Title = 2131624223;
+			// aapt resource value: 0x7F0F011F
+			public const int TextAppearance_Compat_Notification_Title = 2131689759;
 			
-			// aapt resource value: 0x7F0E0120
-			public const int TextAppearance_Compat_Notification_Title_Media = 2131624224;
+			// aapt resource value: 0x7F0F0120
+			public const int TextAppearance_Compat_Notification_Title_Media = 2131689760;
 			
-			// aapt resource value: 0x7F0E0121
-			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131624225;
+			// aapt resource value: 0x7F0F0121
+			public const int TextAppearance_Design_CollapsingToolbar_Expanded = 2131689761;
 			
-			// aapt resource value: 0x7F0E0122
-			public const int TextAppearance_Design_Counter = 2131624226;
+			// aapt resource value: 0x7F0F0122
+			public const int TextAppearance_Design_Counter = 2131689762;
 			
-			// aapt resource value: 0x7F0E0123
-			public const int TextAppearance_Design_Counter_Overflow = 2131624227;
+			// aapt resource value: 0x7F0F0123
+			public const int TextAppearance_Design_Counter_Overflow = 2131689763;
 			
-			// aapt resource value: 0x7F0E0124
-			public const int TextAppearance_Design_Error = 2131624228;
+			// aapt resource value: 0x7F0F0124
+			public const int TextAppearance_Design_Error = 2131689764;
 			
-			// aapt resource value: 0x7F0E0125
-			public const int TextAppearance_Design_HelperText = 2131624229;
+			// aapt resource value: 0x7F0F0125
+			public const int TextAppearance_Design_HelperText = 2131689765;
 			
-			// aapt resource value: 0x7F0E0126
-			public const int TextAppearance_Design_Hint = 2131624230;
+			// aapt resource value: 0x7F0F0126
+			public const int TextAppearance_Design_Hint = 2131689766;
 			
-			// aapt resource value: 0x7F0E0127
-			public const int TextAppearance_Design_Snackbar_Message = 2131624231;
+			// aapt resource value: 0x7F0F0127
+			public const int TextAppearance_Design_Snackbar_Message = 2131689767;
 			
-			// aapt resource value: 0x7F0E0128
-			public const int TextAppearance_Design_Tab = 2131624232;
+			// aapt resource value: 0x7F0F0128
+			public const int TextAppearance_Design_Tab = 2131689768;
 			
-			// aapt resource value: 0x7F0E0129
-			public const int TextAppearance_MaterialComponents_Body1 = 2131624233;
+			// aapt resource value: 0x7F0F0129
+			public const int TextAppearance_MaterialComponents_Body1 = 2131689769;
 			
-			// aapt resource value: 0x7F0E012A
-			public const int TextAppearance_MaterialComponents_Body2 = 2131624234;
+			// aapt resource value: 0x7F0F012A
+			public const int TextAppearance_MaterialComponents_Body2 = 2131689770;
 			
-			// aapt resource value: 0x7F0E012B
-			public const int TextAppearance_MaterialComponents_Button = 2131624235;
+			// aapt resource value: 0x7F0F012B
+			public const int TextAppearance_MaterialComponents_Button = 2131689771;
 			
-			// aapt resource value: 0x7F0E012C
-			public const int TextAppearance_MaterialComponents_Caption = 2131624236;
+			// aapt resource value: 0x7F0F012C
+			public const int TextAppearance_MaterialComponents_Caption = 2131689772;
 			
-			// aapt resource value: 0x7F0E012D
-			public const int TextAppearance_MaterialComponents_Chip = 2131624237;
+			// aapt resource value: 0x7F0F012D
+			public const int TextAppearance_MaterialComponents_Chip = 2131689773;
 			
-			// aapt resource value: 0x7F0E012E
-			public const int TextAppearance_MaterialComponents_Headline1 = 2131624238;
+			// aapt resource value: 0x7F0F012E
+			public const int TextAppearance_MaterialComponents_Headline1 = 2131689774;
 			
-			// aapt resource value: 0x7F0E012F
-			public const int TextAppearance_MaterialComponents_Headline2 = 2131624239;
+			// aapt resource value: 0x7F0F012F
+			public const int TextAppearance_MaterialComponents_Headline2 = 2131689775;
 			
-			// aapt resource value: 0x7F0E0130
-			public const int TextAppearance_MaterialComponents_Headline3 = 2131624240;
+			// aapt resource value: 0x7F0F0130
+			public const int TextAppearance_MaterialComponents_Headline3 = 2131689776;
 			
-			// aapt resource value: 0x7F0E0131
-			public const int TextAppearance_MaterialComponents_Headline4 = 2131624241;
+			// aapt resource value: 0x7F0F0131
+			public const int TextAppearance_MaterialComponents_Headline4 = 2131689777;
 			
-			// aapt resource value: 0x7F0E0132
-			public const int TextAppearance_MaterialComponents_Headline5 = 2131624242;
+			// aapt resource value: 0x7F0F0132
+			public const int TextAppearance_MaterialComponents_Headline5 = 2131689778;
 			
-			// aapt resource value: 0x7F0E0133
-			public const int TextAppearance_MaterialComponents_Headline6 = 2131624243;
+			// aapt resource value: 0x7F0F0133
+			public const int TextAppearance_MaterialComponents_Headline6 = 2131689779;
 			
-			// aapt resource value: 0x7F0E0134
-			public const int TextAppearance_MaterialComponents_Overline = 2131624244;
+			// aapt resource value: 0x7F0F0134
+			public const int TextAppearance_MaterialComponents_Overline = 2131689780;
 			
-			// aapt resource value: 0x7F0E0135
-			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131624245;
+			// aapt resource value: 0x7F0F0135
+			public const int TextAppearance_MaterialComponents_Subtitle1 = 2131689781;
 			
-			// aapt resource value: 0x7F0E0136
-			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131624246;
+			// aapt resource value: 0x7F0F0136
+			public const int TextAppearance_MaterialComponents_Subtitle2 = 2131689782;
 			
-			// aapt resource value: 0x7F0E0137
-			public const int TextAppearance_MaterialComponents_Tab = 2131624247;
+			// aapt resource value: 0x7F0F0137
+			public const int TextAppearance_MaterialComponents_Tab = 2131689783;
 			
-			// aapt resource value: 0x7F0E0138
-			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131624248;
+			// aapt resource value: 0x7F0F0138
+			public const int TextAppearance_Widget_AppCompat_ExpandedMenu_Item = 2131689784;
 			
-			// aapt resource value: 0x7F0E0139
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131624249;
+			// aapt resource value: 0x7F0F0139
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Subtitle = 2131689785;
 			
-			// aapt resource value: 0x7F0E013A
-			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131624250;
+			// aapt resource value: 0x7F0F013A
+			public const int TextAppearance_Widget_AppCompat_Toolbar_Title = 2131689786;
 			
-			// aapt resource value: 0x7F0E016B
-			public const int ThemeOverlay_AppCompat = 2131624299;
+			// aapt resource value: 0x7F0F016B
+			public const int ThemeOverlay_AppCompat = 2131689835;
 			
-			// aapt resource value: 0x7F0E016C
-			public const int ThemeOverlay_AppCompat_ActionBar = 2131624300;
+			// aapt resource value: 0x7F0F016C
+			public const int ThemeOverlay_AppCompat_ActionBar = 2131689836;
 			
-			// aapt resource value: 0x7F0E016D
-			public const int ThemeOverlay_AppCompat_Dark = 2131624301;
+			// aapt resource value: 0x7F0F016D
+			public const int ThemeOverlay_AppCompat_Dark = 2131689837;
 			
-			// aapt resource value: 0x7F0E016E
-			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131624302;
+			// aapt resource value: 0x7F0F016E
+			public const int ThemeOverlay_AppCompat_Dark_ActionBar = 2131689838;
 			
-			// aapt resource value: 0x7F0E016F
-			public const int ThemeOverlay_AppCompat_Dialog = 2131624303;
+			// aapt resource value: 0x7F0F016F
+			public const int ThemeOverlay_AppCompat_Dialog = 2131689839;
 			
-			// aapt resource value: 0x7F0E0170
-			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131624304;
+			// aapt resource value: 0x7F0F0170
+			public const int ThemeOverlay_AppCompat_Dialog_Alert = 2131689840;
 			
-			// aapt resource value: 0x7F0E0171
-			public const int ThemeOverlay_AppCompat_Light = 2131624305;
+			// aapt resource value: 0x7F0F0171
+			public const int ThemeOverlay_AppCompat_Light = 2131689841;
 			
-			// aapt resource value: 0x7F0E0172
-			public const int ThemeOverlay_MaterialComponents = 2131624306;
+			// aapt resource value: 0x7F0F0172
+			public const int ThemeOverlay_MaterialComponents = 2131689842;
 			
-			// aapt resource value: 0x7F0E0173
-			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131624307;
+			// aapt resource value: 0x7F0F0173
+			public const int ThemeOverlay_MaterialComponents_ActionBar = 2131689843;
 			
-			// aapt resource value: 0x7F0E0174
-			public const int ThemeOverlay_MaterialComponents_Dark = 2131624308;
+			// aapt resource value: 0x7F0F0174
+			public const int ThemeOverlay_MaterialComponents_Dark = 2131689844;
 			
-			// aapt resource value: 0x7F0E0175
-			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131624309;
+			// aapt resource value: 0x7F0F0175
+			public const int ThemeOverlay_MaterialComponents_Dark_ActionBar = 2131689845;
 			
-			// aapt resource value: 0x7F0E0176
-			public const int ThemeOverlay_MaterialComponents_Dialog = 2131624310;
+			// aapt resource value: 0x7F0F0176
+			public const int ThemeOverlay_MaterialComponents_Dialog = 2131689846;
 			
-			// aapt resource value: 0x7F0E0177
-			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131624311;
+			// aapt resource value: 0x7F0F0177
+			public const int ThemeOverlay_MaterialComponents_Dialog_Alert = 2131689847;
 			
-			// aapt resource value: 0x7F0E0178
-			public const int ThemeOverlay_MaterialComponents_Light = 2131624312;
+			// aapt resource value: 0x7F0F0178
+			public const int ThemeOverlay_MaterialComponents_Light = 2131689848;
 			
-			// aapt resource value: 0x7F0E0179
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131624313;
+			// aapt resource value: 0x7F0F0179
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText = 2131689849;
 			
-			// aapt resource value: 0x7F0E017A
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131624314;
+			// aapt resource value: 0x7F0F017A
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = 2131689850;
 			
-			// aapt resource value: 0x7F0E017B
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624315;
+			// aapt resource value: 0x7F0F017B
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689851;
 			
-			// aapt resource value: 0x7F0E017C
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131624316;
+			// aapt resource value: 0x7F0F017C
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = 2131689852;
 			
-			// aapt resource value: 0x7F0E017D
-			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624317;
+			// aapt resource value: 0x7F0F017D
+			public const int ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689853;
 			
-			// aapt resource value: 0x7F0E013B
-			public const int Theme_AppCompat = 2131624251;
+			// aapt resource value: 0x7F0F013B
+			public const int Theme_AppCompat = 2131689787;
 			
-			// aapt resource value: 0x7F0E013C
-			public const int Theme_AppCompat_CompactMenu = 2131624252;
+			// aapt resource value: 0x7F0F013C
+			public const int Theme_AppCompat_CompactMenu = 2131689788;
 			
-			// aapt resource value: 0x7F0E013D
-			public const int Theme_AppCompat_DayNight = 2131624253;
+			// aapt resource value: 0x7F0F013D
+			public const int Theme_AppCompat_DayNight = 2131689789;
 			
-			// aapt resource value: 0x7F0E013E
-			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131624254;
+			// aapt resource value: 0x7F0F013E
+			public const int Theme_AppCompat_DayNight_DarkActionBar = 2131689790;
 			
-			// aapt resource value: 0x7F0E013F
-			public const int Theme_AppCompat_DayNight_Dialog = 2131624255;
+			// aapt resource value: 0x7F0F013F
+			public const int Theme_AppCompat_DayNight_Dialog = 2131689791;
 			
-			// aapt resource value: 0x7F0E0142
-			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131624258;
+			// aapt resource value: 0x7F0F0142
+			public const int Theme_AppCompat_DayNight_DialogWhenLarge = 2131689794;
 			
-			// aapt resource value: 0x7F0E0140
-			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131624256;
+			// aapt resource value: 0x7F0F0140
+			public const int Theme_AppCompat_DayNight_Dialog_Alert = 2131689792;
 			
-			// aapt resource value: 0x7F0E0141
-			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131624257;
+			// aapt resource value: 0x7F0F0141
+			public const int Theme_AppCompat_DayNight_Dialog_MinWidth = 2131689793;
 			
-			// aapt resource value: 0x7F0E0143
-			public const int Theme_AppCompat_DayNight_NoActionBar = 2131624259;
+			// aapt resource value: 0x7F0F0143
+			public const int Theme_AppCompat_DayNight_NoActionBar = 2131689795;
 			
-			// aapt resource value: 0x7F0E0144
-			public const int Theme_AppCompat_Dialog = 2131624260;
+			// aapt resource value: 0x7F0F0144
+			public const int Theme_AppCompat_Dialog = 2131689796;
 			
-			// aapt resource value: 0x7F0E0147
-			public const int Theme_AppCompat_DialogWhenLarge = 2131624263;
+			// aapt resource value: 0x7F0F0147
+			public const int Theme_AppCompat_DialogWhenLarge = 2131689799;
 			
-			// aapt resource value: 0x7F0E0145
-			public const int Theme_AppCompat_Dialog_Alert = 2131624261;
+			// aapt resource value: 0x7F0F0145
+			public const int Theme_AppCompat_Dialog_Alert = 2131689797;
 			
-			// aapt resource value: 0x7F0E0146
-			public const int Theme_AppCompat_Dialog_MinWidth = 2131624262;
+			// aapt resource value: 0x7F0F0146
+			public const int Theme_AppCompat_Dialog_MinWidth = 2131689798;
 			
-			// aapt resource value: 0x7F0E0148
-			public const int Theme_AppCompat_Light = 2131624264;
+			// aapt resource value: 0x7F0F0148
+			public const int Theme_AppCompat_Light = 2131689800;
 			
-			// aapt resource value: 0x7F0E0149
-			public const int Theme_AppCompat_Light_DarkActionBar = 2131624265;
+			// aapt resource value: 0x7F0F0149
+			public const int Theme_AppCompat_Light_DarkActionBar = 2131689801;
 			
-			// aapt resource value: 0x7F0E014A
-			public const int Theme_AppCompat_Light_Dialog = 2131624266;
+			// aapt resource value: 0x7F0F014A
+			public const int Theme_AppCompat_Light_Dialog = 2131689802;
 			
-			// aapt resource value: 0x7F0E014D
-			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131624269;
+			// aapt resource value: 0x7F0F014D
+			public const int Theme_AppCompat_Light_DialogWhenLarge = 2131689805;
 			
-			// aapt resource value: 0x7F0E014B
-			public const int Theme_AppCompat_Light_Dialog_Alert = 2131624267;
+			// aapt resource value: 0x7F0F014B
+			public const int Theme_AppCompat_Light_Dialog_Alert = 2131689803;
 			
-			// aapt resource value: 0x7F0E014C
-			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131624268;
+			// aapt resource value: 0x7F0F014C
+			public const int Theme_AppCompat_Light_Dialog_MinWidth = 2131689804;
 			
-			// aapt resource value: 0x7F0E014E
-			public const int Theme_AppCompat_Light_NoActionBar = 2131624270;
+			// aapt resource value: 0x7F0F014E
+			public const int Theme_AppCompat_Light_NoActionBar = 2131689806;
 			
-			// aapt resource value: 0x7F0E014F
-			public const int Theme_AppCompat_NoActionBar = 2131624271;
+			// aapt resource value: 0x7F0F014F
+			public const int Theme_AppCompat_NoActionBar = 2131689807;
 			
-			// aapt resource value: 0x7F0E0150
-			public const int Theme_Design = 2131624272;
+			// aapt resource value: 0x7F0F0150
+			public const int Theme_Design = 2131689808;
 			
-			// aapt resource value: 0x7F0E0151
-			public const int Theme_Design_BottomSheetDialog = 2131624273;
+			// aapt resource value: 0x7F0F0151
+			public const int Theme_Design_BottomSheetDialog = 2131689809;
 			
-			// aapt resource value: 0x7F0E0152
-			public const int Theme_Design_Light = 2131624274;
+			// aapt resource value: 0x7F0F0152
+			public const int Theme_Design_Light = 2131689810;
 			
-			// aapt resource value: 0x7F0E0153
-			public const int Theme_Design_Light_BottomSheetDialog = 2131624275;
+			// aapt resource value: 0x7F0F0153
+			public const int Theme_Design_Light_BottomSheetDialog = 2131689811;
 			
-			// aapt resource value: 0x7F0E0154
-			public const int Theme_Design_Light_NoActionBar = 2131624276;
+			// aapt resource value: 0x7F0F0154
+			public const int Theme_Design_Light_NoActionBar = 2131689812;
 			
-			// aapt resource value: 0x7F0E0155
-			public const int Theme_Design_NoActionBar = 2131624277;
+			// aapt resource value: 0x7F0F0155
+			public const int Theme_Design_NoActionBar = 2131689813;
 			
-			// aapt resource value: 0x7F0E0156
-			public const int Theme_MaterialComponents = 2131624278;
+			// aapt resource value: 0x7F0F0156
+			public const int Theme_MaterialComponents = 2131689814;
 			
-			// aapt resource value: 0x7F0E0157
-			public const int Theme_MaterialComponents_BottomSheetDialog = 2131624279;
+			// aapt resource value: 0x7F0F0157
+			public const int Theme_MaterialComponents_BottomSheetDialog = 2131689815;
 			
-			// aapt resource value: 0x7F0E0158
-			public const int Theme_MaterialComponents_Bridge = 2131624280;
+			// aapt resource value: 0x7F0F0158
+			public const int Theme_MaterialComponents_Bridge = 2131689816;
 			
-			// aapt resource value: 0x7F0E0159
-			public const int Theme_MaterialComponents_CompactMenu = 2131624281;
+			// aapt resource value: 0x7F0F0159
+			public const int Theme_MaterialComponents_CompactMenu = 2131689817;
 			
-			// aapt resource value: 0x7F0E015A
-			public const int Theme_MaterialComponents_Dialog = 2131624282;
+			// aapt resource value: 0x7F0F015A
+			public const int Theme_MaterialComponents_Dialog = 2131689818;
 			
-			// aapt resource value: 0x7F0E015D
-			public const int Theme_MaterialComponents_DialogWhenLarge = 2131624285;
+			// aapt resource value: 0x7F0F015D
+			public const int Theme_MaterialComponents_DialogWhenLarge = 2131689821;
 			
-			// aapt resource value: 0x7F0E015B
-			public const int Theme_MaterialComponents_Dialog_Alert = 2131624283;
+			// aapt resource value: 0x7F0F015B
+			public const int Theme_MaterialComponents_Dialog_Alert = 2131689819;
 			
-			// aapt resource value: 0x7F0E015C
-			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131624284;
+			// aapt resource value: 0x7F0F015C
+			public const int Theme_MaterialComponents_Dialog_MinWidth = 2131689820;
 			
-			// aapt resource value: 0x7F0E015E
-			public const int Theme_MaterialComponents_Light = 2131624286;
+			// aapt resource value: 0x7F0F015E
+			public const int Theme_MaterialComponents_Light = 2131689822;
 			
-			// aapt resource value: 0x7F0E015F
-			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131624287;
+			// aapt resource value: 0x7F0F015F
+			public const int Theme_MaterialComponents_Light_BottomSheetDialog = 2131689823;
 			
-			// aapt resource value: 0x7F0E0160
-			public const int Theme_MaterialComponents_Light_Bridge = 2131624288;
+			// aapt resource value: 0x7F0F0160
+			public const int Theme_MaterialComponents_Light_Bridge = 2131689824;
 			
-			// aapt resource value: 0x7F0E0161
-			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131624289;
+			// aapt resource value: 0x7F0F0161
+			public const int Theme_MaterialComponents_Light_DarkActionBar = 2131689825;
 			
-			// aapt resource value: 0x7F0E0162
-			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131624290;
+			// aapt resource value: 0x7F0F0162
+			public const int Theme_MaterialComponents_Light_DarkActionBar_Bridge = 2131689826;
 			
-			// aapt resource value: 0x7F0E0163
-			public const int Theme_MaterialComponents_Light_Dialog = 2131624291;
+			// aapt resource value: 0x7F0F0163
+			public const int Theme_MaterialComponents_Light_Dialog = 2131689827;
 			
-			// aapt resource value: 0x7F0E0166
-			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131624294;
+			// aapt resource value: 0x7F0F0166
+			public const int Theme_MaterialComponents_Light_DialogWhenLarge = 2131689830;
 			
-			// aapt resource value: 0x7F0E0164
-			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131624292;
+			// aapt resource value: 0x7F0F0164
+			public const int Theme_MaterialComponents_Light_Dialog_Alert = 2131689828;
 			
-			// aapt resource value: 0x7F0E0165
-			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131624293;
+			// aapt resource value: 0x7F0F0165
+			public const int Theme_MaterialComponents_Light_Dialog_MinWidth = 2131689829;
 			
-			// aapt resource value: 0x7F0E0167
-			public const int Theme_MaterialComponents_Light_NoActionBar = 2131624295;
+			// aapt resource value: 0x7F0F0167
+			public const int Theme_MaterialComponents_Light_NoActionBar = 2131689831;
 			
-			// aapt resource value: 0x7F0E0168
-			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131624296;
+			// aapt resource value: 0x7F0F0168
+			public const int Theme_MaterialComponents_Light_NoActionBar_Bridge = 2131689832;
 			
-			// aapt resource value: 0x7F0E0169
-			public const int Theme_MaterialComponents_NoActionBar = 2131624297;
+			// aapt resource value: 0x7F0F0169
+			public const int Theme_MaterialComponents_NoActionBar = 2131689833;
 			
-			// aapt resource value: 0x7F0E016A
-			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131624298;
+			// aapt resource value: 0x7F0F016A
+			public const int Theme_MaterialComponents_NoActionBar_Bridge = 2131689834;
 			
-			// aapt resource value: 0x7F0E017E
-			public const int Widget_AppCompat_ActionBar = 2131624318;
+			// aapt resource value: 0x7F0F017E
+			public const int Widget_AppCompat_ActionBar = 2131689854;
 			
-			// aapt resource value: 0x7F0E017F
-			public const int Widget_AppCompat_ActionBar_Solid = 2131624319;
+			// aapt resource value: 0x7F0F017F
+			public const int Widget_AppCompat_ActionBar_Solid = 2131689855;
 			
-			// aapt resource value: 0x7F0E0180
-			public const int Widget_AppCompat_ActionBar_TabBar = 2131624320;
+			// aapt resource value: 0x7F0F0180
+			public const int Widget_AppCompat_ActionBar_TabBar = 2131689856;
 			
-			// aapt resource value: 0x7F0E0181
-			public const int Widget_AppCompat_ActionBar_TabText = 2131624321;
+			// aapt resource value: 0x7F0F0181
+			public const int Widget_AppCompat_ActionBar_TabText = 2131689857;
 			
-			// aapt resource value: 0x7F0E0182
-			public const int Widget_AppCompat_ActionBar_TabView = 2131624322;
+			// aapt resource value: 0x7F0F0182
+			public const int Widget_AppCompat_ActionBar_TabView = 2131689858;
 			
-			// aapt resource value: 0x7F0E0183
-			public const int Widget_AppCompat_ActionButton = 2131624323;
+			// aapt resource value: 0x7F0F0183
+			public const int Widget_AppCompat_ActionButton = 2131689859;
 			
-			// aapt resource value: 0x7F0E0184
-			public const int Widget_AppCompat_ActionButton_CloseMode = 2131624324;
+			// aapt resource value: 0x7F0F0184
+			public const int Widget_AppCompat_ActionButton_CloseMode = 2131689860;
 			
-			// aapt resource value: 0x7F0E0185
-			public const int Widget_AppCompat_ActionButton_Overflow = 2131624325;
+			// aapt resource value: 0x7F0F0185
+			public const int Widget_AppCompat_ActionButton_Overflow = 2131689861;
 			
-			// aapt resource value: 0x7F0E0186
-			public const int Widget_AppCompat_ActionMode = 2131624326;
+			// aapt resource value: 0x7F0F0186
+			public const int Widget_AppCompat_ActionMode = 2131689862;
 			
-			// aapt resource value: 0x7F0E0187
-			public const int Widget_AppCompat_ActivityChooserView = 2131624327;
+			// aapt resource value: 0x7F0F0187
+			public const int Widget_AppCompat_ActivityChooserView = 2131689863;
 			
-			// aapt resource value: 0x7F0E0188
-			public const int Widget_AppCompat_AutoCompleteTextView = 2131624328;
+			// aapt resource value: 0x7F0F0188
+			public const int Widget_AppCompat_AutoCompleteTextView = 2131689864;
 			
-			// aapt resource value: 0x7F0E0189
-			public const int Widget_AppCompat_Button = 2131624329;
+			// aapt resource value: 0x7F0F0189
+			public const int Widget_AppCompat_Button = 2131689865;
 			
-			// aapt resource value: 0x7F0E018F
-			public const int Widget_AppCompat_ButtonBar = 2131624335;
+			// aapt resource value: 0x7F0F018F
+			public const int Widget_AppCompat_ButtonBar = 2131689871;
 			
-			// aapt resource value: 0x7F0E0190
-			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131624336;
+			// aapt resource value: 0x7F0F0190
+			public const int Widget_AppCompat_ButtonBar_AlertDialog = 2131689872;
 			
-			// aapt resource value: 0x7F0E018A
-			public const int Widget_AppCompat_Button_Borderless = 2131624330;
+			// aapt resource value: 0x7F0F018A
+			public const int Widget_AppCompat_Button_Borderless = 2131689866;
 			
-			// aapt resource value: 0x7F0E018B
-			public const int Widget_AppCompat_Button_Borderless_Colored = 2131624331;
+			// aapt resource value: 0x7F0F018B
+			public const int Widget_AppCompat_Button_Borderless_Colored = 2131689867;
 			
-			// aapt resource value: 0x7F0E018C
-			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131624332;
+			// aapt resource value: 0x7F0F018C
+			public const int Widget_AppCompat_Button_ButtonBar_AlertDialog = 2131689868;
 			
-			// aapt resource value: 0x7F0E018D
-			public const int Widget_AppCompat_Button_Colored = 2131624333;
+			// aapt resource value: 0x7F0F018D
+			public const int Widget_AppCompat_Button_Colored = 2131689869;
 			
-			// aapt resource value: 0x7F0E018E
-			public const int Widget_AppCompat_Button_Small = 2131624334;
+			// aapt resource value: 0x7F0F018E
+			public const int Widget_AppCompat_Button_Small = 2131689870;
 			
-			// aapt resource value: 0x7F0E0191
-			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131624337;
+			// aapt resource value: 0x7F0F0191
+			public const int Widget_AppCompat_CompoundButton_CheckBox = 2131689873;
 			
-			// aapt resource value: 0x7F0E0192
-			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131624338;
+			// aapt resource value: 0x7F0F0192
+			public const int Widget_AppCompat_CompoundButton_RadioButton = 2131689874;
 			
-			// aapt resource value: 0x7F0E0193
-			public const int Widget_AppCompat_CompoundButton_Switch = 2131624339;
+			// aapt resource value: 0x7F0F0193
+			public const int Widget_AppCompat_CompoundButton_Switch = 2131689875;
 			
-			// aapt resource value: 0x7F0E0194
-			public const int Widget_AppCompat_DrawerArrowToggle = 2131624340;
+			// aapt resource value: 0x7F0F0194
+			public const int Widget_AppCompat_DrawerArrowToggle = 2131689876;
 			
-			// aapt resource value: 0x7F0E0195
-			public const int Widget_AppCompat_DropDownItem_Spinner = 2131624341;
+			// aapt resource value: 0x7F0F0195
+			public const int Widget_AppCompat_DropDownItem_Spinner = 2131689877;
 			
-			// aapt resource value: 0x7F0E0196
-			public const int Widget_AppCompat_EditText = 2131624342;
+			// aapt resource value: 0x7F0F0196
+			public const int Widget_AppCompat_EditText = 2131689878;
 			
-			// aapt resource value: 0x7F0E0197
-			public const int Widget_AppCompat_ImageButton = 2131624343;
+			// aapt resource value: 0x7F0F0197
+			public const int Widget_AppCompat_ImageButton = 2131689879;
 			
-			// aapt resource value: 0x7F0E0198
-			public const int Widget_AppCompat_Light_ActionBar = 2131624344;
+			// aapt resource value: 0x7F0F0198
+			public const int Widget_AppCompat_Light_ActionBar = 2131689880;
 			
-			// aapt resource value: 0x7F0E0199
-			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131624345;
+			// aapt resource value: 0x7F0F0199
+			public const int Widget_AppCompat_Light_ActionBar_Solid = 2131689881;
 			
-			// aapt resource value: 0x7F0E019A
-			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131624346;
+			// aapt resource value: 0x7F0F019A
+			public const int Widget_AppCompat_Light_ActionBar_Solid_Inverse = 2131689882;
 			
-			// aapt resource value: 0x7F0E019B
-			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131624347;
+			// aapt resource value: 0x7F0F019B
+			public const int Widget_AppCompat_Light_ActionBar_TabBar = 2131689883;
 			
-			// aapt resource value: 0x7F0E019C
-			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131624348;
+			// aapt resource value: 0x7F0F019C
+			public const int Widget_AppCompat_Light_ActionBar_TabBar_Inverse = 2131689884;
 			
-			// aapt resource value: 0x7F0E019D
-			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131624349;
+			// aapt resource value: 0x7F0F019D
+			public const int Widget_AppCompat_Light_ActionBar_TabText = 2131689885;
 			
-			// aapt resource value: 0x7F0E019E
-			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131624350;
+			// aapt resource value: 0x7F0F019E
+			public const int Widget_AppCompat_Light_ActionBar_TabText_Inverse = 2131689886;
 			
-			// aapt resource value: 0x7F0E019F
-			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131624351;
+			// aapt resource value: 0x7F0F019F
+			public const int Widget_AppCompat_Light_ActionBar_TabView = 2131689887;
 			
-			// aapt resource value: 0x7F0E01A0
-			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131624352;
+			// aapt resource value: 0x7F0F01A0
+			public const int Widget_AppCompat_Light_ActionBar_TabView_Inverse = 2131689888;
 			
-			// aapt resource value: 0x7F0E01A1
-			public const int Widget_AppCompat_Light_ActionButton = 2131624353;
+			// aapt resource value: 0x7F0F01A1
+			public const int Widget_AppCompat_Light_ActionButton = 2131689889;
 			
-			// aapt resource value: 0x7F0E01A2
-			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131624354;
+			// aapt resource value: 0x7F0F01A2
+			public const int Widget_AppCompat_Light_ActionButton_CloseMode = 2131689890;
 			
-			// aapt resource value: 0x7F0E01A3
-			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131624355;
+			// aapt resource value: 0x7F0F01A3
+			public const int Widget_AppCompat_Light_ActionButton_Overflow = 2131689891;
 			
-			// aapt resource value: 0x7F0E01A4
-			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131624356;
+			// aapt resource value: 0x7F0F01A4
+			public const int Widget_AppCompat_Light_ActionMode_Inverse = 2131689892;
 			
-			// aapt resource value: 0x7F0E01A5
-			public const int Widget_AppCompat_Light_ActivityChooserView = 2131624357;
+			// aapt resource value: 0x7F0F01A5
+			public const int Widget_AppCompat_Light_ActivityChooserView = 2131689893;
 			
-			// aapt resource value: 0x7F0E01A6
-			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131624358;
+			// aapt resource value: 0x7F0F01A6
+			public const int Widget_AppCompat_Light_AutoCompleteTextView = 2131689894;
 			
-			// aapt resource value: 0x7F0E01A7
-			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131624359;
+			// aapt resource value: 0x7F0F01A7
+			public const int Widget_AppCompat_Light_DropDownItem_Spinner = 2131689895;
 			
-			// aapt resource value: 0x7F0E01A8
-			public const int Widget_AppCompat_Light_ListPopupWindow = 2131624360;
+			// aapt resource value: 0x7F0F01A8
+			public const int Widget_AppCompat_Light_ListPopupWindow = 2131689896;
 			
-			// aapt resource value: 0x7F0E01A9
-			public const int Widget_AppCompat_Light_ListView_DropDown = 2131624361;
+			// aapt resource value: 0x7F0F01A9
+			public const int Widget_AppCompat_Light_ListView_DropDown = 2131689897;
 			
-			// aapt resource value: 0x7F0E01AA
-			public const int Widget_AppCompat_Light_PopupMenu = 2131624362;
+			// aapt resource value: 0x7F0F01AA
+			public const int Widget_AppCompat_Light_PopupMenu = 2131689898;
 			
-			// aapt resource value: 0x7F0E01AB
-			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131624363;
+			// aapt resource value: 0x7F0F01AB
+			public const int Widget_AppCompat_Light_PopupMenu_Overflow = 2131689899;
 			
-			// aapt resource value: 0x7F0E01AC
-			public const int Widget_AppCompat_Light_SearchView = 2131624364;
+			// aapt resource value: 0x7F0F01AC
+			public const int Widget_AppCompat_Light_SearchView = 2131689900;
 			
-			// aapt resource value: 0x7F0E01AD
-			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131624365;
+			// aapt resource value: 0x7F0F01AD
+			public const int Widget_AppCompat_Light_Spinner_DropDown_ActionBar = 2131689901;
 			
-			// aapt resource value: 0x7F0E01AE
-			public const int Widget_AppCompat_ListMenuView = 2131624366;
+			// aapt resource value: 0x7F0F01AE
+			public const int Widget_AppCompat_ListMenuView = 2131689902;
 			
-			// aapt resource value: 0x7F0E01AF
-			public const int Widget_AppCompat_ListPopupWindow = 2131624367;
+			// aapt resource value: 0x7F0F01AF
+			public const int Widget_AppCompat_ListPopupWindow = 2131689903;
 			
-			// aapt resource value: 0x7F0E01B0
-			public const int Widget_AppCompat_ListView = 2131624368;
+			// aapt resource value: 0x7F0F01B0
+			public const int Widget_AppCompat_ListView = 2131689904;
 			
-			// aapt resource value: 0x7F0E01B1
-			public const int Widget_AppCompat_ListView_DropDown = 2131624369;
+			// aapt resource value: 0x7F0F01B1
+			public const int Widget_AppCompat_ListView_DropDown = 2131689905;
 			
-			// aapt resource value: 0x7F0E01B2
-			public const int Widget_AppCompat_ListView_Menu = 2131624370;
+			// aapt resource value: 0x7F0F01B2
+			public const int Widget_AppCompat_ListView_Menu = 2131689906;
 			
-			// aapt resource value: 0x7F0E01B3
-			public const int Widget_AppCompat_PopupMenu = 2131624371;
+			// aapt resource value: 0x7F0F01B3
+			public const int Widget_AppCompat_PopupMenu = 2131689907;
 			
-			// aapt resource value: 0x7F0E01B4
-			public const int Widget_AppCompat_PopupMenu_Overflow = 2131624372;
+			// aapt resource value: 0x7F0F01B4
+			public const int Widget_AppCompat_PopupMenu_Overflow = 2131689908;
 			
-			// aapt resource value: 0x7F0E01B5
-			public const int Widget_AppCompat_PopupWindow = 2131624373;
+			// aapt resource value: 0x7F0F01B5
+			public const int Widget_AppCompat_PopupWindow = 2131689909;
 			
-			// aapt resource value: 0x7F0E01B6
-			public const int Widget_AppCompat_ProgressBar = 2131624374;
+			// aapt resource value: 0x7F0F01B6
+			public const int Widget_AppCompat_ProgressBar = 2131689910;
 			
-			// aapt resource value: 0x7F0E01B7
-			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131624375;
+			// aapt resource value: 0x7F0F01B7
+			public const int Widget_AppCompat_ProgressBar_Horizontal = 2131689911;
 			
-			// aapt resource value: 0x7F0E01B8
-			public const int Widget_AppCompat_RatingBar = 2131624376;
+			// aapt resource value: 0x7F0F01B8
+			public const int Widget_AppCompat_RatingBar = 2131689912;
 			
-			// aapt resource value: 0x7F0E01B9
-			public const int Widget_AppCompat_RatingBar_Indicator = 2131624377;
+			// aapt resource value: 0x7F0F01B9
+			public const int Widget_AppCompat_RatingBar_Indicator = 2131689913;
 			
-			// aapt resource value: 0x7F0E01BA
-			public const int Widget_AppCompat_RatingBar_Small = 2131624378;
+			// aapt resource value: 0x7F0F01BA
+			public const int Widget_AppCompat_RatingBar_Small = 2131689914;
 			
-			// aapt resource value: 0x7F0E01BB
-			public const int Widget_AppCompat_SearchView = 2131624379;
+			// aapt resource value: 0x7F0F01BB
+			public const int Widget_AppCompat_SearchView = 2131689915;
 			
-			// aapt resource value: 0x7F0E01BC
-			public const int Widget_AppCompat_SearchView_ActionBar = 2131624380;
+			// aapt resource value: 0x7F0F01BC
+			public const int Widget_AppCompat_SearchView_ActionBar = 2131689916;
 			
-			// aapt resource value: 0x7F0E01BD
-			public const int Widget_AppCompat_SeekBar = 2131624381;
+			// aapt resource value: 0x7F0F01BD
+			public const int Widget_AppCompat_SeekBar = 2131689917;
 			
-			// aapt resource value: 0x7F0E01BE
-			public const int Widget_AppCompat_SeekBar_Discrete = 2131624382;
+			// aapt resource value: 0x7F0F01BE
+			public const int Widget_AppCompat_SeekBar_Discrete = 2131689918;
 			
-			// aapt resource value: 0x7F0E01BF
-			public const int Widget_AppCompat_Spinner = 2131624383;
+			// aapt resource value: 0x7F0F01BF
+			public const int Widget_AppCompat_Spinner = 2131689919;
 			
-			// aapt resource value: 0x7F0E01C0
-			public const int Widget_AppCompat_Spinner_DropDown = 2131624384;
+			// aapt resource value: 0x7F0F01C0
+			public const int Widget_AppCompat_Spinner_DropDown = 2131689920;
 			
-			// aapt resource value: 0x7F0E01C1
-			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131624385;
+			// aapt resource value: 0x7F0F01C1
+			public const int Widget_AppCompat_Spinner_DropDown_ActionBar = 2131689921;
 			
-			// aapt resource value: 0x7F0E01C2
-			public const int Widget_AppCompat_Spinner_Underlined = 2131624386;
+			// aapt resource value: 0x7F0F01C2
+			public const int Widget_AppCompat_Spinner_Underlined = 2131689922;
 			
-			// aapt resource value: 0x7F0E01C3
-			public const int Widget_AppCompat_TextView_SpinnerItem = 2131624387;
+			// aapt resource value: 0x7F0F01C3
+			public const int Widget_AppCompat_TextView_SpinnerItem = 2131689923;
 			
-			// aapt resource value: 0x7F0E01C4
-			public const int Widget_AppCompat_Toolbar = 2131624388;
+			// aapt resource value: 0x7F0F01C4
+			public const int Widget_AppCompat_Toolbar = 2131689924;
 			
-			// aapt resource value: 0x7F0E01C5
-			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131624389;
+			// aapt resource value: 0x7F0F01C5
+			public const int Widget_AppCompat_Toolbar_Button_Navigation = 2131689925;
 			
-			// aapt resource value: 0x7F0E01C6
-			public const int Widget_Compat_NotificationActionContainer = 2131624390;
+			// aapt resource value: 0x7F0F01C6
+			public const int Widget_Compat_NotificationActionContainer = 2131689926;
 			
-			// aapt resource value: 0x7F0E01C7
-			public const int Widget_Compat_NotificationActionText = 2131624391;
+			// aapt resource value: 0x7F0F01C7
+			public const int Widget_Compat_NotificationActionText = 2131689927;
 			
-			// aapt resource value: 0x7F0E01C8
-			public const int Widget_Design_AppBarLayout = 2131624392;
+			// aapt resource value: 0x7F0F01C8
+			public const int Widget_Design_AppBarLayout = 2131689928;
 			
-			// aapt resource value: 0x7F0E01C9
-			public const int Widget_Design_BottomNavigationView = 2131624393;
+			// aapt resource value: 0x7F0F01C9
+			public const int Widget_Design_BottomNavigationView = 2131689929;
 			
-			// aapt resource value: 0x7F0E01CA
-			public const int Widget_Design_BottomSheet_Modal = 2131624394;
+			// aapt resource value: 0x7F0F01CA
+			public const int Widget_Design_BottomSheet_Modal = 2131689930;
 			
-			// aapt resource value: 0x7F0E01CB
-			public const int Widget_Design_CollapsingToolbar = 2131624395;
+			// aapt resource value: 0x7F0F01CB
+			public const int Widget_Design_CollapsingToolbar = 2131689931;
 			
-			// aapt resource value: 0x7F0E01CC
-			public const int Widget_Design_FloatingActionButton = 2131624396;
+			// aapt resource value: 0x7F0F01CC
+			public const int Widget_Design_FloatingActionButton = 2131689932;
 			
-			// aapt resource value: 0x7F0E01CD
-			public const int Widget_Design_NavigationView = 2131624397;
+			// aapt resource value: 0x7F0F01CD
+			public const int Widget_Design_NavigationView = 2131689933;
 			
-			// aapt resource value: 0x7F0E01CE
-			public const int Widget_Design_ScrimInsetsFrameLayout = 2131624398;
+			// aapt resource value: 0x7F0F01CE
+			public const int Widget_Design_ScrimInsetsFrameLayout = 2131689934;
 			
-			// aapt resource value: 0x7F0E01CF
-			public const int Widget_Design_Snackbar = 2131624399;
+			// aapt resource value: 0x7F0F01CF
+			public const int Widget_Design_Snackbar = 2131689935;
 			
-			// aapt resource value: 0x7F0E01D0
-			public const int Widget_Design_TabLayout = 2131624400;
+			// aapt resource value: 0x7F0F01D0
+			public const int Widget_Design_TabLayout = 2131689936;
 			
-			// aapt resource value: 0x7F0E01D1
-			public const int Widget_Design_TextInputLayout = 2131624401;
+			// aapt resource value: 0x7F0F01D1
+			public const int Widget_Design_TextInputLayout = 2131689937;
 			
-			// aapt resource value: 0x7F0E01D2
-			public const int Widget_MaterialComponents_BottomAppBar = 2131624402;
+			// aapt resource value: 0x7F0F01D2
+			public const int Widget_MaterialComponents_BottomAppBar = 2131689938;
 			
-			// aapt resource value: 0x7F0E01D3
-			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131624403;
+			// aapt resource value: 0x7F0F01D3
+			public const int Widget_MaterialComponents_BottomAppBar_Colored = 2131689939;
 			
-			// aapt resource value: 0x7F0E01D4
-			public const int Widget_MaterialComponents_BottomNavigationView = 2131624404;
+			// aapt resource value: 0x7F0F01D4
+			public const int Widget_MaterialComponents_BottomNavigationView = 2131689940;
 			
-			// aapt resource value: 0x7F0E01D5
-			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131624405;
+			// aapt resource value: 0x7F0F01D5
+			public const int Widget_MaterialComponents_BottomNavigationView_Colored = 2131689941;
 			
-			// aapt resource value: 0x7F0E01D6
-			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131624406;
+			// aapt resource value: 0x7F0F01D6
+			public const int Widget_MaterialComponents_BottomSheet_Modal = 2131689942;
 			
-			// aapt resource value: 0x7F0E01D7
-			public const int Widget_MaterialComponents_Button = 2131624407;
+			// aapt resource value: 0x7F0F01D7
+			public const int Widget_MaterialComponents_Button = 2131689943;
 			
-			// aapt resource value: 0x7F0E01D8
-			public const int Widget_MaterialComponents_Button_Icon = 2131624408;
+			// aapt resource value: 0x7F0F01D8
+			public const int Widget_MaterialComponents_Button_Icon = 2131689944;
 			
-			// aapt resource value: 0x7F0E01D9
-			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131624409;
+			// aapt resource value: 0x7F0F01D9
+			public const int Widget_MaterialComponents_Button_OutlinedButton = 2131689945;
 			
-			// aapt resource value: 0x7F0E01DA
-			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131624410;
+			// aapt resource value: 0x7F0F01DA
+			public const int Widget_MaterialComponents_Button_OutlinedButton_Icon = 2131689946;
 			
-			// aapt resource value: 0x7F0E01DB
-			public const int Widget_MaterialComponents_Button_TextButton = 2131624411;
+			// aapt resource value: 0x7F0F01DB
+			public const int Widget_MaterialComponents_Button_TextButton = 2131689947;
 			
-			// aapt resource value: 0x7F0E01DC
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131624412;
+			// aapt resource value: 0x7F0F01DC
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog = 2131689948;
 			
-			// aapt resource value: 0x7F0E01DD
-			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131624413;
+			// aapt resource value: 0x7F0F01DD
+			public const int Widget_MaterialComponents_Button_TextButton_Dialog_Icon = 2131689949;
 			
-			// aapt resource value: 0x7F0E01DE
-			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131624414;
+			// aapt resource value: 0x7F0F01DE
+			public const int Widget_MaterialComponents_Button_TextButton_Icon = 2131689950;
 			
-			// aapt resource value: 0x7F0E01DF
-			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131624415;
+			// aapt resource value: 0x7F0F01DF
+			public const int Widget_MaterialComponents_Button_UnelevatedButton = 2131689951;
 			
-			// aapt resource value: 0x7F0E01E0
-			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131624416;
+			// aapt resource value: 0x7F0F01E0
+			public const int Widget_MaterialComponents_Button_UnelevatedButton_Icon = 2131689952;
 			
-			// aapt resource value: 0x7F0E01E1
-			public const int Widget_MaterialComponents_CardView = 2131624417;
+			// aapt resource value: 0x7F0F01E1
+			public const int Widget_MaterialComponents_CardView = 2131689953;
 			
-			// aapt resource value: 0x7F0E01E6
-			public const int Widget_MaterialComponents_ChipGroup = 2131624422;
+			// aapt resource value: 0x7F0F01E6
+			public const int Widget_MaterialComponents_ChipGroup = 2131689958;
 			
-			// aapt resource value: 0x7F0E01E2
-			public const int Widget_MaterialComponents_Chip_Action = 2131624418;
+			// aapt resource value: 0x7F0F01E2
+			public const int Widget_MaterialComponents_Chip_Action = 2131689954;
 			
-			// aapt resource value: 0x7F0E01E3
-			public const int Widget_MaterialComponents_Chip_Choice = 2131624419;
+			// aapt resource value: 0x7F0F01E3
+			public const int Widget_MaterialComponents_Chip_Choice = 2131689955;
 			
-			// aapt resource value: 0x7F0E01E4
-			public const int Widget_MaterialComponents_Chip_Entry = 2131624420;
+			// aapt resource value: 0x7F0F01E4
+			public const int Widget_MaterialComponents_Chip_Entry = 2131689956;
 			
-			// aapt resource value: 0x7F0E01E5
-			public const int Widget_MaterialComponents_Chip_Filter = 2131624421;
+			// aapt resource value: 0x7F0F01E5
+			public const int Widget_MaterialComponents_Chip_Filter = 2131689957;
 			
-			// aapt resource value: 0x7F0E01E7
-			public const int Widget_MaterialComponents_FloatingActionButton = 2131624423;
+			// aapt resource value: 0x7F0F01E7
+			public const int Widget_MaterialComponents_FloatingActionButton = 2131689959;
 			
-			// aapt resource value: 0x7F0E01E8
-			public const int Widget_MaterialComponents_NavigationView = 2131624424;
+			// aapt resource value: 0x7F0F01E8
+			public const int Widget_MaterialComponents_NavigationView = 2131689960;
 			
-			// aapt resource value: 0x7F0E01E9
-			public const int Widget_MaterialComponents_Snackbar = 2131624425;
+			// aapt resource value: 0x7F0F01E9
+			public const int Widget_MaterialComponents_Snackbar = 2131689961;
 			
-			// aapt resource value: 0x7F0E01EA
-			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131624426;
+			// aapt resource value: 0x7F0F01EA
+			public const int Widget_MaterialComponents_Snackbar_FullWidth = 2131689962;
 			
-			// aapt resource value: 0x7F0E01EB
-			public const int Widget_MaterialComponents_TabLayout = 2131624427;
+			// aapt resource value: 0x7F0F01EB
+			public const int Widget_MaterialComponents_TabLayout = 2131689963;
 			
-			// aapt resource value: 0x7F0E01EC
-			public const int Widget_MaterialComponents_TabLayout_Colored = 2131624428;
+			// aapt resource value: 0x7F0F01EC
+			public const int Widget_MaterialComponents_TabLayout_Colored = 2131689964;
 			
-			// aapt resource value: 0x7F0E01ED
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131624429;
+			// aapt resource value: 0x7F0F01ED
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox = 2131689965;
 			
-			// aapt resource value: 0x7F0E01EE
-			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131624430;
+			// aapt resource value: 0x7F0F01EE
+			public const int Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = 2131689966;
 			
-			// aapt resource value: 0x7F0E01EF
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131624431;
+			// aapt resource value: 0x7F0F01EF
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox = 2131689967;
 			
-			// aapt resource value: 0x7F0E01F0
-			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131624432;
+			// aapt resource value: 0x7F0F01F0
+			public const int Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = 2131689968;
 			
-			// aapt resource value: 0x7F0E01F1
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131624433;
+			// aapt resource value: 0x7F0F01F1
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox = 2131689969;
 			
-			// aapt resource value: 0x7F0E01F2
-			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131624434;
+			// aapt resource value: 0x7F0F01F2
+			public const int Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = 2131689970;
 			
-			// aapt resource value: 0x7F0E01F3
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131624435;
+			// aapt resource value: 0x7F0F01F3
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox = 2131689971;
 			
-			// aapt resource value: 0x7F0E01F4
-			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131624436;
+			// aapt resource value: 0x7F0F01F4
+			public const int Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = 2131689972;
 			
-			// aapt resource value: 0x7F0E01F5
-			public const int Widget_MaterialComponents_Toolbar = 2131624437;
+			// aapt resource value: 0x7F0F01F5
+			public const int Widget_MaterialComponents_Toolbar = 2131689973;
 			
-			// aapt resource value: 0x7F0E01F6
-			public const int Widget_Support_CoordinatorLayout = 2131624438;
+			// aapt resource value: 0x7F0F01F6
+			public const int Widget_Support_CoordinatorLayout = 2131689974;
 			
 			static Style()
 			{
@@ -8471,7 +10742,7 @@ namespace TabletopLab.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300A4,0x7F0300A9,0x7F0300AA,0x7F0300B5,0x7F0300DF,0x7F0300E4,0x7F0300E9,0x7F0300EA,0x7F0300EC,0x7F0300F6,0x7F030100,0x7F030123,0x7F03012F,0x7F030140,0x7F030144,0x7F030145,0x7F030173,0x7F030176,0x7F0301BB,0x7F0301C5 }
+			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F0300A4,0x7F0300A9,0x7F0300AA,0x7F0300B5,0x7F0300DF,0x7F0300E4,0x7F0300E9,0x7F0300EA,0x7F0300EC,0x7F0300F6,0x7F030100,0x7F030123,0x7F03012F,0x7F030141,0x7F030145,0x7F030146,0x7F030175,0x7F030178,0x7F0301BD,0x7F0301C7 }
 			public static int[] ActionBar = new int[] {
 					2130903089,
 					2130903090,
@@ -8495,13 +10766,13 @@ namespace TabletopLab.Droid
 					2130903296,
 					2130903331,
 					2130903343,
-					2130903360,
-					2130903364,
+					2130903361,
 					2130903365,
-					2130903411,
-					2130903414,
-					2130903483,
-					2130903493};
+					2130903366,
+					2130903413,
+					2130903416,
+					2130903485,
+					2130903495};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -8608,14 +10879,14 @@ namespace TabletopLab.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300DF,0x7F030176,0x7F0301C5 }
+			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007E,0x7F0300DF,0x7F030178,0x7F0301C7 }
 			public static int[] ActionMode = new int[] {
 					2130903089,
 					2130903090,
 					2130903166,
 					2130903263,
-					2130903414,
-					2130903493};
+					2130903416,
+					2130903495};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -8646,7 +10917,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030052,0x7F030053,0x7F03011A,0x7F03011B,0x7F03012C,0x7F03015B,0x7F03015C }
+			// aapt resource value: { 0x10100F2,0x7F030052,0x7F030053,0x7F03011A,0x7F03011B,0x7F03012C,0x7F03015D,0x7F03015E }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903122,
@@ -8654,8 +10925,8 @@ namespace TabletopLab.Droid
 					2130903322,
 					2130903323,
 					2130903340,
-					2130903387,
-					2130903388};
+					2130903389,
+					2130903390};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -8747,12 +11018,12 @@ namespace TabletopLab.Droid
 					2130903227,
 					2130903317};
 			
-			// aapt resource value: { 0x7F030169,0x7F03016A,0x7F03016B,0x7F03016C }
+			// aapt resource value: { 0x7F03016B,0x7F03016C,0x7F03016D,0x7F03016E }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903401,
-					2130903402,
 					2130903403,
-					2130903404};
+					2130903404,
+					2130903405,
+					2130903406};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -8795,12 +11066,12 @@ namespace TabletopLab.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F030166,0x7F0301B9,0x7F0301BA }
+			// aapt resource value: { 0x1010119,0x7F030168,0x7F0301BB,0x7F0301BC }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903398,
-					2130903481,
-					2130903482};
+					2130903400,
+					2130903483,
+					2130903484};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -8814,12 +11085,12 @@ namespace TabletopLab.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301B6,0x7F0301B7,0x7F0301B8 }
+			// aapt resource value: { 0x1010142,0x7F0301B8,0x7F0301B9,0x7F0301BA }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903478,
-					2130903479,
-					2130903480};
+					2130903480,
+					2130903481,
+					2130903482};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -8864,7 +11135,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300CE,0x7F0300D1,0x7F030108,0x7F030116,0x7F030196 }
+			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300CE,0x7F0300D1,0x7F030108,0x7F030116,0x7F030198 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903084,
@@ -8876,7 +11147,7 @@ namespace TabletopLab.Droid
 					2130903249,
 					2130903304,
 					2130903318,
-					2130903446};
+					2130903448};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -8911,7 +11182,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 10
 			public const int AppCompatTextView_textAllCaps = 10;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300AB,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300E9,0x7F0300F5,0x7F030118,0x7F030119,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030137,0x7F030138,0x7F030139,0x7F03013F,0x7F030141,0x7F030148,0x7F030149,0x7F03014A,0x7F03014B,0x7F030153,0x7F030154,0x7F030155,0x7F030156,0x7F030163,0x7F030164,0x7F03017A,0x7F0301A1,0x7F0301A2,0x7F0301A3,0x7F0301A4,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AC,0x7F0301AD,0x7F0301C7,0x7F0301C8,0x7F0301C9,0x7F0301CA,0x7F0301D1,0x7F0301D3,0x7F0301D4,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030054,0x7F030055,0x7F03005F,0x7F030064,0x7F030084,0x7F030085,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008E,0x7F03009D,0x7F0300A6,0x7F0300A7,0x7F0300A8,0x7F0300AB,0x7F0300AD,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B4,0x7F0300E9,0x7F0300F5,0x7F030118,0x7F030119,0x7F03011C,0x7F03011D,0x7F03011E,0x7F03011F,0x7F030120,0x7F030121,0x7F030122,0x7F030138,0x7F030139,0x7F03013A,0x7F030140,0x7F030142,0x7F030149,0x7F03014A,0x7F03014B,0x7F03014C,0x7F030155,0x7F030156,0x7F030157,0x7F030158,0x7F030165,0x7F030166,0x7F03017C,0x7F0301A3,0x7F0301A4,0x7F0301A5,0x7F0301A6,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AE,0x7F0301AF,0x7F0301C9,0x7F0301CA,0x7F0301CB,0x7F0301CC,0x7F0301D3,0x7F0301D5,0x7F0301D6,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301DC,0x7F0301DD,0x7F0301DE }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -8993,39 +11264,37 @@ namespace TabletopLab.Droid
 					2130903328,
 					2130903329,
 					2130903330,
-					2130903351,
 					2130903352,
 					2130903353,
-					2130903359,
-					2130903361,
-					2130903368,
+					2130903354,
+					2130903360,
+					2130903362,
 					2130903369,
 					2130903370,
 					2130903371,
-					2130903379,
-					2130903380,
+					2130903372,
 					2130903381,
 					2130903382,
-					2130903395,
-					2130903396,
-					2130903418,
-					2130903457,
-					2130903458,
+					2130903383,
+					2130903384,
+					2130903397,
+					2130903398,
+					2130903420,
 					2130903459,
 					2130903460,
+					2130903461,
 					2130903462,
-					2130903463,
 					2130903464,
 					2130903465,
-					2130903468,
-					2130903469,
-					2130903495,
-					2130903496,
+					2130903466,
+					2130903467,
+					2130903470,
+					2130903471,
 					2130903497,
 					2130903498,
-					2130903505,
+					2130903499,
+					2130903500,
 					2130903507,
-					2130903508,
 					2130903509,
 					2130903510,
 					2130903511,
@@ -9033,7 +11302,9 @@ namespace TabletopLab.Droid
 					2130903513,
 					2130903514,
 					2130903515,
-					2130903516};
+					2130903516,
+					2130903517,
+					2130903518};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -9398,6 +11669,17 @@ namespace TabletopLab.Droid
 			// aapt resource value: 120
 			public const int AppCompatTheme_windowNoTitle = 120;
 			
+			// aapt resource value: { 0x7F030131,0x7F03014D }
+			public static int[] ArcGISARSceneView = new int[] {
+					2130903345,
+					2130903373};
+			
+			// aapt resource value: 0
+			public const int ArcGISARSceneView_northAlign = 0;
+			
+			// aapt resource value: 1
+			public const int ArcGISARSceneView_renderVideoFeed = 1;
+			
 			// aapt resource value: { 0x7F030034,0x7F0300C3,0x7F0300C4,0x7F0300C5,0x7F0300C6,0x7F0300E5 }
 			public static int[] BottomAppBar = new int[] {
 					2130903092,
@@ -9549,7 +11831,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030061,0x7F030062,0x7F030063,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0300E3,0x7F0300ED,0x7F0300F1,0x7F03014D,0x7F030159,0x7F0301AE,0x7F0301B0 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030061,0x7F030062,0x7F030063,0x7F030065,0x7F030066,0x7F030067,0x7F030069,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F030073,0x7F030074,0x7F030075,0x7F030077,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F0300E3,0x7F0300ED,0x7F0300F1,0x7F03014F,0x7F03015B,0x7F0301B0,0x7F0301B2 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
@@ -9581,19 +11863,19 @@ namespace TabletopLab.Droid
 					2130903267,
 					2130903277,
 					2130903281,
-					2130903373,
-					2130903385,
-					2130903470,
-					2130903472};
+					2130903375,
+					2130903387,
+					2130903472,
+					2130903474};
 			
-			// aapt resource value: { 0x7F030060,0x7F03006F,0x7F030070,0x7F030071,0x7F03015D,0x7F03015E }
+			// aapt resource value: { 0x7F030060,0x7F03006F,0x7F030070,0x7F030071,0x7F03015F,0x7F030160 }
 			public static int[] ChipGroup = new int[] {
 					2130903136,
 					2130903151,
 					2130903152,
 					2130903153,
-					2130903389,
-					2130903390};
+					2130903391,
+					2130903392};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -9715,7 +11997,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030081,0x7F030082,0x7F03009C,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F03014E,0x7F030150,0x7F03016E,0x7F0301BB,0x7F0301BC,0x7F0301C6 }
+			// aapt resource value: { 0x7F030081,0x7F030082,0x7F03009C,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300BF,0x7F0300C0,0x7F0300C1,0x7F0300C2,0x7F030150,0x7F030152,0x7F030170,0x7F0301BD,0x7F0301BE,0x7F0301C8 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903169,
 					2130903170,
@@ -9727,12 +12009,12 @@ namespace TabletopLab.Droid
 					2130903232,
 					2130903233,
 					2130903234,
-					2130903374,
 					2130903376,
-					2130903406,
-					2130903483,
-					2130903484,
-					2130903494};
+					2130903378,
+					2130903408,
+					2130903485,
+					2130903486,
+					2130903496};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -9823,10 +12105,10 @@ namespace TabletopLab.Droid
 			// aapt resource value: 2
 			public const int CompoundButton_buttonTintMode = 2;
 			
-			// aapt resource value: { 0x7F030106,0x7F03016D }
+			// aapt resource value: { 0x7F030106,0x7F03016F }
 			public static int[] CoordinatorLayout = new int[] {
 					2130903302,
-					2130903405};
+					2130903407};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -9876,7 +12158,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030083,0x7F0300AE,0x7F0300DC,0x7F030162,0x7F0301B2 }
+			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030083,0x7F0300AE,0x7F0300DC,0x7F030164,0x7F0301B4 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903081,
 					2130903082,
@@ -9884,8 +12166,8 @@ namespace TabletopLab.Droid
 					2130903171,
 					2130903214,
 					2130903260,
-					2130903394,
-					2130903474};
+					2130903396,
+					2130903476};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -9911,7 +12193,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300B5,0x7F0300C7,0x7F0300C8,0x7F0300E3,0x7F0300EB,0x7F030129,0x7F030143,0x7F03014D,0x7F030159,0x7F0301D0 }
+			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300B5,0x7F0300C7,0x7F0300C8,0x7F0300E3,0x7F0300EB,0x7F030129,0x7F030144,0x7F03014F,0x7F03015B,0x7F0301D2 }
 			public static int[] FloatingActionButton = new int[] {
 					2130903092,
 					2130903093,
@@ -9922,10 +12204,10 @@ namespace TabletopLab.Droid
 					2130903267,
 					2130903275,
 					2130903337,
-					2130903363,
-					2130903373,
-					2130903385,
-					2130903504};
+					2130903364,
+					2130903375,
+					2130903387,
+					2130903506};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -9993,7 +12275,7 @@ namespace TabletopLab.Droid
 					2130903254,
 					2130903255};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D0,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0301CF }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300D0,0x7F0300D8,0x7F0300D9,0x7F0300DA,0x7F0301D1 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -10004,7 +12286,7 @@ namespace TabletopLab.Droid
 					2130903256,
 					2130903257,
 					2130903258,
-					2130903503};
+					2130903505};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -10131,7 +12413,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 2
 			public const int GradientColor_android_type = 2;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AA,0x7F0300AC,0x7F03012A,0x7F030158 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AA,0x7F0300AC,0x7F03012A,0x7F03015A }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -10141,7 +12423,7 @@ namespace TabletopLab.Droid
 					2130903210,
 					2130903212,
 					2130903338,
-					2130903384};
+					2130903386};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -10200,7 +12482,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F03009F,0x7F0300EC,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F2,0x7F0300F3,0x7F03014D,0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F03009F,0x7F0300EC,0x7F0300EE,0x7F0300EF,0x7F0300F0,0x7F0300F2,0x7F0300F3,0x7F03014F,0x7F030171,0x7F030172 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
@@ -10215,9 +12497,9 @@ namespace TabletopLab.Droid
 					2130903280,
 					2130903282,
 					2130903283,
-					2130903373,
-					2130903407,
-					2130903408};
+					2130903375,
+					2130903409,
+					2130903410};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -10267,10 +12549,10 @@ namespace TabletopLab.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F03016F,0x7F030170 }
+			// aapt resource value: { 0x7F030171,0x7F030172 }
 			public static int[] MaterialCardView = new int[] {
-					2130903407,
-					2130903408};
+					2130903409,
+					2130903410};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -10278,7 +12560,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030068,0x7F030072,0x7F030076,0x7F030084,0x7F030085,0x7F03008B,0x7F03008C,0x7F03008D,0x7F0300B4,0x7F0300CF,0x7F030125,0x7F030126,0x7F030130,0x7F03014F,0x7F03015F,0x7F030192,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A5,0x7F0301AA,0x7F0301AB,0x7F0301AF }
+			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030068,0x7F030072,0x7F030076,0x7F030084,0x7F030085,0x7F03008B,0x7F03008C,0x7F03008D,0x7F0300B4,0x7F0300CF,0x7F030125,0x7F030126,0x7F030130,0x7F030151,0x7F030161,0x7F030194,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A2,0x7F0301A7,0x7F0301AC,0x7F0301AD,0x7F0301B1 }
 			public static int[] MaterialComponentsTheme = new int[] {
 					2130903105,
 					2130903106,
@@ -10295,11 +12577,9 @@ namespace TabletopLab.Droid
 					2130903333,
 					2130903334,
 					2130903344,
-					2130903375,
-					2130903391,
-					2130903442,
-					2130903447,
-					2130903448,
+					2130903377,
+					2130903393,
+					2130903444,
 					2130903449,
 					2130903450,
 					2130903451,
@@ -10308,10 +12588,12 @@ namespace TabletopLab.Droid
 					2130903454,
 					2130903455,
 					2130903456,
-					2130903461,
-					2130903466,
-					2130903467,
-					2130903471};
+					2130903457,
+					2130903458,
+					2130903463,
+					2130903468,
+					2130903469,
+					2130903473};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -10436,7 +12718,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030090,0x7F0300F2,0x7F0300F3,0x7F030131,0x7F030157,0x7F0301CB }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030090,0x7F0300F2,0x7F0300F3,0x7F030132,0x7F030159,0x7F0301CD }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -10458,9 +12740,9 @@ namespace TabletopLab.Droid
 					2130903184,
 					2130903282,
 					2130903283,
-					2130903345,
-					2130903383,
-					2130903499};
+					2130903346,
+					2130903385,
+					2130903501};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -10531,7 +12813,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030142,0x7F030171 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030143,0x7F030173 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -10540,8 +12822,8 @@ namespace TabletopLab.Droid
 					16843055,
 					16843056,
 					16843057,
-					2130903362,
-					2130903409};
+					2130903363,
+					2130903411};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -10621,15 +12903,15 @@ namespace TabletopLab.Droid
 			// aapt resource value: 11
 			public const int NavigationView_menu = 11;
 			
-			// aapt resource value: { 0x1010176,0x10102C9,0x7F030132 }
+			// aapt resource value: { 0x1010176,0x10102C9,0x7F030133 }
 			public static int[] PopupWindow = new int[] {
 					16843126,
 					16843465,
-					2130903346};
+					2130903347};
 			
-			// aapt resource value: { 0x7F030168 }
+			// aapt resource value: { 0x7F03016A }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903400};
+					2130903402};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -10643,10 +12925,10 @@ namespace TabletopLab.Droid
 			// aapt resource value: 2
 			public const int PopupWindow_overlapAnchor = 2;
 			
-			// aapt resource value: { 0x7F030133,0x7F030136 }
+			// aapt resource value: { 0x7F030134,0x7F030137 }
 			public static int[] RecycleListView = new int[] {
-					2130903347,
-					2130903350};
+					2130903348,
+					2130903351};
 			
 			// aapt resource value: 0
 			public const int RecycleListView_paddingBottomNoButtons = 0;
@@ -10654,7 +12936,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F03010A,0x7F03014C,0x7F030161,0x7F030167 }
+			// aapt resource value: { 0x10100C4,0x10100F1,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F0300CD,0x7F03010A,0x7F03014E,0x7F030163,0x7F030169 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842993,
@@ -10664,9 +12946,9 @@ namespace TabletopLab.Droid
 					2130903244,
 					2130903245,
 					2130903306,
-					2130903372,
-					2130903393,
-					2130903399};
+					2130903374,
+					2130903395,
+					2130903401};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_descendantFocusability = 1;
@@ -10715,7 +12997,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030077,0x7F03008F,0x7F0300A5,0x7F0300DD,0x7F0300F4,0x7F030109,0x7F030146,0x7F030147,0x7F030151,0x7F030152,0x7F030172,0x7F030177,0x7F0301D2 }
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030077,0x7F03008F,0x7F0300A5,0x7F0300DD,0x7F0300F4,0x7F030109,0x7F030147,0x7F030148,0x7F030153,0x7F030154,0x7F030174,0x7F030179,0x7F0301D4 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -10727,13 +13009,13 @@ namespace TabletopLab.Droid
 					2130903261,
 					2130903284,
 					2130903305,
-					2130903366,
 					2130903367,
-					2130903377,
-					2130903378,
-					2130903410,
-					2130903415,
-					2130903506};
+					2130903368,
+					2130903379,
+					2130903380,
+					2130903412,
+					2130903417,
+					2130903508};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -10786,10 +13068,10 @@ namespace TabletopLab.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F03015F,0x7F030160 }
+			// aapt resource value: { 0x7F030161,0x7F030162 }
 			public static int[] Snackbar = new int[] {
-					2130903391,
-					2130903392};
+					2130903393,
+					2130903394};
 			
 			// aapt resource value: { 0x101011F,0x7F0300B5,0x7F030127 }
 			public static int[] SnackbarLayout = new int[] {
@@ -10812,13 +13094,13 @@ namespace TabletopLab.Droid
 			// aapt resource value: 1
 			public const int Snackbar_snackbarStyle = 1;
 			
-			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030140 }
+			// aapt resource value: { 0x10100B2,0x1010176,0x101017B,0x1010262,0x7F030141 }
 			public static int[] Spinner = new int[] {
 					16842930,
 					16843126,
 					16843131,
 					16843362,
-					2130903360};
+					2130903361};
 			
 			// aapt resource value: 3
 			public const int Spinner_android_dropDownWidth = 3;
@@ -10869,22 +13151,22 @@ namespace TabletopLab.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015A,0x7F030165,0x7F030178,0x7F030179,0x7F03017B,0x7F0301B3,0x7F0301B4,0x7F0301B5,0x7F0301CC,0x7F0301CD,0x7F0301CE }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03015C,0x7F030167,0x7F03017A,0x7F03017B,0x7F03017D,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301CE,0x7F0301CF,0x7F0301D0 }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903386,
-					2130903397,
-					2130903416,
-					2130903417,
+					2130903388,
+					2130903399,
+					2130903418,
 					2130903419,
-					2130903475,
-					2130903476,
+					2130903421,
 					2130903477,
-					2130903500,
-					2130903501,
-					2130903502};
+					2130903478,
+					2130903479,
+					2130903502,
+					2130903503,
+					2130903504};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -10943,10 +13225,8 @@ namespace TabletopLab.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03017C,0x7F03017D,0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030193,0x7F030194,0x7F030195 }
+			// aapt resource value: { 0x7F03017E,0x7F03017F,0x7F030180,0x7F030181,0x7F030182,0x7F030183,0x7F030184,0x7F030185,0x7F030186,0x7F030187,0x7F030188,0x7F030189,0x7F03018A,0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030195,0x7F030196,0x7F030197 }
 			public static int[] TabLayout = new int[] {
-					2130903420,
-					2130903421,
 					2130903422,
 					2130903423,
 					2130903424,
@@ -10967,9 +13247,11 @@ namespace TabletopLab.Droid
 					2130903439,
 					2130903440,
 					2130903441,
+					2130903442,
 					2130903443,
-					2130903444,
-					2130903445};
+					2130903445,
+					2130903446,
+					2130903447};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -11046,7 +13328,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D1,0x7F030196 }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x7F0300D1,0x7F030198 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -11060,7 +13342,7 @@ namespace TabletopLab.Droid
 					16843108,
 					16843692,
 					2130903249,
-					2130903446};
+					2130903448};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -11101,7 +13383,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 12
 			public const int TextAppearance_textAllCaps = 12;
 			
-			// aapt resource value: { 0x101009A,0x1010150,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300B8,0x7F0300B9,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F03013A,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E }
+			// aapt resource value: { 0x101009A,0x1010150,0x7F030043,0x7F030044,0x7F030045,0x7F030046,0x7F030047,0x7F030048,0x7F030049,0x7F03004A,0x7F03004B,0x7F0300A0,0x7F0300A1,0x7F0300A2,0x7F0300A3,0x7F0300B8,0x7F0300B9,0x7F0300E0,0x7F0300E1,0x7F0300E2,0x7F0300E6,0x7F0300E7,0x7F0300E8,0x7F03013B,0x7F03013C,0x7F03013D,0x7F03013E,0x7F03013F }
 			public static int[] TextInputLayout = new int[] {
 					16842906,
 					16843088,
@@ -11126,11 +13408,11 @@ namespace TabletopLab.Droid
 					2130903270,
 					2130903271,
 					2130903272,
-					2130903354,
 					2130903355,
 					2130903356,
 					2130903357,
-					2130903358};
+					2130903358,
+					2130903359};
 			
 			// aapt resource value: 1
 			public const int TextInputLayout_android_hint = 1;
@@ -11231,7 +13513,7 @@ namespace TabletopLab.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030051,0x7F03007F,0x7F030080,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030123,0x7F030124,0x7F030128,0x7F03012D,0x7F03012E,0x7F030140,0x7F030173,0x7F030174,0x7F030175,0x7F0301BB,0x7F0301BD,0x7F0301BE,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030051,0x7F03007F,0x7F030080,0x7F030091,0x7F030092,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030123,0x7F030124,0x7F030128,0x7F03012D,0x7F03012E,0x7F030141,0x7F030175,0x7F030176,0x7F030177,0x7F0301BD,0x7F0301BF,0x7F0301C0,0x7F0301C1,0x7F0301C2,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301C6 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -11249,19 +13531,19 @@ namespace TabletopLab.Droid
 					2130903336,
 					2130903341,
 					2130903342,
-					2130903360,
-					2130903411,
-					2130903412,
+					2130903361,
 					2130903413,
-					2130903483,
+					2130903414,
+					2130903415,
 					2130903485,
-					2130903486,
 					2130903487,
 					2130903488,
 					2130903489,
 					2130903490,
 					2130903491,
-					2130903492};
+					2130903492,
+					2130903493,
+					2130903494};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -11350,13 +13632,13 @@ namespace TabletopLab.Droid
 			// aapt resource value: 28
 			public const int Toolbar_titleTextColor = 28;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030134,0x7F030135,0x7F0301B1 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030135,0x7F030136,0x7F0301B3 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
-					2130903348,
 					2130903349,
-					2130903473};
+					2130903350,
+					2130903475};
 			
 			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
 			public static int[] ViewBackgroundHelper = new int[] {
@@ -11416,8 +13698,8 @@ namespace TabletopLab.Droid
 		public partial class Xml
 		{
 			
-			// aapt resource value: 0x7F100000
-			public const int xamarin_essentials_fileprovider_file_paths = 2131755008;
+			// aapt resource value: 0x7F110000
+			public const int xamarin_essentials_fileprovider_file_paths = 2131820544;
 			
 			static Xml()
 			{

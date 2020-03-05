@@ -10,6 +10,10 @@ namespace TabletopLab
         {
             InitializeComponent();
 
+            // Initialize the ArcGIS Runtime before any components are created.
+            Esri.ArcGISRuntime.ArcGISRuntimeEnvironment.Initialize();
+
+            // The root page of your application
             MainPage = new MainPage();
         }
 

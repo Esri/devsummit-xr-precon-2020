@@ -17,5 +17,18 @@ namespace TabletopLab
         {
             InitializeComponent();
         }
+
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            try
+            {
+                await MySceneView.StartTrackingAsync();
+            }
+            catch (System.Exception ex)
+            {
+                DisplayAlert("Error starting AR", ex.Message, "Ok");
+            }
+        }
     }
 }
