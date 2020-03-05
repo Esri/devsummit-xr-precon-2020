@@ -39,7 +39,7 @@ You will need to install the [SDK](https://developers.arcgis.com/ios/latest/swif
     7. $ pod install \\to install the pods you just added to your Podfile
     8. Close your current XCode project and reopen the .xcworkspace file
 
-#### Once you have the toolkit and SDK installed follow these steps to setup a basic AR app
+## Once you have the toolkit and SDK installed follow these steps to setup a basic AR app
     1. In XCode go to your Main.storyboard.
     2. Click View->Show Library
     3. Add a new view to your view controller

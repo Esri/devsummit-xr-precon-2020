@@ -14,7 +14,7 @@ The projects here already contain gradle project dependencies to include the SDK
         }
     3. In build.gradle : Module - add these lines under dependencies
         implementation 'com.esri.arcgisruntime:arcgis-android:100.7.0'
-        implementation "com.esri.arcgisruntime:arcgis-android-toolkit:100.6.1"
+        implementation com.esri.arcgisruntime:arcgis-android-toolkit:100.7.0'
     3. In build.gradle : Module - add these lines in android
         //java version
         compileOptions {
