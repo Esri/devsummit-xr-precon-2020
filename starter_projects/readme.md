@@ -6,8 +6,8 @@ These starter projects are provided to help you get going with AR in the limited
 
 ## Contents
 
-* [iOS]()
-* [Android (Kotlin)]()
+* [iOS](./native_ios)
+* [Android (Java)](./native_android)
 * [.NET - iOS](./xamarin_ios)
 * [.NET - Android](./xamarin_android)
 * [.NET - Forms](./xamarin_forms)
