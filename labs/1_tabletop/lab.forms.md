@@ -63,7 +63,7 @@ Next, install the AR Toolkit. For .NET, you need to add a reference to the Nuget
 
 </p></details>
 
-To install the correct Nuget packages, right-click the solution (top-level node in the Solution Explorer), and select **Manage Nuget packages for Solution**. Search for 'ArcGIS AR' and select **Esri.ArcGISRuntime.ARToolkit.Forms**. Select each project then click 'Install'.
+To install the correct Nuget packages, right-click the solution (top-level node in the Solution Explorer), and select **Manage Nuget packages for Solution**. Search for **Xamarin.Forms** and install the Xamarin.Forms package from Microsoft for all projects. Next, search for 'ArcGIS AR' and install **Esri.ArcGISRuntime.ARToolkit.Forms**.
 
 The AR Toolkit Nuget package will automatically install additional dependencies, including the base ArcGIS Runtime, as needed.
 
@@ -75,34 +75,13 @@ Due to a bug in Xamarin.Forms, AR can't be used on the first page of the applica
 
 First, create a new Xamarin.Forms page, called **ARPage** in the same directory as **MainPage.xaml**. On Visual Studio for Windows, be sure to use the **Content Page** template in the 'Xamarin.Forms' section.
 
-Next, update **MainPage.xaml** to show a button:
+Next, update **MainPage.xaml** to show an AR scene view, replacing the `StackLayout`:
 
 ```xml
-<StackLayout>
-    <!-- Place new controls here -->
-    <Label Text="Welcome to Xamarin.Forms!" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
-    <Button Text="Start tabletop AR" Clicked="Button_Clicked" />
-</StackLayout>
+<forms:ARSceneView x:Name="MySceneView" />
 ```
 
-In **MainPage.xaml.cs**, add the following code to navigate to the AR page when the button is clicked:
-
-```cs
-private void Button_Clicked(object sender, EventArgs e)
-{
-    Navigation.PushAsync(new ARPage());
-}
-```
-
-Finally, in **ARPage.xaml**, add an AR scene view to the app. Replace the existing `StackLayout` with the following:
-
-```xml
-<Grid>
-    <forms:ARSceneView x:Name="MySceneView" />
-</Grid>
-```
-
-By default, the code above is an error. You can either use the 💡 button to add the `forms` namespace reference automatically (be sure to choose the option that ends with `Forms`), or paste the following after the xmlns:mc declaration:
+By default, the code above is an error. You can either use the 💡 button to add the `forms` namespace reference automatically (be sure to choose the option that ends with `Forms`), or paste the following after the `xmlns:mc` declaration:
 
 ```xml
 xmlns:forms="clr-namespace:Esri.ArcGISRuntime.ARToolkit.Forms;assembly=Esri.ArcGISRuntime.ARToolkit.Forms"
@@ -112,7 +91,7 @@ xmlns:forms="clr-namespace:Esri.ArcGISRuntime.ARToolkit.Forms;assembly=Esri.ArcG
 
 Adding the AR view isn't enough - you need to tell the view to start tracking the environment when the page is shown, and stop when it disappears.
 
-In Xamarin.Forms apps, you need to override `OnAppearing` and `OnDisappearing`. Add the following to **ARPage.xaml.cs**:
+In Xamarin.Forms apps, you need to override `OnAppearing` and `OnDisappearing`. Add the following to **MainPage.xaml.cs**:
 
 ```cs
 protected override async void OnAppearing()
@@ -189,39 +168,117 @@ ARKit and ARCore both include features to estimate the size and position of surf
 
 </p></details>
 
-Detected planes aren't visualized by default, so it can be hard for users to know what can be tapped on. To enable a default visualization for detected planes, update the ARSceneView declaration in **ARPage.xaml** to the following:
+Detected planes aren't visualized by default, so it can be hard for users to know what can be tapped on. To enable a default visualization for detected planes, update the ARSceneView declaration in **MainPage.xaml** to the following:
 
 ```xml
-<forms:ARSceneView x:Name="MySceneView" RenderPlanes="True" />
+<forms:ARSceneView x:Name="MySceneView" 
+                   RenderPlanes="True" />
 ```
 
 When you run the app, you should see something like the following:
 
-![]()
+![](images/forms-plane-detection.JPG)
 
 Note that it can take a while for ARKit/ARCore to notice surfaces. Keep moving the phone around until you see the dots.
 
 ## Implement tap-to-place
 
-Toolkit includes an API, 
+AR scene view provides a method, `SetInitialTransformation` that makes it possible to anchor the scene to a surface.
+
+`SetInitialTransformation` takes a position on the screen and checks if there is a plane at that point in the image. If there is a plane where the user tapped, it uses ARKit/ARCore to determine the device's position relative to that point. Once it knows the offset, it applies a transformation to the camera that renders the virtual scene, which has the effect of keeping the scene locked in place relative to the tapped surface.
+
+Because there may not be a plane at the tapped surface, `SetInitialTransformation` returns a boolean indicating whether the initial transformation was applies.
+
+The first step to enabling tap-to-place is to wait for the user to tap. In **MainPage.xaml**, update the ARSceneView declaration to the following:
+
+```xml
+<forms:ARSceneView x:Name="MySceneView"
+                    RenderPlanes="True"
+                    GeoViewTapped="GeoViewTapped"/>
+```
+
+In **MainPage.xaml.cs**, add the following method:
+
+```cs
+public void GeoViewTapped(object sender, Esri.ArcGISRuntime.Xamarin.Forms.GeoViewInputEventArgs e)
+{
+    if (MySceneView.SetInitialTransformation(e.Position))
+    {
+        // Todo - initialize scene
+    }
+    else
+    {
+        DisplayAlert("No plane found", "Try moving the phone around until you see white dots", "Ok");
+    }
+}
+```
 
 ## Configure the scene
 
+Once the initial transformation has been set, its possible to show a tabletop scene.
+
 While any scene can be used in tabletop AR, this lab will use the [San Diego Convention Center web scene](https://www.arcgis.com/home/item.html?id=6bf6d9f17bdd4d33837e25e1cae4e9c9).
 
-Update the 
+Write an `InitializeSceneAsync` method to load the scene and show it in the AR scene view:
+
+```cs
+public async Task InitializeSceneAsync()
+{
+    try
+    {
+        // Create the scene
+        Scene sanDiegoScene = new Scene(new Uri("https://arcgisruntime.maps.arcgis.com/home/item.html?id=90a10b734aef4f30b3014fb515764296"));
+
+        // Explicitly load the scene (in case there are errors, this will throw an exception)
+        await sanDiegoScene.LoadAsync();
+
+        // Disable the navigation constraint
+        sanDiegoScene.BaseSurface.NavigationConstraint = NavigationConstraint.None;
+
+        // Show the scene in the view
+        MySceneView.Scene = sanDiegoScene;
+    }
+    catch (Exception ex)
+    {
+        _ = DisplayAlert("Failed to init scene", ex.Message, "Ok");
+    }
+}
+```
+
+Replace `// Todo - initialize scene` inside the **GeoViewTapped** implementation with a call to `InitializeSceneAsync`:
+
+```cs
+public void GeoViewTapped(object sender, Esri.ArcGISRuntime.Xamarin.Forms.GeoViewInputEventArgs e)
+{
+    if (MySceneView.SetInitialTransformation(e.Position))
+    {
+        InitializeSceneAsync();
+    }
+    else
+    {
+        DisplayAlert("No plane found", "Try moving the phone around until you see white dots", "Ok");
+    }
+}
+```
 
 ## Set origin camera
 
 In tabletop AR, the origin camera is the point, in scene coordinates, where the scene is anchored to the physical surface. In most cases, a good origin camera is at the x,y position of the focal point for the scene. To ensure all content is visible and the scene appears to be on top of the table, the vertical position of the origin camera should be at the lowest point in the scene.
 
-For the [San Diego Convention Center scene](https://www.arcgis.com/home/item.html?id=6bf6d9f17bdd4d33837e25e1cae4e9c9), a good origin camera centers on the Manchester Grand Hyatt in San Diego.
+For the [San Diego Convention Center scene](https://arcgisruntime.maps.arcgis.com/home/item.html?id=90a10b734aef4f30b3014fb515764296), a good origin camera centers on the Manchester Grand Hyatt in San Diego.
 
-> lat: 32.71012, lng: -117.168654, alt: 0
+After `MySceneView.Scene = sanDiegoScene;` inside `InitializeSceneAsync`, set the origin camera:
 
 ```cs
-// code here
+// Pin the scene to the table at 32.71012,-117.168654
+MySceneView.OriginCamera = new Camera(32.71012, -117.168654, 0, 0, 90, 0);
 ```
+
+Now, when you run the app you should see something like the following:
+
+![]()
+
+Because there's no translation factor, the scene is shown at real scale, and your physical movement is mirrored 1:1 in the scene.
 
 ## Set translation factor
 

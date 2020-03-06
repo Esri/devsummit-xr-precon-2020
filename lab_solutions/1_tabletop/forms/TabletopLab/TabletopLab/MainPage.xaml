@@ -6,5 +6,7 @@
              xmlns:forms="clr-namespace:Esri.ArcGISRuntime.ARToolkit.Forms;assembly=Esri.ArcGISRuntime.ARToolkit.Forms"
              mc:Ignorable="d"
              x:Class="TabletopLab.MainPage">
-    <forms:ARSceneView x:Name="MySceneView" />
+    <forms:ARSceneView x:Name="MySceneView" 
+                        RenderPlanes="True"
+                        GeoViewTapped="GeoViewTapped"/>
 </ContentPage>
