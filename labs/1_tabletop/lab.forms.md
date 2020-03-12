@@ -69,13 +69,7 @@ The AR Toolkit Nuget package will automatically install additional dependencies,
 
 ### 3 - Add the AR view to the layout
 
-Due to a bug in Xamarin.Forms, AR can't be used on the first page of the application. To work around this, the AR view will be shown on a separate page.
-
-> **NOTE**: This step is done for you already if you used the starter project or the templates.
-
-First, create a new Xamarin.Forms page, called **ARPage** in the same directory as **MainPage.xaml**. On Visual Studio for Windows, be sure to use the **Content Page** template in the 'Xamarin.Forms' section.
-
-Next, update **MainPage.xaml** to show an AR scene view, replacing the `StackLayout`:
+Update **MainPage.xaml** to show an AR scene view, replacing the `StackLayout`:
 
 ```xml
 <forms:ARSceneView x:Name="MySceneView" />
