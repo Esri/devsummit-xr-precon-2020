@@ -1,6 +1,6 @@
 ## World-scale lab
 
-> **Summary**: In this lab, you will build an app to show historical flight data for Palm Springs in world-scale AR.
+> **Summary**: In this lab, you will build an app to perform data collection in AR.
 
 **Contents**
 
@@ -31,11 +31,108 @@ In this tutorial, you will build an app that let's you see data for nearby fligh
 
 > **Note**: You can skip this step if using one of the starter projects. This section goes through all the steps needed to set up a working AR app from scratch, like requesting camera & location permissions. This section is the same as *Create the app* from the first lab.
 
-1. Create a new app in Xcode/Android Studio/Visual Studio
-2. Install the toolkit
-3. Add an AR scene view to the layout
-4. Set up lifecycle methods
-5. Configure privacy & manifest declarations
+
+## Create the UI
+
+Add the following to the AR page xaml:
+
+```xml
+<Grid>
+   <Grid.RowDefinitions>
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="*" />
+      <RowDefinition Height="auto" />
+      <RowDefinition Height="auto" />
+   </Grid.RowDefinitions>
+   <esriARToolkit:ARSceneView
+      x:Name="MyARSceneView"
+      Grid.Row="0"
+      Grid.RowSpan="3"
+      RenderPlanes="True" />
+   <Label
+      x:Name="HelpLabel"
+      Grid.Row="0"
+      BackgroundColor="#AA000000"
+      HorizontalOptions="FillAndExpand"
+      Text="Calibrate your device before starting"
+      TextColor="White" />
+   <Grid
+      x:Name="CalibrationGrid"
+      Grid.Row="2"
+      BackgroundColor="Black"
+      IsVisible="False">
+      <Grid Margin="10">
+            <Grid.RowDefinitions>
+               <RowDefinition Height="auto" />
+               <RowDefinition Height="auto" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+               <ColumnDefinition Width="auto" />
+               <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Label
+               Grid.Row="0"
+               Grid.Column="0"
+               Text="Elevation:"
+               TextColor="White"
+               VerticalTextAlignment="Center" />
+            <resources:JoystickSlider
+               x:Name="ElevationSlider"
+               Grid.Row="0"
+               Grid.Column="1"
+               Margin="5"
+               DeltaProgressChanged="AltitudeSlider_DeltaProgressChanged"
+               Maximum="10"
+               Minimum="-10" />
+            <Label
+               Grid.Row="1"
+               Grid.Column="0"
+               Text="Heading:"
+               TextColor="White"
+               VerticalTextAlignment="Center" />
+            <resources:JoystickSlider
+               x:Name="HeadingSlider"
+               Grid.Row="1"
+               Grid.Column="1"
+               Margin="5"
+               DeltaProgressChanged="HeadingSlider_DeltaProgressChanged"
+               Maximum="10"
+               Minimum="-10" />
+      </Grid>
+   </Grid>
+   <Grid Grid.Row="3">
+      <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+      </Grid.ColumnDefinitions>
+      <Button
+            x:Name="CalibrateButton"
+            Grid.Column="0"
+            Clicked="CalibrateButtonPressed"
+            Text="Calibrate"
+            TextColor="Red" />
+      <Button
+            x:Name="RoamingButton"
+            Grid.Column="1"
+            Clicked="RealScaleValueChanged"
+            IsEnabled="False"
+            Text="GPS" />
+      <Button
+            x:Name="LocalButton"
+            Grid.Column="2"
+            Clicked="RealScaleValueChanged"
+            Text="Local" />
+      <Button
+            x:Name="AddButton"
+            Grid.Column="3"
+            BackgroundColor="Green"
+            Clicked="AddButtonPressed"
+            Text="+" />
+   </Grid>
+</Grid>
+```
 
 ## Configure AR tracking for world-scale AR
 
@@ -52,194 +149,647 @@ In world-scale AR, the positions of the in-scene camera and the device's camera 
 
 > ℹ️ **NOTE**: you can combine these two strategies as needed in your app. Be creative in designing a location tracking and calibration strategy that works for your app's users.
 
-For this lab, the initial position will be taken from the system location, and all subsequent updates will come from ARKit/ARCore.
+There are some concerns with location tracking in AR that are addressed by a custom `LocationDataSource`. Copy the following classes into your app:
 
-To enable initial tracking mode, assign a location data source, then update the call to `StartTrackingAsync` to specify `Initial`:
+Android:
 
 ```cs
-// code here
+#if __ANDROID__
+using System;
+using System.Globalization;
+using System.Threading.Tasks;
+using Android.Content;
+using Android.Locations;
+using Esri.ArcGISRuntime.Geometry;
+using Esri.ArcGISRuntime.Location;
+using Location = Esri.ArcGISRuntime.Location.Location;
+
+namespace ArcGISRuntimeXamarin.Converters
+{
+    /// <summary>
+    /// Custom location data source that allows you to apply an altitude offset in addition to
+    /// returning altitude values relative to mean sea level, rather than the WGS84 ellipsoid.
+    /// </summary>
+    public class ARLocationDataSource : LocationDataSource
+    {
+        public enum AltitudeAdjustmentMode
+        {
+            GpsRawEllipsoid,
+            NmeaParsedMsl
+        }
+        private AltitudeAdjustmentMode _currentMode = AltitudeAdjustmentMode.GpsRawEllipsoid;
+
+        // Enable configuration of the altitude mode, adding or removing NMEA listener as needed.
+        public AltitudeAdjustmentMode AltitudeMode
+        {
+            get => _currentMode;
+            set
+            {
+                _currentMode = value;
+
+                if (_currentMode == AltitudeAdjustmentMode.NmeaParsedMsl)
+                {
+                    GetLocationManager().AddNmeaListener(_listener);
+                }
+                else
+                {
+                    GetLocationManager().RemoveNmeaListener(_listener);
+                }
+            }
+        }
+
+        // Object to handle NMEA messages from the onboard GNSS device.
+        private readonly NmeaListener _listener = new NmeaListener();
+
+        // Allow setting an altitude offset.
+        private double _altitudeOffset;
+        public double AltitudeOffset
+        {
+            get => _altitudeOffset;
+            set
+            {
+                _altitudeOffset = value;
+
+                // Raise a location changed event if possible.
+                if (_lastLocation != null)
+                {
+                    BaseSource_LocationChanged(_baseSource, _lastLocation);
+                }
+            }
+        }
+
+        // Track the last location so that a location changed
+        // event can be raised when the altitude offset is changed.
+        private Location _lastLocation;
+
+        public IntPtr Handle => throw new NotImplementedException();
+
+        // Track the last elevation received from the GNSS.
+        private double _lastNmeaElevation;
+
+        // Use the underlying system location data source.
+        private readonly SystemLocationDataSource _baseSource;
+
+        private readonly Context _context;
+
+        public ARLocationDataSource(Context context)
+        {
+            _context = context;
+
+            // Create and listen for updates from a new system location data source.
+            _baseSource = new SystemLocationDataSource();
+            _baseSource.HeadingChanged += BaseSource_HeadingChanged;
+            _baseSource.LocationChanged += BaseSource_LocationChanged;
+
+            // Listen for altitude change events from the onboard GNSS.
+            _listener.NmeaAltitudeChanged += (o, e) =>
+            {
+                _lastNmeaElevation = e.Altitude;
+            };
+        }
+
+        private void BaseSource_LocationChanged(object sender, Location e)
+        {
+            // Store the last location to enable raising change events.
+            _lastLocation = e;
+
+            // Intercept location change events from the base source and either
+            // apply an altitude offset, or return the offset altitude from the latest NMEA message.
+            MapPoint newPosition = null;
+            switch (AltitudeMode)
+            {
+                case AltitudeAdjustmentMode.GpsRawEllipsoid:
+                    newPosition = new MapPoint(e.Position.X, e.Position.Y, e.Position.Z + AltitudeOffset, e.Position.SpatialReference);
+                    break;
+                case AltitudeAdjustmentMode.NmeaParsedMsl:
+                    newPosition = new MapPoint(e.Position.X, e.Position.Y, _lastNmeaElevation + AltitudeOffset, e.Position.SpatialReference);
+                    break;
+            }
+
+            Location newLocation = new Location(newPosition, e.HorizontalAccuracy, e.Velocity, e.Course, e.IsLastKnown);
+
+            UpdateLocation(newLocation);
+        }
+
+        private void BaseSource_HeadingChanged(object sender, double e)
+        {
+            UpdateHeading(e);
+        }
+
+        protected override Task OnStartAsync() => _baseSource.StartAsync();
+
+        protected override Task OnStopAsync() => _baseSource.StopAsync();
+
+        private LocationManager _locationManager;
+
+        private LocationManager GetLocationManager()
+        {
+            if (_locationManager == null)
+            {
+                _locationManager = (LocationManager)_context.GetSystemService("location");
+            }
+            return _locationManager;
+        }
+
+        private class NmeaListener : Java.Lang.Object, IOnNmeaMessageListener
+        {
+            private long _lastTimestamp;
+            private double _lastElevation;
+
+            public event EventHandler<AltitudeEventArgs> NmeaAltitudeChanged;
+
+            public void OnNmeaMessage(string message, long timestamp)
+            {
+                if (message.StartsWith("$GPGGA") || message.StartsWith("$GNGNS") || message.StartsWith("$GNGGA"))
+                {
+                    var parts = message.Split(',');
+
+                    if (parts.Length < 10)
+                    {
+                        return; // not enough
+                    }
+
+                    string mslAltitude = parts[9];
+
+                    if (string.IsNullOrEmpty(mslAltitude)) { return; }
+
+
+                    if (double.TryParse(mslAltitude, NumberStyles.Float, CultureInfo.InvariantCulture, out double altitudeParsed))
+                    {
+                        if (timestamp > _lastTimestamp)
+                        {
+                            _lastElevation = altitudeParsed;
+                            _lastTimestamp = timestamp;
+                            NmeaAltitudeChanged?.Invoke(this, new AltitudeEventArgs { Altitude = _lastElevation });
+                        }
+                    }
+                }
+            }
+
+            public class AltitudeEventArgs
+            {
+                public double Altitude { get; set; }
+            }
+        }
+    }
+}
+#endif
+```
+
+iOS:
+
+```cs
+#if __IOS__
+using System.Threading.Tasks;
+using Esri.ArcGISRuntime.Geometry;
+using Esri.ArcGISRuntime.Location;
+
+
+namespace ArcGISRuntimeXamarin.Converters
+{
+    /// <summary>
+    /// Wraps the built-in location data source to enable altitude adjustment.
+    /// </summary>
+    public class ARLocationDataSource : LocationDataSource
+    {
+        // Track the altitude offset and raise location changed event when it is updated.
+        private double _altitudeOffset = 0;
+        public double AltitudeOffset
+        {
+            get => _altitudeOffset;
+            set
+            {
+                _altitudeOffset = value;
+
+                if (_lastLocation != null)
+                {
+                    _baseSource_LocationChanged(_baseSource, _lastLocation);
+                }
+            }
+        }
+
+        // Track the last location provided by the system.
+        private Location _lastLocation;
+
+        // The system's location data source.
+        private SystemLocationDataSource _baseSource;
+
+        public ARLocationDataSource()
+        {
+            _baseSource = new SystemLocationDataSource();
+            _baseSource.HeadingChanged += _baseSource_HeadingChanged;
+            _baseSource.LocationChanged += _baseSource_LocationChanged;
+        }
+
+        private void _baseSource_LocationChanged(object sender, Location e)
+        {
+            // Store the last location; used to raise location changed event when only the offset is changed.
+            _lastLocation = e;
+
+            // Create the offset map point.
+            MapPoint newPosition = new MapPoint(e.Position.X, e.Position.Y, e.Position.Z + AltitudeOffset, e.Position.SpatialReference);
+
+            // Create a new location from the map point.
+            Location newLocation = new Location(newPosition, e.HorizontalAccuracy, e.Velocity, e.Course, e.IsLastKnown);
+
+            // Call the base UpdateLocation implementation.
+            UpdateLocation(newLocation);
+        }
+
+        private void _baseSource_HeadingChanged(object sender, double e)
+        {
+            UpdateHeading(e);
+        }
+
+        protected override Task OnStartAsync() => _baseSource.StartAsync();
+
+        protected override Task OnStopAsync() => _baseSource.StopAsync();
+    }
+}
+#endif
+```
+
+To enable continuous tracking mode, assign a location data source, then update the call to `StartTrackingAsync` to specify `Continuous`:
+
+```cs
+
+public CollectDataAR()
+{
+   InitializeComponent();
+   Initialize();
+}
+
+// Create this method
+private void Initialize()
+{
+   // Create the custom location data source and configure the AR scene view to use it.
+#if XAMARIN_ANDROID
+   _locationDataSource = new ARLocationDataSource(Android.App.Application.Context);
+   _locationDataSource.AltitudeMode = ARLocationDataSource.AltitudeAdjustmentMode.NmeaParsedMsl;
+   MainActivity.Instance.AskForLocationPermission(_locationDataSource);
+#elif __IOS__
+   _locationDataSource = new ARLocationDataSource();
+#endif
+   MyARSceneView.LocationDataSource = _locationDataSource;
+}
+
+override OnAppearing(){
+   base.OnAppearing();
+   // Start device tracking.
+   try
+   {
+         await MyARSceneView.StartTrackingAsync(ARLocationTrackingMode.Continuous);
+   }
+   catch (Exception ex)
+   {
+         System.Diagnostics.Debug.WriteLine(ex.Message);
+   }
+}
+```
+
+The above code needs some additional support to work on Android. In the Android platform project, update **MainActivity.cs** to something like the following:
+
+```cs
+internal static MainActivity Instance { get; private set; }
+
+protected override void OnCreate(Bundle bundle)
+{
+   base.OnCreate(bundle);
+
+   Instance = this;
+
+   Xamarin.Forms.Forms.Init(this, bundle);
+   LoadApplication(new App());
+}
+
+#region LocationDisplay
+
+private const int LocationPermissionRequestCode = 99;
+private LocationDataSource _lastlocationSource;
+
+public async void AskForLocationPermission(LocationDataSource source)
+{
+   // Save the mapview for later.
+   _lastlocationSource = source;
+
+   // Only check if permission hasn't been granted yet.
+   if (ContextCompat.CheckSelfPermission(this, LocationService) != Permission.Granted)
+   {
+         // Show the standard permission dialog.
+         // Once the user has accepted or denied, OnRequestPermissionsResult is called with the result.
+         RequestPermissions(new[] {Manifest.Permission.AccessFineLocation}, LocationPermissionRequestCode);
+   }
+   else
+   {
+         try
+         {
+            // Explicit DataSource.LoadAsync call is used to surface any errors that may arise.
+            await _lastlocationSource.StartAsync();
+         }
+         catch (Exception ex)
+         {
+            System.Diagnostics.Debug.WriteLine(ex);
+            ShowMessage(ex.Message, "Failed to start location display.");
+         }
+   }
+}
+
+public override async void OnRequestPermissionsResult(int requestCode, string[] permissions, Permission[] grantResults)
+{
+   // Ignore other location requests.
+   if (requestCode != LocationPermissionRequestCode)
+   {
+         return;
+   }
+
+   // If the permissions were granted, enable location.
+   if (grantResults.Length == 1 && grantResults[0] == Permission.Granted && _lastUsedMapView != null)
+   {
+         System.Diagnostics.Debug.WriteLine("User affirmatively gave permission to use location. Enabling location.");
+         try
+         {
+            // Explicit DataSource.LoadAsync call is used to surface any errors that may arise.
+            await _lastlocationSource.StartAsync();
+         }
+         catch (Exception ex)
+         {
+            System.Diagnostics.Debug.WriteLine(ex);
+            ShowMessage(ex.Message, "Failed to start location display.");
+         }
+   }
+   else
+   {
+         ShowMessage("Location permissions not granted.", "Failed to start location display.");
+   }
+
+   // Reset the mapview.
+   _lastlocationSource = null;
+}
+
+private void ShowMessage(string message, string title = "Error") => new AlertDialog.Builder(this).SetTitle(title).SetMessage(message).Show();
+#endregion LocationDisplay
 ```
 
 ## Configure the scene
 
-With most 3D scenes, there's a globe, with a basemap, terrain, and atmosphere, set in a starry sky. In world-scale AR, the camera feed provides imagery of the natural Earth, atmosphere, and sky.
-
-### 1 - Disable space & atmosphere effects
-
-The first step to configuring the scene for world-scale AR is to disable the space effect. Runtime supports two space effects:
-
-* Stars
-* None/Transparent
-
-```
-// code here
-```
-
-When you run the app, you should see a flat basemap rendered over the camera feed.
-
-### 2 - Configure the base surface
-
-The next step is to add an elevation source to the scene. This will ensure content is placed accurately relative to the ground.
-
-```
-// code here
-```
-
-> ℹ️ This lab uses the ArcGIS world elevation service, but you can use any elevation source, including premium sources your organization may have.
-
-By default, Runtime limits the scene camera to be above the scene surface at all times. This conflicts with AR camera positioning when a user goes underground or is very near the ground. For a smooth experience, disable the navigation constraint.
-
-```
-// code here
-```
-
-### 3 - Set basemap opacity
-
-Because the camera feed will show surroundings, including the ground, there is no need to show the scene's base surface. Set the scene's surface opacity to `0` to hide it completely.
-
-```
-```
-
-> ℹ️ **Why have a basemap at all?** The basemap can be shown at partial opacity later, which can be useful for calibration.
-
-Now, when you run the app, you'll see an empty scene.
-
-## Add flight data
-
-Have you ever looked up at the sky and wondered where that airplane is going, or where it came from? Curious about how firefighting aircraft respond to wildfires?
-
-Starting in 2020, most aircraft are required to transmit their status for tracking by air traffic control and other aircraft. Services like [Flight Radar 24](flightradar24.com/), [FlightAware](https://flightaware.com/), and [OpenSky Network](https://opensky-network.org/) use crowdsourcing to record these transmissions and show flights on a map.
-
-This lab will show historical flight data collected by the OpenSky Network, using a 3D model to represent each airplane.
-
-> ℹ️ **NOTE**: once you've completed the lab, you can ask the presenters for information on how to sign up for an account and show real-time data.
-
-### 1 - Load and create a model symbol
-
-The first step is to load the model symbol. We've provided a model depicting a Boeing jet which you can use in your scene.
-
-First, download the model from ArcGIS Online.
+The following code in `Initialize` will configure the scene:
 
 ```cs
-// code here
+// Create the scene and show it.
+_scene = new Scene(Basemap.CreateImagery());
+MyARSceneView.Scene = _scene;
+
+// Create and add the elevation surface.
+_elevationSource = new ArcGISTiledElevationSource(new Uri("https://elevation3d.arcgis.com/arcgis/rest/services/WorldElevation3D/Terrain3D/ImageServer"));
+_elevationSurface = new Surface();
+_elevationSurface.ElevationSources.Add(_elevationSource);
+MyARSceneView.Scene.BaseSurface = _elevationSurface;
+
+// Hide the surface in AR.
+_elevationSurface.NavigationConstraint = NavigationConstraint.None;
+_elevationSurface.Opacity = 0;
+
+// Configure the space and atmosphere effects for AR.
+MyARSceneView.SpaceEffect = SpaceEffect.None;
+MyARSceneView.AtmosphereEffect = AtmosphereEffect.None;
+
+// Add a graphics overlay for displaying points in AR.
+_graphicsOverlay = new GraphicsOverlay();
+_graphicsOverlay.SceneProperties.SurfacePlacement = SurfacePlacement.Absolute;
+_graphicsOverlay.Renderer = new SimpleRenderer(_tappedPointSymbol);
+MyARSceneView.GraphicsOverlays.Add(_graphicsOverlay);
+
+// Add the existing features to the scene.
+FeatureLayer treeLayer = new FeatureLayer(_featureTable);
+treeLayer.SceneProperties.SurfacePlacement = SurfacePlacement.Absolute;
+MyARSceneView.Scene.OperationalLayers.Add(treeLayer);
+
+// Add the event for the user tapping the screen.
+MyARSceneView.GeoViewTapped += ARViewTapped;
+
+// Disable scene interaction.
+MyARSceneView.InteractionOptions = new SceneViewInteractionOptions() { IsEnabled = false };
 ```
 
-Next, create the 3D model symbol:
+Add the following supporting fields:
 
 ```cs
-// code here
+// Scene content.
+private ArcGISTiledElevationSource _elevationSource;
+private Surface _elevationSurface;
+private Scene _scene;
+
+// Track when user is changing between AR and GPS localization.
+private bool _changingScale;
+
+// Feature table for collected data about trees.
+private ServiceFeatureTable _featureTable = new ServiceFeatureTable(new Uri("https://services2.arcgis.com/ZQgQTuoyBrtmoGdP/arcgis/rest/services/AR_Tree_Survey/FeatureServer/0"));
+
+// Graphics for tapped points in the scene.
+private GraphicsOverlay _graphicsOverlay;
+private SimpleMarkerSceneSymbol _tappedPointSymbol = new SimpleMarkerSceneSymbol(SimpleMarkerSceneSymbolStyle.Diamond, System.Drawing.Color.Orange, 0.5, 0.5, 0.5, SceneSymbolAnchorPosition.Center);
+
+// Custom location data source that enables calibration and returns values relative to mean sea level rather than the WGS84 ellipsoid.
+private ARLocationDataSource _locationDataSource;
+
+// Calibration state fields.
+private bool _isCalibrating;
+private double _altitudeOffset;
 ```
-
-### 2 - Show graphics overlay with renderer
-
-You can use a `GraphicsOverlay` to show temporary graphics in the scene. With graphics overlays, you can either define a symbol for each graphic individually, or provide a renderer that draws each graphic based on its attributes. 
-
-For this lab, a renderer that shows the airplane model, with heading set programmatically, is appropriate.
-
-First, create the renderer.
-
-```cs
-// code here
-```
-
-Next, create the graphics overlay and configure it with the renderer.
-
-```
-// code here
-```
-
-Finally, show it in the scene.
-
-
-### 3 - Read data and add graphics
-
-A snapshot of aircraft positions has been provided as a JSON string which you can include in your app. [QuickType.io]() can be used to generate code for reading that JSON into usable objects. You can use that service now, or copy-paste the following:
-
-<details><summary>Code from QuickType</summary><p>
-
-```cs
-// code here
-```
-
-</p></details>
-
-After reading the JSON, create a graphic for each aircraft, being sure to set the `HEADING` attribute.
-
-```cs
-// code here
-```
-
-Now, when you run the app, you'll see aircraft in the sky, rendered over the camera feed.
 
 ## Enable calibration
 
-Because this lab is showing a snapshot of historical data, location and heading errors are hard to see. If you were showing real-time data, you might notice that the heading is off, causing aircraft to appear in the wrong place. 
-
-Position & heading accuracy requirements will differ for each application. A key part of developing your AR app will be identifying calibration needs and designing an approach that works well for your users.
-
-Because aircraft are typically quite far away, small errors in (x,y) location don't significantly affect visualization, but heading (angle) errors will.
-
-To correct for heading errors indoors, you will build a calibration workflow that involves aligning a virtual in-scene 'north star' with a known reference point in the room.
-
-### 1 - Disable scene view interaction
-
-The first step to creating the calibration workflow is to disable scene view interaction. Touch interactions in the scene view can be problematic because they can conflict with the calibration experience.
+Add the following property to support calibration:
 
 ```cs
-// code here
+private bool IsCalibrating
+{
+   get
+   {
+         return _isCalibrating;
+   }
+   set
+   {
+         _isCalibrating = value;
+         if (_isCalibrating)
+         {
+            // Show the surface semitransparent for calibration.
+            _scene.BaseSurface.Opacity = 0.5;
+
+            // Enable scene interaction.
+            MyARSceneView.InteractionOptions.IsEnabled = true;
+            CalibrationGrid.IsVisible = true;
+         }
+         else
+         {
+            // Hide the scene when not calibrating.
+            _scene.BaseSurface.Opacity = 0;
+
+            // Disable scene interaction.
+            MyARSceneView.InteractionOptions.IsEnabled = false;
+            CalibrationGrid.IsVisible = false;
+         }
+   }
+}
 ```
 
-### 2 - Add a slider to the view
-
-When the user is calibrating, show a slider to allow them to adjust their heading.
-
-First, add the slider to the view.
+Add the following calibration support code:
 
 ```cs
-// code here
+private void CalibrateButtonPressed(object sender, EventArgs e) { IsCalibrating = !IsCalibrating; }
+
+private void AltitudeSlider_DeltaProgressChanged(object sender, DeltaChangedEventArgs e)
+{
+   // Add the new value to the existing altitude offset.
+   _altitudeOffset += e.DeltaProgress;
+
+   // Update the altitude offset on the custom location data source.
+   _locationDataSource.AltitudeOffset = _altitudeOffset;
+}
+
+private void HeadingSlider_DeltaProgressChanged(object sender, DeltaChangedEventArgs e)
+{
+   // Get the old camera.
+   Camera camera = MyARSceneView.OriginCamera;
+
+   // Calculate the new heading by applying the offset to the old camera's heading.
+   double heading = camera.Heading + e.DeltaProgress;
+
+   // Create a new camera by rotating the old camera to the new heading.
+   Camera newCamera = camera.RotateTo(heading, camera.Pitch, camera.Roll);
+
+   // Use the new camera as the origin camera.
+   MyARSceneView.OriginCamera = newCamera;
+}
+
+private async void RealScaleValueChanged(object sender, EventArgs e)
+{
+   // Prevent this from being called concurrently
+   if (_changingScale)
+   {
+         return;
+   }
+   _changingScale = true;
+
+   // Disable the associated UI controls while switching.
+   RoamingButton.IsEnabled = false;
+   LocalButton.IsEnabled = false;
+
+   // Check if using roaming for AR location mode.
+   if (((Button)sender).Text == "GPS")
+   {
+         await MyARSceneView.StopTrackingAsync();
+
+         // Start AR tracking using a continuous GPS signal.
+         await MyARSceneView.StartTrackingAsync(ARLocationTrackingMode.Continuous);
+         ElevationSlider.IsEnabled = true;
+         LocalButton.IsEnabled = true;
+   }
+   else
+   {
+         await MyARSceneView.StopTrackingAsync();
+
+         // Start AR tracking without using a GPS signal.
+         await MyARSceneView.StartTrackingAsync(ARLocationTrackingMode.Ignore);
+         ElevationSlider.IsEnabled = false;
+         RoamingButton.IsEnabled = true;
+   }
+   _changingScale = false;
+}
 ```
 
-Next, add a button to hide and show the calibration slider as needed.
+## Enable data collection:
 
 ```cs
-// code here
+private async void AddButtonPressed(object sender, System.EventArgs e)
+{
+   // Check if the user has already tapped a point.
+   if (!_graphicsOverlay.Graphics.Any())
+   {
+         await Application.Current.MainPage.DisplayAlert("Error", "Didn't find anything, try again.", "OK");
+         return;
+   }
+
+   try
+   {
+         // Prevent the user from changing the tapped feature.
+         MyARSceneView.GeoViewTapped -= ARViewTapped;
+
+         // Prompt the user for the health value of the tree.
+         int healthValue = await GetTreeHealthValue();
+
+         // Create a new ArcGIS feature and add it to the feature service.
+         await CreateFeature(healthValue);
+   }
+   // This exception is thrown when the user cancels out of the prompt.
+   catch (TaskCanceledException)
+   {
+         return;
+   }
+   finally
+   {
+         // Restore the event listener for adding new features.
+         MyARSceneView.GeoViewTapped += ARViewTapped;
+   }
+}
+
+private async Task<int> GetTreeHealthValue()
+{
+   string health = await DisplayActionSheet("Tree health?", "Cancel", null, "Dead", "Distressed", "Healthy");
+
+   // Return a tree health value based on the users selection.
+   switch (health)
+   {
+         case "Dead": // Dead tree.
+            return 0;
+
+         case "Distressed": // Distressed tree.
+            return 5;
+
+         case "Healthy": // Healthy tree.
+            return 10;
+
+         default:
+            return 0;
+   }
+}
+
+private async Task CreateFeature(int healthValue)
+{
+   HelpLabel.Text = "Adding feature...";
+
+   try
+   {
+         // Get the geometry of the feature.
+         MapPoint featurePoint = _graphicsOverlay.Graphics.First().Geometry as MapPoint;
+
+         // Create attributes for the feature using the user selected health value.
+         IEnumerable<KeyValuePair<string, object>> featureAttributes = new Dictionary<string, object>() { { "Health", (short)healthValue }, { "Height", 3.2 }, { "Diameter", 1.2 } };
+
+         // Ensure that the feature table is loaded.
+         if (_featureTable.LoadStatus != Esri.ArcGISRuntime.LoadStatus.Loaded)
+         {
+            await _featureTable.LoadAsync();
+         }
+
+         // Create the new feature
+         ArcGISFeature newFeature = _featureTable.CreateFeature(featureAttributes, featurePoint) as ArcGISFeature;
+
+         // Add the newly created feature to the feature table.
+         await _featureTable.AddFeatureAsync(newFeature);
+
+         // Apply the edits to the service feature table.
+         await _featureTable.ApplyEditsAsync();
+
+         // Reset the user interface.
+         HelpLabel.Text = "Tap to create a feature";
+         _graphicsOverlay.Graphics.Clear();
+         AddButton.IsEnabled = false;
+   }
+   catch (Exception ex)
+   {
+         Console.WriteLine(ex.Message);
+         await Application.Current.MainPage.DisplayAlert("Error", "Could not create feature", "OK");
+   }
+}
 ```
-
-### 3 - Add a North Star
-
-The North star will be used to help align the scene against the real world.
-
-First, create a graphic with a diamond scene symbol.
-
-```cs
-// code here - should determine a good north star programmatically
-```
-
-Next, add the graphic to a new graphics overlay, and add that to the scene.
-
-```cs
-// code here
-```
-
-### 4 - Rotate the camera when the user slides
-
-There are a variety of slider behaviors to choose from, but to keep this lab simple, the slider will control the absolute heading of the scene's origin camera.
-
-First, listen for slider value changes.
-
-```cs
-// code here
-```
-
-When the slider value changes, rotate the scene view's origin camera.
-
-
-```cs
-// code here
-```
-
-## Result
-
-When you run the app, you should see something like the following:
-
-![image of completed lab]()
