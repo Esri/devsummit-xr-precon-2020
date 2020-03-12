@@ -4,6 +4,4 @@ In this lab, you will build an app to show a 3D city on a table. Using your phon
 
 Available for:
 
-* [iOS with Swift](./lab.ios.md)
-* [Android with Kotlin](./lab.android.md)
-* [.NET with Forms](./lab.forms.md)
+* Forms: https://developers.arcgis.com/labs/net/build-an-augmented-reality-app/
